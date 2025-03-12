@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Tiassicuro Website",
-    "version": "18.0.1",
+    "version": "1.0",
     "category": "Website/Theme",
     "author": "Opends",
     "depends": ["website"],
