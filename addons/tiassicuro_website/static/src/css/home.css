@@ -1,0 +1,71 @@
+.main-content {
+    max-width: 320px;
+    margin: 0 auto;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.main-header {
+    padding: 6%;
+}
+
+.slogan {
+    padding: 0 0 3em 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contact-link {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    text-align: center;
+}
+
+.home-button {
+    padding: 15px 22px;
+    font-family: Montserrat, serif;
+    font-weight: normal;
+    color: #FFF;
+    background-color: #ea1d28;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-partner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 37px;;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .main-content {
+        max-width: 1425px;
+        padding: 0 90px 40px 90px;
+    }
+}

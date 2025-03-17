@@ -4,7 +4,15 @@
     "version": "1.0",
     "category": "Website",
     "author": "Opends",
-    "depends": ['website'],    
+    "depends": ['website'],
     "installable": True,
     "application": False,
+    'data': [
+        'data/website_data.xml',
+    ],
+    'assets': {
+        'web.assets_frontend': [
+            'tiassicuro_website/static/src/css/home.css',
+        ],
+    },
 }
