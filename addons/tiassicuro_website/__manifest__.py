@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Tiassicuro Website",
+    "description": "Customization for Tiassicuro Website",
     "version": "1.0",
     "category": "Website",
     "author": "Opends",
