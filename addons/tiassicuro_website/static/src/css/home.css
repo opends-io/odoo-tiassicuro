@@ -69,3 +69,22 @@ span {
         padding: 0 90px 40px 90px;
     }
 }
+
+a {
+    text-decoration: none !important;
+}
+
+a.button_solid_color::before {
+    display: block;
+    position: absolute;
+    left: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    content: ' ';
+    z-index: -1;
+    background-color: #ea1d28;
+    height: 24px;
+    border-radius: 200px !important;
+
+}

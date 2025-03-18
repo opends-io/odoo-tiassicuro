@@ -9,6 +9,7 @@
     "application": False,
     'data': [
         'data/website_data.xml',
+        'views/website_templates.xml',
     ],
     'assets': {
         'web.assets_frontend': [
