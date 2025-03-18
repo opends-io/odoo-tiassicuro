@@ -2,23 +2,21 @@
 {
     'name': "website_wgo_tiassicuro",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Website theme for TiAssicuro SA",
 
-    'description': """
-Long description of module's purpose
-    """,
+    'description': """Website theme for TiAssicuro SA. Using the same brand signature as the company's  original website.""",
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Wisegar Development Group",
+    'website': "https://www.odoo.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Theme',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'website'],
 
     # always loaded
     'data': [
