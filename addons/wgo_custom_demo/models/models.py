@@ -20,8 +20,8 @@
 from odoo import models, fields, api
 
 class Visit(models.Model):
-    _name = 'website_wgo_tiassicuro.visit'
-    _description = 'website_wgo_tiassicuro.visit'
+    _name = 'wgo_custom_demo.visit'
+    _description = 'wgo_custom_demo.visit'
 
     name = fields.Char(string="Name")
     customer = fields.Char(string="Customer")
