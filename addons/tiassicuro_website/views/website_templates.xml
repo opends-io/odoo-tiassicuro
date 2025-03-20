@@ -17,8 +17,8 @@
                         </div>
                         <div class="d-flex justify-content-end">
                             <nav>
-                                <div class="align-items-center"
-                                     style="padding-bottom: 53px;padding-top: 25px;display: flex;gap: 25px;">
+                                <div class="align-items-center nav-links"
+                                     style="padding-bottom: 53px;padding-top: 25px;display: flex;gap: 25px;flex-wrap: wrap;">
                                     <a href="/home">Home</a>
                                     <a href="#">Assicurazione auto</a>
                                     <a href="#">Protezione giuridica</a>
@@ -92,21 +92,21 @@
 
         <xpath expr="//div[@id='footer']" position="replace">
             <t t-set="no_copyright" t-value="True"/>
-            <div style="background-color: #ea1d24 !important;color: #ffffff !important;">
+            <div style="background-color: #ea1d24 !important;color: #ffffff !important;" class="footer-wrapper">
                 <div>
-                    <div class="container footer-widgets" >
+                    <div class="container footer-widgets" style="padding-top: 55px;padding-bottom: 55px;">
 
                         <div id="text-2" class="widget widget_text">
                             <h4>TiAssicuro</h4>
                             <div class="textwidget">
                                 <p>
-                                    <a href="/assicurazione-ticino/">Chi siamo</a>
+                                    <a href="#">Chi siamo</a>
                                     <br/>
                                     Impegno e Mission
                                     <br/>
-                                    <a href="/lavora-con-noi/">Lavora con noi</a>
+                                    <a href="#">Lavora con noi</a>
                                     <br/>
-                                    <a href="/preventivo-assicurazione-ticino-svizzera/">Preventivo e Contatti</a>
+                                    <a href="#">Preventivo e Contatti</a>
                                 </p>
                             </div>
                         </div>
@@ -115,16 +115,16 @@
                             <h4>Servizio Clienti</h4>
                             <div class="textwidget">
                                 <p>
-                                    <a href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">Cassa malati Svizzera
+                                    <a href="#">Cassa malati Svizzera
                                     </a>
                                 </p>
                                 <p>
-                                    <a href="/cassa-malati-trasferirsi-in-svizzera/">Cassa malati per trasferirsi in
+                                    <a href="#">Cassa malati per trasferirsi in
                                         Svizzera
                                     </a>
                                 </p>
                                 <p>
-                                    <a href="/protezione-giuridica-svizzera/">Assicurazione Protezione Giuridica</a>
+                                    <a href="#">Assicurazione Protezione Giuridica</a>
                                 </p>
                             </div>
                         </div>
@@ -133,13 +133,13 @@
                             <h4>Accesso Diretto</h4>
                             <div class="textwidget">
                                 <p>
-                                    <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e feedback</a>
+                                    <a href="#">Contatto e feedback</a>
                                     <br/>
-                                    <a href="/note-legali/">Note Legali</a>
+                                    <a href="#">Note Legali</a>
                                     <br/>
-                                    <a href="/informazione-privacy/">Informativa Privacy</a>
+                                    <a href="#">Informativa Privacy</a>
                                     <br/>
-                                    <a href="/cookie-policy/">Cookie Policy</a>
+                                    <a href="#">Cookie Policy</a>
                                 </p>
                             </div>
                         </div>
@@ -148,22 +148,37 @@
                             <h4>Aree assicurative</h4>
                             <div class="textwidget">
                                 <p>
-                                    <a href="/assicurazione-auto-svizzera/">Assicurazione auto Svizzera</a>
+                                    <a href="#">Assicurazione auto Svizzera</a>
                                     <br/>
-                                    <a href="/protezione-giuridica-svizzera/">Protezione Giuridica Svizzera</a>
+                                    <a href="#">Protezione Giuridica Svizzera</a>
                                     <br/>
-                                    <a href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">Cassa malati Svizzera
+                                    <a href="#">Cassa malati Svizzera
                                     </a>
                                     <br/>
-                                    <a href="/terzo-pilastro-svizzera/">Terzo Pilastro Svizzera</a>
+                                    <a href="#">Terzo Pilastro Svizzera</a>
                                 </p>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div>
-
+                <div style="border-top: 1px solid rgba(255,255,255,0.18) !important;">
+                    <div class="container copyright" style="padding-top: 20px;padding-bottom: 20px;">
+                        <div class="">
+                            <p>
+                                © TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41 91 290 81 61
+                                (diretto) • E.
+                                <a href="mailto:info@tiassicuro.ch">info@tiassicuro.ch</a>
+                            </p>
+                        </div>
+                        <div class="justify-content-md-end" style="display: flex;gap: 25px;">
+                            <a target="_blank" href="https://www.facebook.com/Tiassicuro.ch/"><i
+                                    class="fa fa-facebook"></i>
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/_tiassicuro_/"><i
+                                    class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
