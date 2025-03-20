@@ -173,12 +173,6 @@
 
     </template>
 
-    <template id="tiassicuro_website.home" name="Home Tiassicuro">
-        <t t-call="website.layout">
-            <h1>ok</h1>
-        </t>
-    </template>
-
     <data noupdate="1">
 
         <record id="home_page" model="website.page">
@@ -187,15 +181,6 @@
             <field name="view_id" ref="tiassicuro_website.home"/>
             <field name="track">True</field>
         </record>
-
-        <!--        <record id="menu_home" model="website.menu">-->
-        <!--            <field name="name">ok</field>-->
-        <!--            <field name="url">/home</field>-->
-        <!--            <field name="page_id" ref="tiassicuro_website.home_page"/>-->
-        <!--            <field name="parent_id" ref="website.main_menu"/>-->
-        <!--            <field name="sequence" type="int">60</field>-->
-        <!--        </record>-->
-
 
     </data>
 

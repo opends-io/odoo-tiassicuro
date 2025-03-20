@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.home" name="Home Tiassicuro">
+        <t t-call="website.layout">
+
+        </t>
+    </template>
+</odoo>
