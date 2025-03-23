@@ -3,6 +3,7 @@
     <template id="tiassicuro_website.template_header_default" inherit_id="website.template_header_default"
               name="Template Header Default" active="True">
 
+
         <div id="o_main_nav" class="o_main_nav container" position="replace">
             <div id="o_main_nav"
                  style="width: 100%;top: 0;left: 0;padding-top: 28px;background-color: #fff;">

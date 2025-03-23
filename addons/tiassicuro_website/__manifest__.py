@@ -9,9 +9,9 @@
     "installable": True,
     "application": False,
     'data': [
+        'views/home.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
-        'views/pages/home.xml',
     ],
     'assets': {
         'web.assets_frontend': [

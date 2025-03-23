@@ -68,11 +68,21 @@ span {
     }
 }
 
+.page-header-bg-image {
+    padding: 78.28px 46px 57.68px;
+}
+
 @media only screen and (min-width: 992px) {
 
     .main-content {
         max-width: 1425px;
         padding: 0 90px 40px 90px;
+    }
+
+    .page-header-bg-image {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 204.82px 90px 150.92px;
     }
 }
 
@@ -90,5 +100,13 @@ a {
 }
 
 .nav-links a:hover {
-  color: #ea1d28 !important;
+    color: #ea1d28 !important;
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/assicurazione-canton-ticino.jpeg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
 }
