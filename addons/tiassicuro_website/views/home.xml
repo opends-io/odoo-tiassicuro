@@ -35,7 +35,8 @@
                             <div class="nectar-cta">
                                 <h6>
                                     <span class="link_wrap">
-                                        <a  style="color: #fff;" class="link_text" href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">
+                                        <a style="color: #fff;" class="link_text"
+                                           href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">
                                             Scopri di più
                                             <span class="arrow"></span>
                                         </a>
@@ -45,6 +46,123 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container card-grid">
+                <div style="display: flex;flex-direction: column;gap: 15px;">
+                    <div class="wpb_wrapper">
+                        <h2>Il metodo migliore per scegliere l’assicurazione più giusta per te!</h2>
+                        <p>TiAssicuro copre un ampio ventaglio di soluzioni assicurative, pronti a rispondere alle varie
+                            necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.</p>
+
+                    </div>
+                    <div>
+                        <a class="nectar-button medium see-through extra-color-3 has-icon"
+                           style="border-radius: 200px !important;border: 2px solid rgba(0,0,0,0.75);padding: 9px 42px;font-size: 12px;font-family: Montserrat;font-weight: normal;letter-spacing: 2px;line-height: 20px;text-transform: uppercase;"
+                           href="#">
+                            <span>Scopri di più</span><i class="icon-button-arrow" style="color: rgb(0, 0, 0);"/>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="wpb_wrapper">
+                    <div class="img-with-aniamtion-wrap " data-max-width="100%" data-border-radius="none"
+                         style="margin-bottom: 30px;">
+                        <div class="inner">
+                            <img class="img-with-animation  animated-in" height="505" width="750"
+                                 src="/tiassicuro_website/static/src/img/151178373-bb18d4b2-747c-4738-9119-a75ad6d01583.jpg"
+                                 sizes="100vw" alt="" style="opacity: 1;"/>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper">
+                            <h3>Ass. aziendali</h3>
+                            <p>Le assicurazioni aziendali sono molte ma noi ti staremo accanto per darti le migliori
+                                soluzioni per la tua impresa.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wpb_wrapper">
+                    <div class="img-with-aniamtion-wrap " data-max-width="100%" data-border-radius="none"
+                         style="margin-bottom: 30px;">
+                        <div class="inner">
+                            <img class="img-with-animation  animated-in" height="505" width="750"
+                                 src="/tiassicuro_website/static/src/img/assicurazione-auto-canton-ticino-1.jpg"
+                                 sizes="100vw" alt="" style="opacity: 1;"/>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper">
+                            <h3>Assicurazione auto</h3>
+                            <p>La professionalità che dedichiamo alla nostra attività, e l’approccio innovativo dei
+                                nostri servizi hanno permesso a TiAssicuro di divenire un punto di riferimento per i
+                                cittadini svizzeri in cerca di una polizza assicurativa per l’auto.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wpb_wrapper">
+                    <div class="img-with-aniamtion-wrap " data-max-width="100%" data-border-radius="none"
+                         style="margin-bottom: 30px;">
+                        <div class="inner">
+                            <img class="img-with-animation  animated-in" height="505" width="750"
+                                 src="/tiassicuro_website/static/src/img/protezione-giuridica.jpg"
+                                 sizes="100vw" alt="" style="opacity: 1;"/>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper">
+                            <h3>Protezione giuridica</h3>
+                            <p>Affrontare gli incidenti e gli inconvenienti della quotidianità affiancati dalla
+                                competenza di tecnici esperti: è questo che si realizza con un’assicurazione di
+                                protezione giuridica in Svizzera.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wpb_wrapper">
+                    <div class="img-with-aniamtion-wrap " data-max-width="100%" data-border-radius="none"
+                         style="margin-bottom: 30px;">
+                        <div class="inner">
+                            <img class="img-with-animation  animated-in" height="505" width="750"
+                                 src="/tiassicuro_website/static/src/img/assicurazione-salute.jpg"
+                                 sizes="100vw" alt="" style="opacity: 1;"/>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper">
+                            <h3>Cassa malati</h3>
+                            <p>TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato
+                                di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wpb_wrapper">
+                    <div class="img-with-aniamtion-wrap " data-max-width="100%" data-border-radius="none"
+                         style="margin-bottom: 30px;">
+                        <div class="inner">
+                            <img class="img-with-animation  animated-in" height="505" width="750"
+                                 src="/tiassicuro_website/static/src/img/assicurazione-vita-canton-ticino.jpg"
+                                 sizes="100vw" alt="" style="opacity: 1;"/>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper">
+                            <h3>Terzo pilastro</h3>
+                            <p>Il <strong>terzo pilastro in Svizzera</strong>, completa gli spazi vuoti lasciati
+                                dal primo e dal secondo pilastro (le cosiddette lacune previdenziali) con iniziative
+                                private integrative.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </t>
     </template>

@@ -72,6 +72,13 @@ span {
     padding: 78.28px 46px 57.68px;
 }
 
+.card-grid {
+    padding: 78.28px 46px 57.68px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
 @media only screen and (min-width: 992px) {
 
     .main-content {
@@ -83,6 +90,13 @@ span {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         padding: 204.82px 90px 150.92px;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 204.82px 90px 150.92px;
+        gap: 60px;
     }
 }
 
