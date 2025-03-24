@@ -3,7 +3,7 @@
     <template id="tiassicuro_website.home" name="Home Tiassicuro">
         <t t-call="website.layout">
             <div class="hero">
-                <div class="container page-header-bg-image">
+                <div class="container padding-section">
                     <div></div>
                     <div>
                         <div class="wrap" style="margin-bottom: 10px;">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container card-grid">
+            <div class="container card-grid padding-section">
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
                         <h2>Il metodo migliore per scegliere l’assicurazione più giusta per te!</h2>
@@ -164,6 +164,33 @@
 
 
             </div>
+            <div class="hero1">
+                <div class="container padding-section" style="padding-top: 65%;">
+                    <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 25px;">
+                        <div>
+                            <div class="wrap"
+                                 style="background-color: #ea1d28;padding: 5px 10px;display: inline-block;">
+                                <span>Per la tua Azienda</span>
+                            </div>
+                        </div>
+                        <div class="heading-line">
+                            <div style="transform: translate(0px);">
+                                <h2>Essere un imprenditore è una cosa seria.</h2>
+                            </div>
+                        </div>
+                        <div class="wpb_wrapper">
+                            <p style="color: rgba(255,255,255,0.71);text-align: left"
+                               class="vc_custom_heading vc_custom_1643211679194">La nostra società offre
+                                soluzioni mirate per tutti i rami aziendali in modo che il tuo unico
+                                pensiero debba essere come far aumentare il tuo fatturato.<br/>
+                                Lasciaci fare il nostro lavoro e tu sarai libero di fare al meglio il
+                                tuo.
+                                Insieme saremo un ottimo Team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </t>
+
     </template>
 </odoo>
