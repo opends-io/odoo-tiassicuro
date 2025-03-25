@@ -97,7 +97,7 @@ span {
     }
 
     .padding-section {
-         padding: 204.82px 90px 150.92px;
+        padding: 204.82px 90px 150.92px;
     }
 
 }
@@ -134,4 +134,23 @@ a {
     color: #ffffff;
     background-position: center top;
     background-size: cover;
+}
+
+.hero2 {
+    /*background-color: #141418;*/
+    color: #ffffff;
+    position: relative;
+}
+
+.hero-wrap:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
+    opacity: 0.5;
 }
