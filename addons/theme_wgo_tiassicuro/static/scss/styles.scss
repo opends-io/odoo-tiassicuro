@@ -1,0 +1,44 @@
+.font-weight-medium {
+    font-weight: 400;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/assicurazione-canton-ticino.jpeg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero1 {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/pexels-photo-620335.jpeg");
+    background-color: #cbcbc3;
+    color: #ffffff;
+    background-position: center top;
+    background-size: cover;
+}
+
+.hero2 {
+    /*background-color: #141418;*/
+    color: #ffffff;
+    position: relative;
+}
+
+.hero-wrap:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
+    opacity: 0.5;
+}
