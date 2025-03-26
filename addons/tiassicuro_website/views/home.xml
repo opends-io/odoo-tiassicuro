@@ -3,7 +3,7 @@
     <template id="tiassicuro_website.home" name="Home Tiassicuro">
         <t t-call="website.layout">
             <div class="hero">
-                <div class="container padding-section">
+                <div class="container padding-section card-float-right">
                     <div></div>
                     <div>
                         <div class="wrap" style="margin-bottom: 10px;">
@@ -245,7 +245,8 @@
                     <div style="width: 100.1%;height: 100%;position: absolute;z-index: 1;top: 0;left: 0;">
                     </div>
                 </div>
-                <div class="container padding-section1 d-flex flex-column flex-lg-row" style="z-index: 10;position: relative;">
+                <div class="container padding-section1 d-flex flex-column flex-lg-row"
+                     style="z-index: 10;position: relative;">
                     <div class="wpb_wrapper" style="margin-bottom: 25px;">
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
                             <div class="wrap"
@@ -275,7 +276,8 @@
                         </div>
                         <div class="nectar-cta" style="color: #444;">
                             <h4><span class="text">Vuoi saperne di più? </span>
-                                <span class="link_wrap"><a target="_blank" class="link_text" href="tel:+41912908161" style="color: #444;">
+                                <span class="link_wrap"><a target="_blank" class="link_text" href="tel:+41912908161"
+                                                           style="color: #444;">
                                     Contattaci al +41 91 290 81 61<span class="arrow"></span></a></span></h4></div>
                     </div>
                     <div class="inner align-self-lg-end">
@@ -286,7 +288,46 @@
                     </div>
                 </div>
             </div>
+            <div class="hero3 padding-section2" style="position: relative;">
+                <div class="hero3-wrap">
+                    <div class=""></div>
+                </div>
+                <div class="container card-float-right">
+                    <div></div>
+                    <div class="wpb_wrapper">
+                        <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
+                            <div class="wrap" style="background-color: #ea1d28;display: inline-block;padding: 5px 10px;color: #fff;">
+                                <span>Terzo Pilastro</span>
+                            </div>
+                        </div>
 
+                        <div class="nectar-split-heading" style="margin-bottom: 24px;color: #444;">
+                            <div class="heading-line">
+                                <div>
+                                    <h1>Con TiAssicuro</h1>
+                                </div>
+                            </div>
+                            <div class="heading-line">
+                                <div>
+                                    <h1>metti al sicuro</h1>
+                                </div>
+                            </div>
+                            <div class="heading-line">
+                                <div>
+                                    <h1>la tua vecchiaia!</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wpb_wrapper">
+                            <p style="text-align: left" class="vc_custom_heading">Metti al sicuro la tua
+                                vecchiaia con copertura finanziaria in caso di incapacità di guadagno e
+                                colmando le lacune previdenziali per famiglia e partner.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </t>
 
     </template>

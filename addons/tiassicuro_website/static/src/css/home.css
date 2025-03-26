@@ -83,6 +83,10 @@ span {
     gap: 60px;
 }
 
+.padding-section2 {
+    padding: 61.8px 46px;
+}
+
 @media only screen and (min-width: 992px) {
 
     .main-content {
@@ -107,6 +111,16 @@ span {
 
     .padding-section1 {
         padding: 120px 90px 0;
+    }
+
+    .padding-section2 {
+        padding: 152.4px 90px;
+    }
+
+
+    .card-float-right {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
 }
@@ -175,4 +189,26 @@ a {
     z-index: 2;
     background: linear-gradient(to bottom, transparent 25%, #151519 100%);
     opacity: 1;
+}
+
+.hero3 {
+    background-repeat: no-repeat;
+    background-image: url("/tiassicuro_website/static/src/img/terzo-pilastro.jpg");
+    /*background-color: #cbcbc3;*/
+    /*color: #ffffff;*/
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero3-wrap:after {
+    background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
+    opacity: 0.5;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
 }
