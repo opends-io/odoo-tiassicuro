@@ -9,7 +9,7 @@ services:
       - "8069:8069"
     volumes:
       - tiassicuro-web-odoo-data-dev:/var/lib/odoo
-      #            - ./odoo.conf:/etc/odoo/odoo.conf
+      - ./odoo.conf:/etc/odoo/odoo.conf
       - ./addons:/mnt/extra-addons
     environment:
       HOST: tiassicuro-db-odoo-dev

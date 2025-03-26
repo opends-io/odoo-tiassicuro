@@ -72,6 +72,11 @@ span {
     padding: 78.28px 46px 57.68px;
 }
 
+.padding-section1 {
+    padding: 120px 50px 0;
+}
+
+
 .card-grid {
     display: flex;
     flex-direction: column;
@@ -98,6 +103,10 @@ span {
 
     .padding-section {
         padding: 204.82px 90px 150.92px;
+    }
+
+    .padding-section1 {
+        padding: 120px 90px 0;
     }
 
 }
@@ -153,4 +162,17 @@ a {
     z-index: 2;
     background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
     opacity: 0.5;
+}
+
+.inner-wrap:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background: linear-gradient(to bottom, transparent 25%, #151519 100%);
+    opacity: 1;
 }

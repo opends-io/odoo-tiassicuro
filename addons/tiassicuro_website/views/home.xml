@@ -196,50 +196,97 @@
                     </div>
                 </div>
                 <div class="container padding-section" style="z-index: 10;position: relative;">
-                        <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 44px;">
-                            <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 24px;">
-                                <div class="nectar-animated-title-inner">
-                                    <div class="wrap"
-                                         style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
-                                        <span>Per la tua Auto</span>
+                    <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 44px;">
+                        <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 24px;">
+                            <div class="nectar-animated-title-inner">
+                                <div class="wrap"
+                                     style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
+                                    <span>Per la tua Auto</span>
+                                </div>
+                            </div>
+                            <div class="nectar-split-heading">
+                                <div class="heading-line">
+                                    <div>
+                                        <h2>L’assicurazione auto</h2>
                                     </div>
                                 </div>
-                                <div class="nectar-split-heading">
-                                    <div class="heading-line">
-                                        <div>
-                                            <h2>L’assicurazione auto</h2>
-                                        </div>
-                                    </div>
-                                    <div class="heading-line">
-                                        <div>
-                                            <h2>per tenere al sicuro</h2>
-                                        </div>
-                                    </div>
-                                    <div class="heading-line"><div>
-                                        <h2>il tuo veicolo e i tuoi cari</h2>
-                                    </div>
+                                <div class="heading-line">
+                                    <div>
+                                        <h2>per tenere al sicuro</h2>
                                     </div>
                                 </div>
-                                <p style="color: rgba(255,255,255,0.71);text-align: left" class="vc_custom_heading">
-                                    TiAssicuro prevede polizze auto su
-                                    misura
-                                    secondo le tue necessità ed esigenze facendoti risparmiare
-                                    notevolmente
-                                    attraverso la scelta di servizi mirati e specifici e partnership con
-                                    le
-                                    migliori compagnie assicurative in svizzera sul mercato.</p>
+                                <div class="heading-line"><div>
+                                    <h2>il tuo veicolo e i tuoi cari</h2>
+                                </div>
+                                </div>
                             </div>
-                            <div class="wpb_wrapper">
-                                <a class="nectar-button large see-through-2  has-icon"
-                                   style="margin-top: 35px;color: rgb(255, 255, 255);border-radius: 200px !important;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;"
-                                   href="#">
-                                    <span>Richiedi un appuntamento</span><i class="icon-button-arrow"
-                                                                            style="color: rgb(255, 255, 255);"></i></a>
-                            </div>
-
+                            <p style="color: rgba(255,255,255,0.71);text-align: left" class="vc_custom_heading">
+                                TiAssicuro prevede polizze auto su
+                                misura
+                                secondo le tue necessità ed esigenze facendoti risparmiare
+                                notevolmente
+                                attraverso la scelta di servizi mirati e specifici e partnership con
+                                le
+                                migliori compagnie assicurative in svizzera sul mercato.</p>
                         </div>
+                        <div class="wpb_wrapper">
+                            <a class="nectar-button large see-through-2  has-icon"
+                               style="margin-top: 35px;color: rgb(255, 255, 255);border-radius: 200px !important;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;"
+                               href="#">
+                                <span>Richiedi un appuntamento</span><i class="icon-button-arrow"
+                                                                        style="color: rgb(255, 255, 255);"></i></a>
+                        </div>
+
                     </div>
+                </div>
             </div>
+            <div style="position: relative;">
+                <div class="inner-wrap">
+                    <div style="width: 100.1%;height: 100%;position: absolute;z-index: 1;top: 0;left: 0;">
+                    </div>
+                </div>
+                <div class="container padding-section1 d-flex flex-column flex-lg-row" style="z-index: 10;position: relative;">
+                    <div class="wpb_wrapper" style="margin-bottom: 25px;">
+                        <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
+                            <div class="wrap"
+                                 style="display: inline-block;padding: 5px 10px;background-color: #ea1d28;color: #fff;">
+                                <span>Per i tuoi figli</span>
+                            </div>
+                        </div>
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1523633111143"
+                             style=" max-width: 700px; display: inline-block;margin-bottom: 30px;color: #000000;">
+                            <div class="wpb_wrapper">
+                                <h2><span style="color: #000000;">Una polizza assicurativa unica per tuo figlio e per il
+                                    suo futuro.. per la sua università!</span></h2>
+
+                            </div>
+                        </div>
+
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1611603456012"
+                             style=" max-width: 800px; display: inline-block;margin-bottom: 45px;color: #676767;">
+                            <div class="wpb_wrapper">
+                                <p>TiAssicuro offre ai propri Clienti polizze su misura per il futuro scolastico o
+                                    lavorativo dei vostri figli garantendo con un <strong>minimo di
+                                        investimento </strong>(a partire da soli 50 Franchi mese), una certezza
+                                    dell’investimento sostenuto affinchè i vostri figli possano avere gli strumenti per
+                                    esaudire i loro sogni.</p>
+
+                            </div>
+                        </div>
+                        <div class="nectar-cta" style="color: #444;">
+                            <h4><span class="text">Vuoi saperne di più? </span>
+                                <span class="link_wrap"><a target="_blank" class="link_text" href="tel:+41912908161" style="color: #444;">
+                                    Contattaci al +41 91 290 81 61<span class="arrow"></span></a></span></h4></div>
+                    </div>
+                    <div class="inner align-self-lg-end">
+                        <img data-shadow="none" data-shadow-direction="middle" class="img-with-animation "
+                             data-delay="0"
+                             height="928" width="1001" data-animation="fade-in"
+                             src="/tiassicuro_website/static/src/img/children2.gif" alt=""/>
+                    </div>
+                </div>
+            </div>
+
         </t>
 
     </template>
