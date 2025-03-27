@@ -296,7 +296,8 @@
                     <div></div>
                     <div class="wpb_wrapper">
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
-                            <div class="wrap" style="background-color: #ea1d28;display: inline-block;padding: 5px 10px;color: #fff;">
+                            <div class="wrap"
+                                 style="background-color: #ea1d28;display: inline-block;padding: 5px 10px;color: #fff;">
                                 <span>Terzo Pilastro</span>
                             </div>
                         </div>
@@ -323,6 +324,41 @@
                             <p style="text-align: left" class="vc_custom_heading">Metti al sicuro la tua
                                 vecchiaia con copertura finanziaria in caso di incapacità di guadagno e
                                 colmando le lacune previdenziali per famiglia e partner.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hero4" style="padding: 41.2px 46px;">
+                <div class="container">
+                    <div class="wpb_wrapper d-flex flex-column">
+                        <div class="inner d-flex justify-content-center" style="margin-bottom: 30px">
+                            <img class="img-with-animation  animated-in" height="165" width="200"
+                                 src="/tiassicuro_website/static/src/img//assicurazione-lugano-e1643208073391.png"
+                                 alt="" style="opacity: 1;width: auto;"/>
+                        </div>
+
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1643211478826"
+                             style="max-width: 800px;align-self: center;margin-bottom: 45px;">
+                            <div class="wpb_wrapper d-flex justify-content-center flex-column">
+                                <h2 style="text-align: center;">IL TUO CONSULENTE DI FIDUCIA</h2>
+                                <p class="adifferenza" style="text-align: center;">A differenza delle compagnie
+                                    assicurative che propongono
+                                    soluzioni standard, TiAssicuro ti offre il sistema più adatto alle tua esigenze
+                                    personali.<br/>
+                                    Cercheremo tra le varie compagnie e ti proporremo solo i servizi migliori per le
+                                    te.<br/>
+                                    In pratica Risparmi Tempo e Denaro.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <a class="nectar-button medium see-through-3"
+                               style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,1);padding: 10px 15px;text-align: center;"
+                               href="/preventivo-assicurazione-ticino-svizzera/">
+                                <span>Contattaci per una consulenza gratuita</span>
+                            </a>
                         </div>
 
                     </div>

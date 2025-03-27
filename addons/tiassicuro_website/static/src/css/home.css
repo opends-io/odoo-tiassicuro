@@ -212,3 +212,13 @@ a {
     content: ' ';
     z-index: 2;
 }
+
+
+.hero4 {
+    background-color: #0070ae;
+    background-image: linear-gradient(rgba(0, 112, 174, 0.95), rgba(0, 112, 174, 0.95)), url("/tiassicuro_website/static/src/img/assicurazione-ticino.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+}
