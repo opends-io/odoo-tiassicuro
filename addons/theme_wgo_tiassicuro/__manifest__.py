@@ -21,7 +21,9 @@
       'views/homepage.xml',
       'views/services_page.xml',
       'views/maxi_schermo_page.xml',
-      'views/menus.xml'
+      'views/menus.xml',
+      'views/snippets/intro_snippet.xml',
+      'views/snippets/snippets.xml'
     ],
     'images': [],
     'assets': {

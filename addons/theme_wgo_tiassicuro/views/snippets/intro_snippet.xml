@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="intro_snippet" name="Intro TiAssicuro Snippet">
+        <section>
+            <h1>Intro TiAssicuro Snippet</h1>
+        </section>
+    </template>
+</odoo>
