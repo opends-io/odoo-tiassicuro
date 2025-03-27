@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="wgo_tiassicuro_homepage" inherit_id="website.homepage"
+        name="WGO Tiassicuro Homepage">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'" />
+                <div id="wrap"
+                    class="oe_structure oe_empty">
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

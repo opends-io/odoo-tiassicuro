@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="theme_wgo_tiassicuro.maxi_schermo_page" model="website.page">
+            <field name="name">Maxi Schermo</field>
+            <field name="type">qweb</field>
+            <field name="url">/maxi-schermo</field>
+            <field name="website_indexed" eval="False" />
+            <field name="is_published">True</field>
+            <field name="key">website.maxi_schermo_page</field>
+            <field name="arch" type="xml">
+                <t name="MaxiSchermo" t-name="website.maxi_schermo_page">
+                    <t t-call="website.layout">
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <div class="hero">
+                                <div class="container padding-section card-float-right">
+                                    <div>
+                                        <div class="wrap" style="margin-bottom: 10px;">
+                                            <div
+                                                style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
+                                                <span style="color:white ;">Cassa Malati</span>
+                                            </div>
+                                        </div>
+                                        <div class="nectar-split-heading animated-in"
+                                            style="margin-bottom: 24px;">
+                                            <div class="heading-line">
+                                                <div style="transform: translate(0px, 0px);">
+                                                    <h1>Con TiAssicuro</h1>
+                                                </div>
+                                            </div>
+                                            <div class="heading-line">
+                                                <div style="transform: translate(0px, 0px);">
+                                                    <h1>scegli
+                                                        l’assicurazione sicura!</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_wrapper">
+                                            <p style="color: rgba(255,255,255,0.7);text-align: left"
+                                                class="vc_custom_heading">Tra le
+                                                polizze che TiAssicuro propone ai suoi clienti vi è
+                                                la Cassa malati, che rappresenta un
+                                                serio ed importante investimento sul futuro di ogni
+                                                famiglia. Stipulando questo tipo di
+                                                assicurazione sulla vita, infatti, è possibile
+                                                raggiungere un discreto livello di
+                                                sicurezza finanziaria, anche nel caso in cui il
+                                                principale percettore di reddito
+                                                all’interno della famiglia si trovi a dover
+                                                affrontare un periodo più o meno lungo di
+                                                malattia, in grado di tenerlo lontano dal lavoro. </p>
+                                            <div class="nectar-cta">
+                                                <h6>
+                                                    <span class="link_wrap">
+                                                        <a style="color: #fff;" class="link_text"
+                                                            href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">
+                                                            Scopri di più <span class="arrow"></span>
+                                                        </a>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+</odoo>

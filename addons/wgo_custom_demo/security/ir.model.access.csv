@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_wgo_custom_demo_wgo_custom_demo,wgo_custom_demo.wgo_custom_demo,model_wgo_custom_demo_wgo_custom_demo,base.group_user,1,1,1,1

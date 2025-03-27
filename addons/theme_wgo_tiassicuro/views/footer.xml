@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="wgo_tiassicuro_footer_layout" inherit_id="website.layout"
+        name="WGO Tiassicuro Footer">
+        <xpath expr="//footer" position="replace">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-12 text-left mx-auto">
+                            <h4>TiAssicuro</h4>
+                            <div class="textwidget">
+                                <p>
+                                    <a href="#">Chi siamo</a>
+                                    <br /> Impegno e Mission <br />
+                                    <a
+                                        href="#">Lavora con noi</a>
+                                    <br />
+                                    <a href="#">Preventivo
+                                        e Contatti</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-12 text-left mx-auto">
+                            <h4>Servizio Clienti</h4>
+                            <div class="textwidget">
+                                <p>
+                                    <a href="#">Cassa malati Svizzera
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#">Cassa malati per trasferirsi in
+                                        Svizzera
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#">Assicurazione Protezione Giuridica</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-12 text-left mx-auto">
+                            <h4>Accesso Diretto</h4>
+                            <div class="textwidget">
+                                <p>
+                                    <a href="#">Contatto e feedback</a>
+                                    <br />
+                                    <a href="#">Note Legali</a>
+                                    <br />
+                                    <a href="#">Informativa Privacy</a>
+                                    <br />
+                                    <a href="#">Cookie Policy</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-12 text-left mx-auto">
+                            <h4>Aree assicurative</h4>
+                            <div class="textwidget">
+                                <p>
+                                    <a href="#">Assicurazione auto Svizzera</a>
+                                    <br />
+                                    <a href="#">Protezione Giuridica Svizzera</a>
+                                    <br />
+                                    <a href="#">Cassa malati Svizzera
+                                    </a>
+                                    <br />
+                                    <a href="#">Terzo Pilastro Svizzera</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center mx-auto">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p> © TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41
+                                            91 290 81 61 (diretto) • E. <a
+                                                href="mailto:info@tiassicuro.ch">
+                                                info@tiassicuro.ch</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <a target="_blank"
+                                            href="https://www.facebook.com/Tiassicuro.ch/">
+                                            <i
+                                                class="fa fa-facebook"></i>
+                                        </a>
+                                        <a target="_blank"
+                                            href="https://www.instagram.com/_tiassicuro_/">
+                                            <i
+                                                class="fa fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>
