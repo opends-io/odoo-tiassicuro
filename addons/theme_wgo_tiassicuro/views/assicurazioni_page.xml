@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="theme_wgo_tiassicuro.assicurazioni_page" model="website.page">
+            <field name="name">Assicurazioni Auto</field>
+            <field name="type">qweb</field>
+            <field name="url">/assicurazioni-auto</field>
+            <field name="website_indexed" eval="False" />
+            <field name="is_published">True</field>
+            <field name="key">website.assicurazioni_page</field>
+            <field name="arch" type="xml">
+                <t name="AssicurazioniAuto" t-name="website.assicurazioni_page">
+                    <t t-call="website.layout">
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <h1>Assicurazioni auto page</h1>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+</odoo>

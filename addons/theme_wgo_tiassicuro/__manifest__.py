@@ -23,7 +23,8 @@
       'views/maxi_schermo_page.xml',
       'views/menus.xml',
       'views/snippets/intro_snippet.xml',
-      'views/snippets/snippets.xml'
+      'views/snippets/snippets.xml',
+      'views/assicurazioni_auto_page.xml',
     ],
     'images': [],
     'assets': {
