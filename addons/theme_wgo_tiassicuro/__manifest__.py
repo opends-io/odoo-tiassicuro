@@ -18,13 +18,16 @@
     'data': [
       'views/header.xml',
       'views/footer.xml',
-      'views/homepage.xml',
-      'views/services_page.xml',
-      'views/maxi_schermo_page.xml',
       'views/menus.xml',
+      
+      'views/pages/home_page.xml',
+      'views/pages/assicurazioni_auto_page.xml',
+      'views/pages/services_page.xml',
+      'views/pages/maxi_schermo_page.xml',
+      'views/pages/protezione_giuridica_page.xml',
+      
       'views/snippets/intro_snippet.xml',
       'views/snippets/snippets.xml',
-      'views/assicurazioni_auto_page.xml',
     ],
     'images': [],
     'assets': {
