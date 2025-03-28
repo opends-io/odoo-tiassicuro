@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.assicurazione" name="Assicurazione Tiassicuro">
+        <t t-call="website.layout">
+            <div class="heroass">
+                <div class="container padding-section card-float-right">
+                    <div></div>
+                    <div>
+
+                        <div class="nectar-split-heading animated-in" style="margin-bottom: 24px;">
+                            <div class="heading-line">
+                                <div style="transform: translate(0px, 0px);">
+                                    <h1>Assicurazione auto svizzera</h1>
+                                </div>
+                            </div>
+                            <div class="heading-line">
+                                <div style="transform: translate(0px, 0px);">
+                                    <h4>TiAssicuro è la nuova realtà del Canton Ticino per l’Assicurazione
+                                                    auto svizzera</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_wrapper">
+                            <p style="color: rgba(255,255,255,0.7);text-align: left" class="vc_custom_heading">Inizialmente TiAssicuro si è fatta conoscere grazie ad una serie di
+                                servizi di consulenza assicurativa. Grazie alla pluriennale esperienza maturata dal titolare in ambito assicurativo, TiAssicuro
+                                è cresciuta velocemente, arricchendo il suo portafoglio di servizi. Uno dei punti cardine, fin dagli esordi, è la volontà di garantire
+                                la massima tutela a tutti i cittadini. Fanno parte dei prodotti principali l’assicurazione sanitaria svizzera (conosciuta come Cassa
+                                Malati Svizzera e Canton Ticino), l’assicurazione Auto Svizzera, la Protezione Giuridica Svizzera e le Polizze Vita. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container card-grid padding-section">
+                <div style="display: flex;flex-direction: column;gap: 15px;">
+                    <div class="wpb_wrapper">
+                        <h2 style="text-align: center;">I punti di forza delle soluzioni
+                                                TiAssicuro</h2>
+                        <p style="text-align: center;">TLa scelta del nome “TiAssicuro” non è
+                                                casuale. Abbiamo voluto subito rendere chiara alla clientela la nostra
+                                                idea di assicurazione. Se la professionalità e l’esperienza del team
+                                                sono fattori fondamentali, altrettanto importante è la passione che
+                                                mettiamo in tutto quello che facciamo. Negli ultimi anni, il mondo delle
+                                                assicurazioni si è arricchito di una moltitudine di nuove società,
+                                                attente soprattutto a trasmettere un’immagine seria, ed a seguire
+                                                procedure estremamente rigide e formali. Questo, in molti casi, porta i
+                                                clienti a far fronte ad inevitabili lungaggini burocratiche. Noi abbiamo
+                                                voluto porre la soddisfazione dei consumatori al centro dei nostri
+                                                pensieri.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="heroass4" style="padding: 150px 46px;">
+                <div class="container">
+                    <div class="wpb_wrapper d-flex flex-column">
+
+
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1643211478826"
+                             style="max-width: 800px;align-self: center;margin-bottom: 45px;">
+                            <div class="wpb_wrapper d-flex justify-content-center flex-column">
+                                <h2 style="text-align: center;">Contattateci per proteggere famiglia, casa e
+                                                autovettura</h2>
+                                <h5 style="text-align: center;">Vivere la pensione serenamente, e non
+                                                doversi preoccupare per il futuro dei nostri figli è possibile; è
+                                                sufficiente scegliere TiAssicuro per trasformare una timida speranza in
+                                                una solida realtà. Siamo a vostra disposizione per fornirvi maggiori
+                                                informazioni; non esitate a contattarci!</h5>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <a class="nectar-button medium see-through-3"
+                               style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,1);padding: 10px 15px;text-align: center;"
+                               href="/assicurazione/">
+                                <span>Chiamaci</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </t>
+
+    </template>
+</odoo>

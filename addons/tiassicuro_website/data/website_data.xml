@@ -182,6 +182,13 @@
             <field name="track">True</field>
         </record>
 
+        <record id="assicurazione_page" model="website.page">
+            <field name="url">/assicurazione</field>
+            <field name="is_published">True</field>
+            <field name="view_id" ref="tiassicuro_website.assicurazione"/>
+            <field name="track">True</field>
+        </record>
+
     </data>
 
 </odoo>

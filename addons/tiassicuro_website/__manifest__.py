@@ -10,12 +10,14 @@
     "application": False,
     'data': [
         'views/home.xml',
+        'views/assicurazione.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],
     'assets': {
         'web.assets_frontend': [
             'tiassicuro_website/static/src/css/home.css',
+            'tiassicuro_website/static/src/css/assicurazione.css',
         ],
     },
 }
