@@ -42,3 +42,31 @@
     background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
     opacity: 0.5;
 }
+
+.intro-snippet-section {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/assicurazione-canton-ticino.jpeg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+    height: 75vh;
+    color: #ffffff;
+}
+
+.intro-snippet-text-container {
+    margin: 100px;
+}
+.intro-snippet-h1 {
+    text-align: right;
+    margin: 10px;
+}
+
+.intro-snippet-h3 {
+    text-align: right;
+    margin: 10px;
+}
+
+.intro-snippet-p {
+    text-align: right;
+    margin: 10px;
+}
