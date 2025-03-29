@@ -11,6 +11,7 @@
     'data': [
         'views/home.xml',
         'views/assicurazione.xml',
+        'views/partners.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],
@@ -18,6 +19,7 @@
         'web.assets_frontend': [
             'tiassicuro_website/static/src/css/home.css',
             'tiassicuro_website/static/src/css/assicurazione.css',
+            'tiassicuro_website/static/src/css/partners.css',
         ],
     },
 }
