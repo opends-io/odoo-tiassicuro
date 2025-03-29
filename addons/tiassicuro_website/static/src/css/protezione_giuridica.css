@@ -1,0 +1,51 @@
+.hero-inner {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/protezione-giuridica-svizzera.jpg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+.card-grid-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 992px) {
+
+    .card-grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+
+    .wpb_wrapper1 {
+        width: 50%;
+    }
+
+    .wpb_wrapper2 {
+        width: 80%;
+    }
+}
+
+.hero5 {
+    background-image: url("/tiassicuro_website/static/src/img/tcs-protezione-giuridica.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.inner-wrap1:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.89);
+    opacity: 0.5;
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.protezione_giuridica" name="Protezione Giuridica Svizzera">
+        <t t-call="website.layout">
+            <div class="hero-inner">
+                <div class="container padding-section card-float-right">
+                    <div class="wpb_wrapper">
+                        <h1 style="text-align: left;"><b class="">Assicurazione<br/>
+                            protezione giuridica</b></h1>
+                        <h4 style="text-align: left;">Assicurazione protezione giuridica Svizzera: ottenere giustizia
+                            con TiAssicuro</h4>
+                        <p style="text-align: justify;">Affrontare gli incidenti e gli inconvenienti della quotidianità
+                            affiancati dalla competenza di tecnici esperti: è questo che si realizza con
+                            un’assicurazione di protezione giuridica in Svizzera. TiAssicuro si pone al fianco dei suoi
+                            clienti, trasformandosi in un partner affidabile e preparato, grazie al quale è possibile
+                            far valere le proprie ragioni. Per districarsi fra fondamenti giuridici e norme sempre più
+                            complesse, sia del sistema legislativo svizzero che estero, il ricorso agli specialisti del
+                            settore è sempre più una necessità.</p>
+
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
+                <div class="wpb_wrapper wpb_wrapper2">
+                    <h2 style="text-align: center;margin-bottom: 24px;">Assicurazione protezione giuridica in Svizzera:
+                        più valore ai vostri
+                        diritti</h2>
+                    <div class="" style="text-align: justify;">Una copertura assicurativa per la protezione giuridica è
+                        essenziale per confrontarsi serenamente con ogni genere di problematica possa verificarsi nel
+                        corso della vita: in viaggio come a casa, può accadere di avere la necessità di un assistente
+                        legale. Gli acquisti sul web andati male, problemi con il locatario o l’affittuario, così come
+                        problemi con i vicini, controversie con la Cassa Malati o ancora incidenti o incomprensioni sul
+                        lavoro, necessitano del ricorso a un’avvocato per riuscire a far valere le proprie ragioni. Le
+                        vertenze giuridiche però hanno un costo, spesso molto elevato: per questa ragione dotarsi di una
+                        copertura assicurativa per la protezione giuridica è la soluzione migliore, sia in termini di
+                        costi che di efficacia dei risultati.</div>
+
+                </div>
+            </div>
+
+            <div class="card-grid-section">
+
+                <div class="wpb_wrapper container padding-section">
+                    <h2>Perché avvalersi<br/>
+                        di un’assicurazione di<br/>
+                        protezione giuridica in Svizzera</h2>
+                    <div class="">
+                        <h5>Una delle prime ragioni per cui si dovrebbe pensare ad un’assicurazione di
+                            protezione giuridica in Svizzera è la possibilità di far valere i propri Diritti
+                            dinanzi alla Legge.</h5>
+                        <div class="" style="text-align: justify;">Inoltre, gli specialisti di TiAssicuro, nel
+                            caso in cui sopraggiungano eventi o incidenti che necessitano di un loro intervento,
+                            sono pronti a consigliare gli assistiti per evitare di finire in prima battuta
+                            dinanzi al giudice. Il team di professionisti si compone di figure esperte e
+                            specializzate nei diversi settori, al fine di garantire consulenze competenti e
+                            preparate.<br/>
+                            Giuristi, mediatori, assicuratori sociali si tengono sempre aggiornati sui
+                            cambiamenti delle normative, al fine di consentire agli assicurati di essere
+                            affiancati da figure professionali autorevoli nel loro settore.</div>
+                    </div>
+
+                </div>
+
+                <div style="background-image: url(/tiassicuro_website/static/src/img/protezione-giuridica-civile.jpg); min-height: 630px;background-position: center;
+  background-size: cover;background-repeat: no-repeat;"></div>
+
+                <div class="inner">
+                    <img data-shadow="none" data-shadow-direction="middle"
+                         class="img-with-animation  animated-in" height="1620"
+                         width="1185"
+                         src="/tiassicuro_website/static/src/img/istock_000004109912medium.jpg"
+                         sizes="100vw" alt="" style="opacity: 1;"/>
+                </div>
+
+                <div class="wpb_text_column container padding-section d-flex align-items-center">
+                    <div class="wpb_wrapper">
+                        <h2>Uno staff legale<br/>
+                            pronto a difendervi<br/>
+                            in ogni evenienza</h2>
+                        <div class="">
+                            <div class="" style="text-align: justify;">La copertura assicurativa per la protezione
+                                giuridica proposta da TiAssicuro, è più di una semplice assicurazione. È un partner e un
+                                alleato disponibile a sostenere i suoi clienti nei momenti più impervi dal punto di
+                                vista legale, consentendo loro di far valere non solo le proprie ragioni, ma soprattutto
+                                la giustizia. TiAssicuro lo fa includendo nella polizza tutte le spese legali previste
+                                nei procedimenti giudiziari svizzeri, spesso onerose.</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero5" style="position: relative">
+                <div class="inner-wrap1">
+                </div>
+                <div class="container padding-section wpb_wrapper1" style="position: relative;z-index: 5;">
+                    <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
+                        <div class="wpb_wrapper">
+                            <h2 style="text-align: center;">La polizza di protezione giuridica in Svizzera è un bene
+                                prezioso</h2>
+                            <h5 style="text-align: center;">Non vi rinunciate. Chiedete un consiglio agli esperti
+                                ora.</h5>
+
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="nectar-button medium see-through-3"
+                           style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;text-align: center;"
+                           href="#">
+                            <span>Chiamaci</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </t>
+    </template>
+</odoo>
