@@ -22,7 +22,7 @@
                                      style="padding-bottom: 53px;padding-top: 25px;display: flex;gap: 25px;flex-wrap: wrap;">
                                     <a href="/home">Home</a>
                                     <a href="/assicurazione">Assicurazione auto</a>
-                                    <a href="#">Protezione giuridica</a>
+                                    <a href="/protezione-giuridica-svizzera">Protezione giuridica</a>
                                     <a href="#">Terzo pilastro</a>
                                     <a href="#">Cassa malati</a>
                                     <a href="#">Chi siamo</a>
@@ -68,7 +68,7 @@
                 <nav class="d-flex flex-column" style="gap: 20px;">
                     <a href="/home">Home</a>
                     <a href="/assicurazione">Assicurazione auto</a>
-                    <a href="#">Protezione giuridica</a>
+                    <a href="/protezione-giuridica-svizzera">Protezione giuridica</a>
                     <a href="#">Terzo pilastro</a>
                     <a href="#">Cassa malati</a>
                     <a href="#">Chi siamo</a>
