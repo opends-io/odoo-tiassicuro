@@ -51,6 +51,80 @@
                 </div>
             </div>
 
+<div class="card-grid1">
+    <div class="vc_column-inner">
+        <div class="wpb_wrapper">
+
+            <div class="wpb_text_column wpb_content_element " style="padding">
+                <div class="wpb_wrapper">
+                    <h2>Professionalità,<br/>
+                        passione e soluzioni<br/>
+                        assicurative mirate</h2>
+                    <div class="text-box">Il genuino entusiasmo con il quale siamo
+                        soliti gestire ogni pratica ci spinge ad operare con
+                        la massima solerzia. Solo in questo modo chi si
+                        affida a noi è certo di rimanere estremamente
+                        soddisfatto dai servizi proposti.<br/>
+
+                    </div>
+                    <div class="text-box">Siamo costantemente impegnati nel
+                        selezionare accuratamente le soluzioni più idonee al
+                        singolo caso, monitorando quanto esistente sul
+                        mercato. Siamo fortemente determinati nel nostro
+                        lavoro e, allo stesso tempo, convinti che anno dopo
+                        anno l’esperienza ci aiuterà a fornire servizi
+                        sempre più specifici.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_wrapper">
+        <div class="img-with-aniamtion-wrap" data-max-width="100%" data-border-radius="none">
+            <div class="inner">
+                <img class="img-with-animation animated-in" src="/tiassicuro_website/static/src/img/profesionalita.jpg" alt="" style="opacity: 1;"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_wrapper">
+        <div class="img-with-aniamtion-wrap" data-max-width="100%" data-border-radius="none">
+            <div class="inner">
+                <img class="img-with-animation animated-in" src="/tiassicuro_website/static/src/img/unarealta.png" alt="" style="opacity: 1;"/>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+
+                                                        <div class="wpb_text_column wpb_content_element ">
+                                                            <div class="wpb_wrapper">
+                                                                <h2>Una realtà<br/>
+                                                                    orientata al futuro</h2>
+                                                                <div class="">Già oggi, nel Canton Ticino,
+                                                                    rappresentiamo, tra le piccole imprese, una delle
+                                                                    società di intermediazione assicurativa più note. La
+                                                                    professionalità che dedichiamo alla nostra attività,
+                                                                    e l’approccio innovativo dei nostri servizi hanno
+                                                                    permesso a TiAssicuro di divenire un punto di
+                                                                    riferimento per i cittadini svizzeri in cerca di una
+                                                                    polizza assicurativa per l’auto e per la casa. Allo
+                                                                    stesso tempo, sono sempre più numerose le persone
+                                                                    che si affidano a noi per stipulare un’assicurazione
+                                                                    vita o sulla salute.
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+    </div>
+</div>
+
 
             <div class="heroass4" style="padding: 150px 46px;">
                 <div class="container">

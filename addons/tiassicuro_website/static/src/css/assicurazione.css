@@ -222,3 +222,28 @@ a {
     background-size: cover;
     color: #ffffff;
 }
+
+.card-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    padding: 20px; /* Añadido padding al contenedor principal */
+}
+
+.card-grid1 > div {
+   /* padding: 20px; /* Añadido padding a los divs internos para mejor espaciado */
+}
+
+.card-grid1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Media query para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+    .card-grid1 {
+        grid-template-columns: 1fr; /* Una sola columna en móviles */
+    }
+}
