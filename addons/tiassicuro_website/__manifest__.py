@@ -27,6 +27,7 @@
             'tiassicuro_website/static/src/css/protezione_giuridica.css',
             'tiassicuro_website/static/src/css/partners.css',
             'tiassicuro_website/static/src/css/cookie_policy.css',
+            'tiassicuro_website/static/src/css/terzo_pilastro.css',
         ],
     },
 }

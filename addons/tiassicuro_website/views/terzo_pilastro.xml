@@ -2,6 +2,140 @@
 <odoo>
     <template id="tiassicuro_website.terzo_pilastro" name="Terzo Pilastro">
         <t t-call="website.layout">
+            <div class="hero-inner1" style="position: relative">
+                <div class="inner-wrap2">
+                </div>
+                <div class="container padding-section card-float-right" style="position: relative;z-index: 5;">
+                    <div class="nectar-split-heading animated-in">
+                        <div class="heading-line">
+                            <div style="transform: translate(0px, 0px);">
+                                <h1 style="text-align: left;">
+                                    <b class="">
+                                        <span class="">Assicurazione sulla vita in Svizzera: un investimento
+                                            gratificante</span>
+                                    </b>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="heading-line">
+                            <div style="transform: translate(0px, 0px);">
+                                <h3 style="text-align: left;">Il ramo della
+                                    previdenza privata svizzera appare come un labirinto intricato.</h3>
+                            </div>
+                        </div>
+                        <div class="heading-line">
+                            <div class="heading-line" style="transform: translate(0px, 0px);">
+                                <div style="transform: translate(0px, 0px);">
+                                    <div class="" style="text-align: justify;">
+                                        TiAssicuro introduce la persona nel settore delle assicurazioni sulla vita con
+                                        efficienza e con
+                                        rispetto, fino alla stipula della polizza sulla vita più fruttuosa.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
+                <div class="wpb_wrapper wpb_wrapper2">
+                    <h2 style="text-align: left;"><b class="">Previdenza privata svizzera: la polizza vita è
+                        un’opportunità preziosa nel Ticino!</b></h2>
+                    <div class="" style="text-align: center;"></div>
+                    <div class="" style="text-align: justify;">Il <strong>terzo pilastro in Svizzera</strong>,
+                        facoltativo, completa gli spazi vuoti lasciati dal primo e dal secondo pilastro (le cosiddette
+                        lacune previdenziali) con iniziative private integrative. È normale temere di commettere errori
+                        in buona fede, quando si pensa a un’assicurazione sulla vita. Ma come mantenere il vostro stile
+                        di vita e, contemporaneamente, tutelare gli interessi di coloro che amate in caso di decesso,
+                        invalidità o pensionamento? Siamo consulenti e intermediari assicurativi: confrontiamo e
+                        valutiamo le molteplici opzioni presenti sul mercato per selezionare una polizza sulla vita equa
+                        e appagante.</div>
+
+                </div>
+            </div>
+
+            <div class="card-grid-section">
+
+                <div class="card-grid-wrapper" style="position: relative">
+                    <div class="wpb_wrapper container padding-section"
+                         style="position: relative;z-index: 4;color: #fff;">
+                        <h2><b class="">Terzo pilastro in Svizzera: i<br/>
+                            l nostro compito è fare chiarezza</b></h2>
+                        <div class="">
+                            <h5>A differenza del terzo pilastro a, dipendente da vincoli precisi e destinato ai
+                                lavoratori,
+                                il terzo pilastro b coinvolge anche chi non svolge nessuna attività lavorativa e prevede
+                                che
+                                la durata e l’ammontare dei premi siano liberi.</h5>
+                            <div class="" style="text-align: justify;">Inoltre, il finanziamento può avvenire sia con i
+                                premi sia con un unico premio o versamento. La stessa clausola beneficiaria è svincolata
+                                da
+                                obblighi. Il terzo pilastro a però, rispetto al terzo pilastro b, usufruisce di alcuni
+                                vantaggi e privilegi fiscali.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-image: url(/tiassicuro_website/static/src/img/terzo-pilastro1.jpg); min-height: 443px;background-size: cover;background-position: center;"/>
+                <div style="background-image: url(/tiassicuro_website/static/src/img/sussidio-cassa-malati-svizzera.jpg); min-height: 668px;background-size: cover;background-position: center;"/>
+
+                <div class="wpb_wrapper container padding-section">
+                    <h2><b class="">TiAssicuro è<br/>
+                    </b><b class="">dalla vostra parte</b></h2>
+                    <div class="">
+                        <div class="" style="text-align: justify;">
+                            <div class="">
+                                <div class="">Un’assicurazione sulla vita è essenzialmente un contratto dove stipulante
+                                    e beneficiario possono coincidere: se alla scadenza del contratto lo stipulante è
+                                    ancora in vita, riceve il capitale dovuto. Se deceduto, i beneficiari sono
+                                    solitamente i componenti della famiglia o le persone più care sottolineate nel
+                                    contratto. Le compagnie di assicurazione sono numerose e offrono servizi
+                                    diversificati relativi al terzo pilastro a e b: come esigere una procedura
+                                    trasparente e un trattamento vantaggioso? Non perdete la vostra serenità, TiAssicuro
+                                    è qui per voi, per rispondere a ogni vostra domanda e dissolvere dubbi e
+                                    perplessità.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-inner2" style="position: relative">
+                <div class="wpb_wrapper container padding-section" style="position: relative;z-index: 5;">
+                    <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
+                        <div class="wpb_wrapper">
+                            <div style="margin-bottom: 24px;">
+                                <h3>Una polizza sulla vita svizzera?<br/>
+                                    Un’occasione da sfruttare al meglio</h3>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <h5>Il complesso di norme alla base del terzo pilastro è meno complicato di quanto
+                                        appaia, se ci si affida a un professionista specializzato e competente come
+                                        TiAssicuro. Siamo orgogliosi del nostro lavoro nel campo delle previdenza
+                                        privata svizzera: la nostra mission è soddisfare in tempi brevi le legittime
+                                        richieste dei singoli e delle famiglie.</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-start">
+                        <a class="nectar-button medium see-through-3"
+                           style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;text-align: center;"
+                           href="#">
+                            <span>Contattaci</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="inner-wrap3">
+                </div>
+            </div>
 
         </t>
     </template>
