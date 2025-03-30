@@ -14,6 +14,7 @@
         'views/protezione_giuridica.xml',
         'views/cassa_malati.xml',
         'views/partners.xml',
+        'views/cookie_policy.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],
@@ -24,6 +25,7 @@
             'tiassicuro_website/static/src/css/cassa_malati.css',
             'tiassicuro_website/static/src/css/protezione_giuridica.css',
             'tiassicuro_website/static/src/css/partners.css',
+            'tiassicuro_website/static/src/css/cookie_policy.css',
         ],
     },
 }
