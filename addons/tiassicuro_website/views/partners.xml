@@ -2,7 +2,7 @@
  <odoo>
      <template id="tiassicuro_website.partners" name="Partners Tiassicuro">
          <t t-call="website.layout">
-             <div class="hero">
+             <div class="heropartners">
                  <div class="container padding-section card-float-left">
                      <div></div>
                      <div>
