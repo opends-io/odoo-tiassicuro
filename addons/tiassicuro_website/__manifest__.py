@@ -15,6 +15,7 @@
         'views/cassa_malati.xml',
         'views/partners.xml',
         'views/cookie_policy.xml',
+        'views/terzo_pilastro.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],

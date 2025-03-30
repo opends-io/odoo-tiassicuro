@@ -217,6 +217,13 @@
              <field name="track">True</field>
          </record>
 
+        <record id="terzo_pilastro_page" model="website.page">
+             <field name="url">/terzo-pilastro-svizzera</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.terzo_pilastro"/>
+             <field name="track">True</field>
+         </record>
+
 
     </data>
 
