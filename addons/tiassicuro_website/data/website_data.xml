@@ -224,6 +224,12 @@
              <field name="track">True</field>
          </record>
 
+        <record id="assicurazione_ticino_page" model="website.page">
+             <field name="url">/assicurazione-ticino</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.assicurazione_ticino"/>
+             <field name="track">True</field>
+         </record>
 
     </data>
 

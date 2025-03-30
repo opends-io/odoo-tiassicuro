@@ -165,7 +165,7 @@ a {
     position: relative;
 }
 
-.hero-wrap:after {
+.hero-wrap::after {
     display: block;
     position: absolute;
     top: 0;
@@ -178,7 +178,7 @@ a {
     opacity: 0.5;
 }
 
-.inner-wrap:after {
+.inner-wrap::after {
     display: block;
     position: absolute;
     top: 0;
@@ -200,7 +200,7 @@ a {
     background-size: cover;
 }
 
-.hero3-wrap:after {
+.hero3-wrap::after {
     background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
     opacity: 0.5;
     display: block;

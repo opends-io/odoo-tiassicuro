@@ -8,7 +8,7 @@
 
 }
 
-.inner-wrap2:after {
+.inner-wrap2::after {
     display: block;
     position: absolute;
     top: 0;
@@ -21,7 +21,7 @@
     opacity: 0.8;
 }
 
-.card-grid-wrapper:before {
+.card-grid-wrapper::before {
     background-color: #3a3a3a;
     opacity: 1;
     position: absolute;
@@ -45,7 +45,7 @@
 
 }
 
-.inner-wrap3:after {
+.inner-wrap3::after {
     display: block;
     position: absolute;
     top: 0;
@@ -61,8 +61,8 @@
 
 @media (min-width: 992px) {
 
-   .hero-inner2{
+    .hero-inner2 {
         display: grid;
         grid-template-columns: repeat(2, minmax(250px, 1fr));
-   }
+    }
 }

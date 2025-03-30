@@ -37,7 +37,7 @@
     color: #ffffff;
 }
 
-.inner-wrap1:after {
+.inner-wrap1::after {
     display: block;
     position: absolute;
     top: 0;
