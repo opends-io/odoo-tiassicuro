@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.cassa_malati" name="Cassa Malati Svizzera">
+        <t t-call="website.layout">
+            <div class="hero-cassa-malati-inner">
+                <div class="container padding-section card-float-right">
+                    <div class="wpb_wrapper">
+                        <h1 style="text-align: left;"><b class="">Cassa malati svizzera<br/>
+                            protezione giuridica</b></h1>
+                        <h3 style="text-align: left;">Cassa malati svizzera, assicurazione sanitaria Svizzera, cassa malati: tutto quello che c’è da sapere</h3>
+
+                        <p style="text-align: justify;">TiAssicuro è nata con lo scopo di venire incontro alle esigenze specifiche di ogni singolo cliente,
+                            TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato di cassa malati svizzera, assicurazione
+                            sanitaria Svizzera, cassa malati. A rendere unica ed affidabile questa società di consulenza assicurativa è l’impegno e la
+                            determinazione del suo fondatore, che ha pensato TiAssicuro come ad un’entità vicina alle reali necessità del cliente, puntando sulla
+                            chiarezza del messaggio aziendale e sulla riduzione significativa delle lungaggini burocratiche.</p>
+
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
+                <div class="wpb_wrapper wpb_wrapper2">
+                    <h2 style="text-align: center;margin-bottom: 24px;">Cassa malati Svizzera: uno sguardo al futuro</h2>
+
+                    <div class="" style="text-align: justify;">Tra le polizze che TiAssicuro propone ai suoi clienti vi è la Cassa malati, che rappresenta un serio
+                        ed importante investimento sul futuro di ogni famiglia. Stipulando questo tipo di assicurazione sulla vita, infatti, è possibile
+                        raggiungere un discreto livello di sicurezza finanziaria, anche nel caso in cui il principale percettore di reddito all’interno della famiglia si
+                        trovi a dover affrontare un periodo più o meno lungo di malattia, in grado di tenerlo lontano dal lavoro. Grazie alla Cassa malati Svizzera,
+                        il bilancio familiare resta comunque intatto, anche in caso di difficoltà transitorie.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-grid-section">
+
+                <div class="wpb_wrapper container padding-section">
+                    <h2>La cassa malati Svizzera:<br/>
+                        Quali sono i vantaggi sulla<br/>
+                        assicurazione sanitaria<br/>
+                        di TiAssicuro</h2>
+                    <div class="">
+                        <h5>L’entusiasmo e la passione per il lavoro svolto sono le caratteristiche principali che contraddistinguono e differenziano TiAssicuro dalle
+                            altre compagnie internazionali di assicurazione.
+                        </h5>
+                        <div class="" style="text-align: justify;">Oltre ai servizi basilari quali assicurazione casa, assicurazione lavoro ed assicurazione auto, l’azienda
+                            elvetica riserva ai suoi clienti anche un piano personalizzato di Cassa malati, che consente di accedere alle prestazioni sanitarie di base.
+                            Tra i vantaggi che TiAssicuro garantisce alla propria clientela vi è un calcolo accurato ed attento al risparmio di aliquote e franchigie che
+                            vanno ad incidere in maniera significativa sul premio malattia. In questo modo l’assicurato è in regola con la normativa vigente in Svizzera, senza spendere una fortuna.
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-image: url(/tiassicuro_website/static/src/img/assicurazione-sanitaria-svizzera.jpg);
+                  min-height: 630px;background-position: center; background-size: cover;background-repeat: no-repeat;">
+                </div>
+
+                <div class="inner">
+                    <img data-shadow="none" data-shadow-direction="middle"
+                         class="img-with-animation  animated-in" height="1620"
+                         width="1185"
+                         src="/tiassicuro_website/static/src/img/sussidio-cassa-malati-svizzera.jpg"
+                         sizes="100vw" alt="" style="opacity: 1;"/>
+                </div>
+
+                <div class="wpb_text_column container padding-section d-flex align-items-center">
+                    <div class="wpb_wrapper">
+                        <h2>Scopri come risparmiare<br/>
+                            980 franchi sui premi malattia!</h2>
+                        <div class="">
+                            <div class="" style="text-align: justify;">Con il
+                                                                        servizio di cassa malati svizzera, assicurazione
+                                                                        sanitaria Svizzera, cassa malati, messo a
+                                                                        disposizione dalla società elvetica TiAssicuro,
+                                                                        il costo effettivo dei premi malattia diventa
+                                                                        senza ombra di dubbio più contenuto ed
+                                                                        accessibile. La società assicurativa con sede
+                                                                        operativa in Svizzera, infatti, offre la
+                                                                        possibilità concreta di risparmiare fino a 980
+                                                                        franchi sulla Cassa malati, obbligatoria per
+                                                                        tutte le persone domiciliate in Svizzera.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="wpb_wrapper container padding-section">
+                    <h2>La cassa malati per<br/>
+                        le tue attività sportive</h2>
+                    <div class="">
+                        <h5>L’entusiasmo e la passione per il lavoro svolto sono le
+                                                    caratteristiche principali che contraddistinguono e differenziano
+                                                    TiAssicuro dalle altre compagnie internazionali di
+                                                    assicurazione.
+                        </h5>
+
+                        <div class="" style="text-align: justify;">Oltre ai servizi basilari
+                                                    quali assicurazione casa, assicurazione lavoro ed assicurazione
+                                                    auto, l’azienda elvetica riserva ai suoi clienti anche un piano
+                                                    personalizzato di Cassa malati, che consente di accedere alle
+                                                    prestazioni sanitarie di base. Tra i vantaggi che TiAssicuro
+                                                    garantisce alla propria clientela vi è un calcolo accurato ed
+                                                    attento al risparmio di aliquote e franchigie che vanno ad incidere
+                                                    in maniera significativa sul premio malattia. In questo modo
+                                                    l’assicurato è in regola con la normativa vigente in Svizzera, senza
+                                                    spendere una fortuna.
+                                                </div>
+                    </div>
+
+                </div>
+
+                <div style="background-image: url(/tiassicuro_website/static/src/img/cassa-malati-palestra-svizzera.jpg);
+                  min-height: 630px;background-position: center; background-size: cover;background-repeat: no-repeat;">
+                </div>
+
+            </div>
+
+            <div class="hero5-cassa" style="position: relative">
+                <div class="inner-wrap1">
+                </div>
+                <div class="container padding-section wpb_wrapper1" style="position: relative;z-index: 5;">
+                    <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
+                        <div class="wpb_wrapper">
+                            <h2 style="text-align: left;">
+                                <span style="color: #ffffff;">La cassa malati in Svizzera</span>
+                                <br/>
+                                <span style="color: #ffffff;">sicura, solida e garantita!</span>
+                            </h2>
+                            <h5 style="text-align: left;">
+                                <span style="color: #ffffff;">Non vi rinunciate. Chiedete un consiglio agli esperti ora.</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </t>
+    </template>
+</odoo>

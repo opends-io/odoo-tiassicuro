@@ -189,19 +189,26 @@
             <field name="track">True</field>
         </record>
 
-        <record id="partners_page" model="website.page">
-             <field name="url">/partners</field>
-             <field name="is_published">True</field>
-             <field name="view_id" ref="tiassicuro_website.partners"/>
-             <field name="track">True</field>
-         </record>
-
         <record id="protezione_giuridica_page" model="website.page">
             <field name="url">/protezione-giuridica-svizzera</field>
             <field name="is_published">True</field>
             <field name="view_id" ref="tiassicuro_website.protezione_giuridica"/>
             <field name="track">True</field>
         </record>
+
+        <record id="cassa_malati_page" model="website.page">
+            <field name="url">/cassa-malati</field>
+            <field name="is_published">True</field>
+            <field name="view_id" ref="tiassicuro_website.cassa_malati"/>
+            <field name="track">True</field>
+        </record>
+
+         <record id="partners_page" model="website.page">
+             <field name="url">/partners</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.partners"/>
+             <field name="track">True</field>
+         </record>
 
     </data>
 
