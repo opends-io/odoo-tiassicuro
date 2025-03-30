@@ -1,148 +1,4 @@
-.main-content {
-    max-width: 320px;
-    margin: 0 auto;
-    gap: 25px;
-    padding-bottom: 40px;
-}
-
-.main-header {
-    padding: 6%;
-}
-
-.slogan {
-    padding: 0 0 3em 0;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-.contact-link {
-    margin-bottom: 5px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-span {
-    text-align: center;
-}
-
-.home-button {
-    padding: 15px 22px;
-    font-family: Montserrat, serif;
-    font-weight: normal;
-    color: #FFF;
-    background-color: #ea1d28;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 20px;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-.partner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.list-partner {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 37px;
-    margin-bottom: 50px;
-}
-
-.copyright {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-}
-
-@media only screen and (min-width: 768px) {
-    .main-content {
-        max-width: 600px;
-    }
-}
-
-.padding-section {
-    padding: 78.28px 46px 57.68px;
-}
-
-.padding-section1 {
-    padding: 120px 50px 0;
-}
-
-
-.card-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-.padding-section2 {
-    padding: 61.8px 46px;
-}
-
-@media only screen and (min-width: 992px) {
-
-    .main-content {
-        max-width: 1425px;
-        padding: 0 90px 40px 90px;
-    }
-
-    .page-header-bg-image {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
-    .card-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 60px;
-    }
-
-    .padding-section {
-        padding: 204.82px 90px 150.92px;
-    }
-
-    .padding-section1 {
-        padding: 120px 90px 0;
-    }
-
-    .padding-section2 {
-        padding: 152.4px 90px;
-    }
-
-
-    .card-float-right {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-
-}
-
-a {
-    text-decoration: none !important;
-}
-
-.footer-widgets {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.footer-wrapper a {
-    color: #ffffff !important;
-}
-
-.nav-links a:hover {
-    color: #ea1d28 !important;
-}
-
-.heroass {
+.hero-assic {
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/assicurazione-auto-svizzera.jpg");
     color: #ffffff;
@@ -150,100 +6,46 @@ a {
     background-size: cover;
 }
 
-.hero1 {
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/pexels-photo-620335.jpeg");
-    background-color: #cbcbc3;
-    color: #ffffff;
-    background-position: center top;
-    background-size: cover;
-}
 
-.hero2 {
-    /*background-color: #141418;*/
-    color: #ffffff;
-    position: relative;
-}
-
-.hero-wrap:after {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    z-index: 2;
-    background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
-    opacity: 0.5;
-}
-
-.inner-wrap:after {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    z-index: 2;
-    background: linear-gradient(to bottom, transparent 25%, #151519 100%);
-    opacity: 1;
-}
-
-.hero3 {
-    background-repeat: no-repeat;
-    background-image: url("/tiassicuro_website/static/src/img/terzo-pilastro.jpg");
-    /*background-color: #cbcbc3;*/
-    /*color: #ffffff;*/
-    background-position: top center;
-    background-size: cover;
-}
-
-.hero3-wrap:after {
-    background: linear-gradient(135deg, rgba(0, 112, 174, 0.01) 0%, #ffffff 100%);
-    opacity: 0.5;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: ' ';
-    z-index: 2;
+.card-grid-section {
+    display: flex;
+    flex-direction: column;
 }
 
 
-.heroass4 {
-    background-color: rgba(6, 16, 21, 0.83);
-    background-image: linear-gradient(rgba(6, 16, 21, 0.78), rgba(6, 16, 21, 0.74)), url("/tiassicuro_website/static/src/img/polizza-auto-svizzera.jpg");
+@media (min-width: 992px) {
+
+    .card-grid-section-assic {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+
+    .wpb_wrapper1 {
+        width: 50%;
+    }
+
+    .wpb_wrapper2 {
+        width: 80%;
+    }
+}
+
+.hero-assic1 {
+    background-image: url("/tiassicuro_website/static/src/img/polizza-auto-svizzera.jpg");
     background-repeat: no-repeat;
     background-position: top center;;
     background-size: cover;
     color: #ffffff;
 }
 
-.card-grid1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    width: 100%;
-    padding: 20px; /* Añadido padding al contenedor principal */
-}
-
-.card-grid1 > div {
-   /* padding: 20px; /* Añadido padding a los divs internos para mejor espaciado */
-}
-
-.card-grid1 img {
-    width: 100%;
-    height: auto;
+.inner-assic-wrap1:after {
     display: block;
-}
-
-/* Media query para pantallas más pequeñas (móviles) */
-@media (max-width: 768px) {
-    .card-grid1 {
-        grid-template-columns: 1fr; /* Una sola columna en móviles */
-    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.89);
+    opacity: 0.5;
 }
