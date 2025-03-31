@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.note_legali" name="Note Legali">
+        <t t-call="website.layout">
+            <div class="iub_content1 legal_pp container">
+                <div class="one_line_col">
+                    <h1 style="padding-top: 0">
+                        <strong>
+                        Note Legali
+                        </strong>
+
+                    </h1>
+                    <p>Il presente Sito Internet è di proprietà della TiAssicuro SA.
+                        <br/>
+                        Il Sito, in conformità agli strumenti tecnologici ora disponibili, esclude
+                        accessi non autorizzati e garantisce la riservatezza delle informazioni
+                        fornite dai clienti o dai potenziali clienti, i quali sono responsabili
+                        del loro utilizzo. In ogni caso, TiAssicuro SA non si assume alcuna
+                        responsabilità per gli eventuali problemi derivanti dall’utilizzo del
+                        presente sito o su siti ad esso collegati.
+                    </p>
+                    <br/>
+                    <p>
+                        I collegamenti esterni accessibili dal presente sito non sono sotto il
+                        controllo di TiAssicuro SA,
+                    </p>
+                    <br/>
+                    <p>
+                        e la stessa non è pertanto responsabile del relativo contenuto ovvero di
+                        eventuali modifiche o aggiornamenti ai suddetti siti. I dati personali
+                        forniti dai clienti o dai potenziali clienti solo per gli scopi per i
+                        quali sono stati raccolti.
+                    </p>
+                    <br/>
+                    <br/>
+
+                    <p><strong>Copyright e Marchi</strong></p>
+                    <p>
+                        Il Sito internet www.tiassicuro.ch , così come i marchi e i loghi in
+                        esso presenti, è proprietà di TiAssicuro SA.
+                    </p>
+
+                    <p>
+                        Il contenuto del Sito www.tiassicuro.ch è protetto da copyright per
+                        cui non può essere copiato o riprodotto senza il consenso scritto di TiAssicuro SA.
+                    </p>
+                    <br/>
+                    <p>
+                        È altresì vietato l’utilizzo del marchio e degli eventuali loghi senza la preventiva
+                        autorizzazione scritta di TiAssicuro SA.
+                    </p>
+
+                    <br/>
+                    <br/>
+                    <p><strong>Foro competente</strong></p>
+                    <p>
+                        Il foro competente è Bellinzona. Per eventuali dispute legali o interpretazioni,
+                        fa fede solo la versione italiana del sito.
+                    </p>
+                    <br/>
+                    <br/>
+                    <p><strong>Legge applicabile</strong></p>
+                    <p>L’utilizzo di questo sito web è regolato dalla legge Svizzera.</p>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
