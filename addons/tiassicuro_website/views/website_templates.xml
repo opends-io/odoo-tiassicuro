@@ -136,9 +136,9 @@
                                 <p>
                                     <a href="#">Contatto e feedback</a>
                                     <br/>
-                                    <a href="#">Note Legali</a>
+                                    <a href="/note-legali">Note Legali</a>
                                     <br/>
-                                    <a href="#">Informativa Privacy</a>
+                                    <a href="/informazione-privacy">Informativa Privacy</a>
                                     <br/>
                                     <a href="/cookie-policy">Cookie Policy</a>
                                 </p>

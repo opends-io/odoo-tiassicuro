@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.informazione_privacy" name="Informazione Privacy">
+        <t t-call="website.layout">
+            <div class="iub_content legal_pp container">
+                <div class="one_line_col">
+                    <h1 style="padding-top: 0">
+                        <strong>
+                        Informazione Privacy
+                        </strong>
+
+                    </h1>
+
+                    <p>
+                        <strong>
+                            INFORMATIVA FORNITA DA TIASSICURO SA
+                        </strong>
+                             <br/>
+                        <strong>
+                            COME UTILIZZEREMO I SUOI DATI E CON QUALE FINALITÀ
+                        </strong>
+                             <br/>
+                        <strong>
+                            TiAssicuro SA si occupa della consulenza e della
+                            mediazione di prodotti assicurativi (in seguito
+                            detti affari) di società terze.
+                        </strong>
+                             <br/>
+                        <strong>
+                            Tipologia dei dati richiesti – Modalità di raccolta,
+                            trattamento e conservazione dei dati.
+                        </strong>
+                             <br/>
+                             La raccolta ed il trattamento dei suoi dati
+                             saranno improntati a principi di correttezza, liceità,
+                             trasparenza e tutela della sua riservatezza.
+                    </p>
+                    <p>
+                        <strong>
+                            Raccolta dei Suoi dati personali:
+                            <br/>
+                        </strong>
+                            i dati relativi alla Sua persona saranno raccolti e
+                            conferiti all’atto della compilazione della modulistica
+                            necessaria per la richiesta di consulenza e di reperimento
+                            di una offerta.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Trattamento dei Suoi dati personali:
+                            <br/>
+                        </strong>
+                        La raccolta ed il trattamento dei Suoi dati saranno posti
+                        in essere con strumenti elettronici e manuali e verranno
+                        effettuati anche attraverso le seguenti modalità: comunicazione
+                        telefonica, telefax, posta, posta elettronica, SMS ed MMS ed
+                        ogni altro sistema informatico ed automatizzato di comunicazione,
+                        così come attraverso la compilazione on-line di specifici form di
+                        richiesta di informazioni e/o di conferimento di incarico, sia sul
+                        sito web aziendale (www.tiassicuro.ch) che via e-mail
+                        (<a href="mailto:contact@wobees.ch">info@tiassicuro.ch</a>).
+                    </p>
+
+                    <p>
+                        <strong>Conservazione dei Suoi dati personali:
+                            <br/>
+                        </strong>
+                        Nell’ambito delle attività di istruttoria preliminare, così come
+                        nel corso dell’esecuzione del contratto, le informazioni che ci
+                        saranno fornite, sia da Lei che da soggetti terzi, o che verranno
+                        comunque raccolti, anche presso terzi, sia in formato cartaceo
+                        che elettronico, saranno conservate negli archivi presenti presso
+                        i ns. uffici nel rispetto delle necessarie misure di sicurezza e
+                        dei principi di riservatezza e correttezza. La riservatezza e
+                        l’integrità dei dati eventualmente conferiti mediante compilazioni
+                        on-Line o comunicazione via e-mail è protetta mediante l’utilizzo
+                        del protocollo SSL (Secure Socket Layer) a 128 bit e di chiavi e
+                        certificati rilasciati da Verising.
+                    </p>
+
+                    <p>
+                        <strong>Finalità della raccolta e del trattamento dei Suoi dati:
+                            <br/>
+                        </strong>la raccolta ed il trattamento dei dati inerenti le
+                        richieste di affari personale e diretto, o cedute a terzi, o cedute
+                        a partner, ha finalità connesse e strumentali alla gestione dell’incarico
+                        conferito alla TiAssicuro SA con riguardo al rapporto di affare richiesto,
+                        specificando come segue:
+                    </p>
+                    <p>
+                        Operazioni di istruzione e valutazione delle informazioni pre-contrattuali
+                        fornite, gestione della propria clientela, gestione contrattuale, corretta
+                        esecuzione di qualsivoglia obbligazione contrattuale ed obbligo di informativa
+                        a soggetti terzi, elaborazione statistica anche al fine di migliorare il
+                        servizio offerto e/o ogni altra attività necessaria, collegata o strumentale
+                        al conseguimento di qualsiasi delle finalità sopra elencate; a finalità anche
+                        non strettamente connesse all’attività di affare ma utili al miglioramento
+                        dei servizi offerte, come iniziative promozionali o di marketing, ricerche
+                        di mercato effettuate sia da TiAssicuro SA per conto di società terze, sia da
+                        società terze per conto di TiAssicuro SA, altre iniziative di carattere commerciale
+                        e/o statistiche, promozionali e di informazioni commerciale.
+                    </p>
+                    <p>
+                        <strong>Indicazioni specifiche di: Titolare/Responsabile – Incaricati del trattamento
+                            dei Suoi dati personali. Titolare e Responsabile del trattamento dei suoi dati
+                            personali è TiAssicuro SA, In Tirada 34, CH-6528 Camorino
+                        </strong>nella persona del Sig. Simone Mangialardo Tel. +41 78 949 23 13 Mail:
+                        s.mangialardo@tiassicuro.ch
+                    </p>
+                    <p>
+                        <strong>Incaricati del trattamento dei suoi dati personali sono:
+                            <br/>
+                        </strong>dipendenti di TiAssicuro SA espressamente designati quali incaricati
+                        del trattamento dei dati e preposti a tale funzione aziendale. Il personale così
+                        individuato opera sotto la diretta autorità ed il controllo del Titolare/Responsabile
+                        del trattamento ed ha ricevuto piena ed adeguata formazione sugli obblighi imposti
+                        dalla normativa vigente con riguardo alle modalità di trattamento dei dati dei clienti
+                        di TiAssicuro SA, nonché sui principi di liceità e correttezza qui tali attività deve
+                        essere improntata.
+                    </p>
+
+                    <p>
+                        <strong>
+                            I diritti che le spettano ai sensi della normativa vigente.
+                        </strong>
+                    </p>
+
+                    <p>Lei ha diritto:</p>
+
+                    <ol>
+                        <li>di ottenere la conferma dell’esistenza o meno di dati personali che lo riguardano,
+                            anche se non ancora registrati, e la loro comunicazione in forma intelligibile;
+                        </li>
+                    </ol>
+                    <p><strong></strong></p>
+                    <ol start="2">
+                        <li><strong>2</strong>. di ottenere l’indicazione:
+                        </li>
+                        <li><strong>a)</strong> dell’origine dei dati personali;
+                            <br/>
+                            <strong>b)</strong> delle finalità e modalità del trattamento;
+                            <br/>
+                            <strong>c)</strong> della logica applicata in caso di trattamento effettuato con
+                            l’ausilio degli strumenti elettronici;
+                            <br/>
+                            <strong>d)</strong> degli estremi identificativi del titolare, dei responsabili
+                            e del rappresentante designato;
+                            <br/>
+                            <strong>e)</strong> dei soggetti e delle categorie dei soggetti ai quali ai dati
+                            personali possono essere comunicati e che possono venirne a conoscenza in qualità
+                            di rappresentante designato nel territorio dello Stato, di responsabili o incaricati.
+                        </li>
+                        <li>di ottenere:
+                            <br/>
+                            <strong>a)</strong> l’aggiornamento, la rettificazione ovvero, quando vi ha interesse,
+                            integrazione dei dati;
+                            <br/>
+                            <strong>b)</strong> la cancellazione, la trasformazione in forma anonima o il blocco
+                            dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la
+                            conservazione in relazione agli scopi e per i quali i dati sono stati raccolti o
+                            successivamente trattati;<br/>
+                            <strong>c)</strong> l’attestazione che le operazioni di cui alle lettere a) e b) sono
+                            state portate a conoscenza, anche per quanto riguarda il contenuto, di coloro ai
+                            quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento
+                            si rivela impossibile o comporta un impiego di mezzi manifestamente e sproporzionato
+                            rispetto al diritto tutelato.
+                        </li>
+                        <li>di opporsi, in tutto o in parte
+                            <br/>
+                            <strong>a)</strong> per motivi legittimi al trattamento dei dati personali che lo riguardano,
+                            ancorché pertinenti allo scopo della raccolta;
+                            <br/>
+                            <strong>b)</strong> al trattamento dei dati personali che lo riguardano affini di invio di
+                            materiale pubblicitario o di vendita diretta o per il compimento di ricerca di mercato o di
+                            comunicazione commerciale.
+                        </li>
+                    </ol>
+                    <p>
+                        <strong>Modalità concrete per l’esercizio dei Suoi diritti, informazione, rettifica o cancellazione.
+                            <br/>
+                        </strong>Per esercitare i diritti, informazione, rettifica o cancellazione Lei potrà scrivere
+                        senza formalità al Titolare/Responsabile del trattamento ovvero al Sig. Simone Mangialardo, al
+                        seguente indirizzo:
+                        <strong>TiAssicuro SA, In Tirada 34, CH-6528 Camorino
+                        </strong>, o inviare una e-mail a s.mangialardo@tiassicuro.ch, anche per il tramite di un
+                        incaricato, anche conferendo, per iscritto, delega o procura a persone fisiche, enti,
+                        associazioni od organismi, allegando l’autorizzazione conferita all’uopo al delegato corredata
+                        di copia dei documenti di identità, sia del delegato e del delegante, nonché farsi assistere
+                        da una persona di fiducia.
+                    </p>
+                    <p>
+                        I diritti riferiti ai dati concernenti persone decedute possono essere esercitati sia da chi
+                        ha un interesse proprio, sia da chi agisce a tutela dell’interessato o per ragioni familiari
+                        meritevoli di protezione.
+                    </p>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

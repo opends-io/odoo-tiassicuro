@@ -1,0 +1,16 @@
+.iub_content a {
+    color: #ea1d28;
+}
+
+
+.iub_content {
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+    .iub_content {
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+}
