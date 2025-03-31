@@ -210,6 +210,13 @@
              <field name="track">True</field>
          </record>
 
+        <record id="informazione_privacy_page" model="website.page">
+             <field name="url">/informazione-privacy</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.informazione_privacy"/>
+             <field name="track">True</field>
+         </record>
+
         <record id="cookie_policy_page" model="website.page">
              <field name="url">/cookie-policy</field>
              <field name="is_published">True</field>
