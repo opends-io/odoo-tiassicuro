@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tiassicuro_website.lavora_con" name="Lavora Con Noi/">
+        <t t-call="website.layout">
+            <div style="position: relative;">
+                <div class="inner-wrap-section-hero padding-section">
+                    <div class="inner-wrap-section"/>
+                </div>
+
+                <div class="content" style="width: 100%;height: 50%;background: white;"/>
+
+                <div class="form-container">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element">
+                            <div class="wpb_wrapper">
+                                <h2>Lavora con noi</h2>
+                                <p style="text-align: start;">
+                                    Se sei interessato a collaborare con TiAssicuro puoi
+                                    inoltrare un tuo curriculum compilando direttamente
+                                    il form sottostante. Cercheremo di rispondere e
+                                    prendere in considerazione il vostro invio nel minor
+                                    tempo possibile. Grazie.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="divider-wrap">
+                            <div style="height: 20px" class="divider"></div>
+                        </div>
+                        <div>
+                            <div class="screen-reader-response"></div>
+                            <form action="/lavora-con-noi" method="POST" enctype="multipart/form-data">
+                                <p>
+                                    <input class="form-control" type="text" name="yourName" placeholder="Nome e Cognome"
+                                           aria-invalid="false"
+                                           data-error="name-error" maxlength="40" minlength="3" required="" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;line-height: 22px;color: #555;"/>
+                                </p><div class="error-message" id="name-error" style="display: none;"></div>
+                                <p></p>
+                                <p>
+                                    <input class="form-control" type="email" name="yourEmail"
+                                           placeholder="Indirizzo email"
+                                           aria-invalid="false" data-error="email-error" required="" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;line-height: 22px;color: #555;"/>
+                                </p><div class="error-message" id="email-error" style="display: none;"></div>
+                                <p></p>
+
+                                <p>
+                                    <input type="tel" class="form-control" id="phoneInput" name="yourTelefono"
+                                           placeholder="Telefono" aria-describedby="phoneHelp" aria-invalid="false"
+                                           data-error="phone-error" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;
+  line-height: 22px;
+  color: #555;"/>
+
+                                </p>
+                                <div class="error-message" id="phone-error" style="display: none;"></div>
+                                <p></p>
+
+                                <p>
+                                    <textarea class="form-control" name="yourMessage" rows="10" aria-invalid="false"
+                                              placeholder="Richiesta" data-error="message-error"></textarea>
+                                </p>
+                                <div class="error-message" id="message-error" style="display: none;"></div>
+                                <p></p>
+                                <p style="text-align: start;">
+                                    Allega curriculum<br/>
+                                    <input class="form-control" type="file" name="fileCurriculum"
+                                           accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
+                                           aria-invalid="false" data-error="file-error" required=""/>
+                                </p><div class="error-message" id="file-error" style="display: none;"></div>
+                                <p></p>
+                                <div class="my-3">
+
+                                    <div class="email_message"></div>
+                                </div>
+                                <p style="padding-bottom: 0;display: flex;margin-top: 50px;">
+                                    <button type="submit" class="invalid-button" disabled=""
+                                            style="border-radius: 200px !important;padding: 15px 22px !important;box-shadow: none;font-size: 12px;">
+                                        Invia la Richiesta</button>
+                                </p>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </t>
+    </template>
+</odoo>

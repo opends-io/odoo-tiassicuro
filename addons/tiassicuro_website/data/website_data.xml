@@ -231,6 +231,13 @@
              <field name="track">True</field>
          </record>
 
+        <record id="lavora_con_page" model="website.page">
+             <field name="url">/lavora-con-noi</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.lavora_con"/>
+             <field name="track">True</field>
+         </record>
+
     </data>
 
 </odoo>

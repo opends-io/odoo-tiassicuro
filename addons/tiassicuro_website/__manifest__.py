@@ -17,6 +17,7 @@
         'views/cookie_policy.xml',
         'views/terzo_pilastro.xml',
         'views/assicurazione_ticino.xml',
+        'views/lavora_con.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],
@@ -30,6 +31,7 @@
             'tiassicuro_website/static/src/css/cookie_policy.css',
             'tiassicuro_website/static/src/css/terzo_pilastro.css',
             'tiassicuro_website/static/src/css/assicurazione_ticino.css',
+            'tiassicuro_website/static/src/css/lavora_con.css',
         ],
     },
 }

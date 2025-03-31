@@ -1,0 +1,62 @@
+.inner-wrap-section::after {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.49) 100%);
+    opacity: 0.5;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+}
+
+.error-border {
+    border: 2px solid #e51d28 !important;
+}
+
+
+.invalid-button {
+    background-color: #fff !important;
+    cursor: not-allowed !important;
+    border: 2px solid #e51d28 !important;
+    color: #e51d28 !important;
+}
+
+
+.form-container {
+    width: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    background: white;
+    padding: 6%;
+    text-align: center;
+    z-index: 5;
+}
+
+.inner-wrap-section-hero {
+    width: 100%;
+    height: 20vh;
+    background-image: url('/tiassicuro_website/static/src/img/Female-Executives-Financial-Services-Industry-Life-Insurance-Sales-Representative-Black-History-Month-First-Financial-Security-Inc.-Minority-Women-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+
+    .form-container {
+        width: 50%;
+        padding: 5%;
+        transform: translate(-50%, -10%);
+    }
+
+    .inner-wrap-section-hero {
+        background-position: top;
+    }
+}
+
+
