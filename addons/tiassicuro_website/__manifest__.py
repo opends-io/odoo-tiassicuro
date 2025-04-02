@@ -9,6 +9,7 @@
     "installable": True,
     "application": False,
     'data': [
+        'views/landing_page.xml',
         'views/home.xml',
         'views/assicurazione.xml',
         'views/protezione_giuridica.xml',
@@ -22,7 +23,8 @@
         'views/lavora_con.xml',
         'views/maxi_schermo.xml',
         'data/website_data.xml',
-        'views/website_templates.xml',
+        'views/header.xml',
+        'views/footer.xml',
     ],
     'assets': {
         'web.assets_frontend': [
