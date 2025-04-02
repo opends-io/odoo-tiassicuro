@@ -2,6 +2,164 @@
 <odoo>
     <template id="tiassicuro_website.maxi_schermo" name="Maxi Schermo">
         <t t-call="website.layout">
+            <div class="hero-inner5" style="position: relative">
+                <div class="inner-wrap2">
+                </div>
+                <div class="container padding-section" style="position: relative;z-index: 5;">
+                    <div class="row">
+                        <div class="col-12 col-md-8 col-lg-6" style="transform: translate(0px, 0px)">
+                            <h1>
+                                <span style="color: #ffffff">Noleggia il nostro Maxi-Schermo</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container padding-section d-flex flex-column" style="gap: 100px;padding-top: 50px;">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h2 style="text-align: center;">Approfitta degli sconti di durata</h2>
+                    </div>
+                </div>
+                <div class="row d-flex gap-3 gap-md-0">
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <h3>-0%</h3>
+                        <div class="pricing-column-content">
+                            <h4><span class="dollar-sign">CHF</span> 700.-</h4>
+                            <span class="interval"></span>
+                            <h2><span style="color: #ea1d28">1 MESE</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <h3>-30%</h3>
+                        <div class="pricing-column-content">
+                            <h4>
+                                <span class="dollar-sign">CHF</span> 1'470.-
+                            </h4>
+                            <span class="interval">CHF 2'100.-</span>
+                            <h2><span style="color: #ea1d28">3 MESI</span></h2>
+                        </div>
+                    </div>
+                    <div class="w-100 d-none d-md-block d-md-none"></div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-md-3 mt-lg-0 pricing-column">
+                        <h3>-35%</h3>
+                        <div class="pricing-column-content">
+                            <h4>
+                                <span class="dollar-sign">CHF</span> 2'730.-
+                            </h4>
+                            <span class="interval">CHF 4'200.-</span>
+                            <h2><span style="color: #ea1d28">6 MESI</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex gap-3 gap-md-0">
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <h3>-35%</h3>
+                        <div class="pricing-column-content">
+                            <h4>
+                                <span class="dollar-sign">CHF</span> 4'095.-
+                            </h4>
+                            <span class="interval">CHF 6'300.-</span>
+                            <h2><span style="color: #ea1d28">9 MESI</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <h3>-40%</h3>
+                        <div class="pricing-column-content">
+                            <h4>
+                                <span class="dollar-sign">CHF</span> 5'040.-
+                            </h4>
+                            <span class="interval">CHF 8'400.-</span>
+                            <h2><span style="color: #ea1d28">12 MESI</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-md-4 mt-lg-0 pricing-column">
+                        <h3>-55%</h3>
+                        <div class="pricing-column-content">
+                            <h4>
+                                <span class="dollar-sign">CHF</span> 7'560.-
+                            </h4>
+                            <span class="interval">CHF 16'800.-</span>
+                            <h2><span style="color: #ea1d28">24 MESI</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container padding-section" style="padding-top: 0 !important;">
+                <h2 style="text-align: center">
+                    <span class="markedContent"><span dir="ltr" role="presentation">Dettagli
+                        tecnici</span></span>
+                </h2>
+                <p style="text-align: center;color: #676767;">
+                    <span class="markedContent"><span dir="ltr" role="presentation">USCITA A2,
+                        BELLINZONA NORD – VIA SAN GOTTARDO :
+                        3</span><span dir="ltr" role="presentation">0’000</span>
+                        <span dir="ltr" role="presentation">VEICOLI AL GIORNO</span><br role="presentation"/><span
+                                dir="ltr" role="presentation">MISURE 300 x 200 cm – RISOLUZIONE 72 DPI – 360
+                            X 240 pixel</span><br role="presentation"/><span dir="ltr" role="presentation">LED AD ALTA
+                            LUMINOSITÀ, TECNOLOGIA FULL
+                            COLOR</span><br role="presentation"/><span dir="ltr" role="presentation">SPOT PUBBLICITARIO
+                            STATICO DELLA DURATA
+                            DI</span>
+                        <span dir="ltr" role="presentation">1</span><span dir="ltr" role="presentation">2</span>
+                        <span dir="ltr" role="presentation">SECONDI</span><br role="presentation"/><span dir="ltr"
+                                                                                                         role="presentation">
+                            1</span><span dir="ltr" role="presentation">‘</span><span dir="ltr" role="presentation">
+                            296</span>
+                        <span dir="ltr" role="presentation">SECONDI</span>
+                        <span dir="ltr" role="presentation">AL GIORNO DI PUBBLICITÀ</span><br role="presentation"/><span
+                                dir="ltr" role="presentation">1</span><span dir="ltr" role="presentation">08</span>
+                        <span dir="ltr" role="presentation">PASSAGGI</span>
+                        <span dir="ltr" role="presentation">AL GIORNO (IN 18 ORE)</span><br role="presentation"/><span
+                                dir="ltr" role="presentation">PASSAGGIO</span>
+                        <span dir="ltr" role="presentation">OGNI</span>
+                        <span dir="ltr" role="presentation">10</span>
+                        <span dir="ltr" role="presentation">MINUTI</span>
+                        <span dir="ltr" role="presentation">(A PALINSESTO COMPLETO)</span><br role="presentation"/><span
+                                dir="ltr" role="presentation">POSSIBILITÀ DI CAMBIAMENTO IN</span>
+                        <span dir="ltr" role="presentation">6</span>
+                        <span dir="ltr" role="presentation">MESE DI DUE SPOT</span><br role="presentation"/><span
+                                dir="ltr" role="presentation">FILE PRONTO PER INSERIMENTO IN FORMATO.JPEG
+                            FORNITO DAL</span><br role="presentation"/><span dir="ltr" role="presentation">
+                            CLIENTE</span></span>
+                </p>
+            </div>
+
+
+            <div class="container padding-section d-flex flex-column" style="padding-top: 0 !important;">
+                <h2 class="col-12" style="text-align: center; margin-bottom: 50px;">
+                    <span id="page4R_mcid36" class="markedContent"><span dir="ltr" role="presentation">Servizi
+                        supplementari</span></span>
+                </h2>
+                <div class="d-flex flex-column gap-5">
+                    <div class="row d-flex flex-column flex-lg-row gap-5 gap-lg-0">
+                        <p class="col-lg-2" style="text-align: center">
+                            <span style="color: #ff0000">BASIC</span>
+                        </p>
+                        <span class="col-lg-6" dir="ltr" role="presentation">Perfezionamento della grafica
+                            cliente, slogan su misura</span>
+                        <p class="col-lg-4" style="text-align: center">
+                            <strong><span id="page4R_mcid34" class="markedContent"><span dir="ltr" role="presentation">
+                                CHF</span>
+                                <span dir="ltr" role="presentation">1</span><span dir="ltr" role="presentation">00.–
+                                    cad. + IVA</span></span></strong>
+                        </p>
+                    </div>
+                    <div class="row d-flex flex-column flex-lg-row gap-5 gap-lg-0">
+                        <p class="col-lg-2" style="text-align: center">
+                            <span style="color: #ff0000">ADVANCE</span>
+                        </p>
+
+                        <span class="col-lg-6" dir="ltr" role="presentation">Creazione personalizzata design di
+                            grafica e messaggio
+                            pubblicitario</span>
+
+                        <span class="col-lg-4" dir="ltr" role="presentation">Trattativa Riservata</span>
+                    </div>
+                </div>
+            </div>
 
         </t>
     </template>

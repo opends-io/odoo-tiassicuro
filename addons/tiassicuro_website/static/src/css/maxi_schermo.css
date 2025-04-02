@@ -1,0 +1,59 @@
+.hero-inner5 {
+    background-repeat: no-repeat;
+    background-image: url("/tiassicuro_website/static/src/img/photo_2023-08-15_12-13-25.jpg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+}
+
+.pricing-column-content {
+    border-left: 1px solid #e4e4e4 !important;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+.dollar-sign {
+    font-size: 22px;
+    line-height: 22px;
+    top: -14px;
+    right: -6px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    position: relative;
+}
+
+.interval {
+    display: inline-block !important;
+    position: relative;
+    max-height: 30px !important;
+    min-height: 10px !important;
+    padding: 0 !important;
+    margin: 0 0 30px 0 !important;
+    font-size: 30px;
+    background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+    line-height: 26px;
+    color: #999;
+}
+
+.pricing-column-content h4 {
+    margin-bottom: 8px;
+    margin-left: -22px;
+    padding: 20px 30px 6px 30px;
+    font-size: 54px !important;
+    line-height: 42px !important;
+    color: #333;
+}
+
+.pricing-column h3 {
+    border-left: 1px solid #e4e4e4 !important;
+    color: #ea1d28 !important;
+    line-height: 28px !important;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #e4e4e4;
+    padding: 18px 0px 18px 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
