@@ -85,5 +85,13 @@
              <field name="view_id" ref="tiassicuro_website.maxi_schermo"/>
              <field name="track">True</field>
          </record>
+
+        <record id="preventivo_assicurazione_ticino_page" model="website.page">
+             <field name="url">/preventivo-assicurazione-ticino-svizzera</field>
+             <field name="is_published">True</field>
+             <field name="view_id" ref="tiassicuro_website.preventivo_assicurazione_ticino"/>
+             <field name="track">True</field>
+         </record>
+
     </data>
 </odoo>

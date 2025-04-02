@@ -22,6 +22,7 @@
         'views/assicurazione_ticino.xml',
         'views/lavora_con.xml',
         'views/maxi_schermo.xml',
+        'views/preventivo_assicurazione_ticino.xml',
         'data/website_data.xml',
         'views/header.xml',
         'views/footer.xml',
@@ -40,6 +41,7 @@
             'tiassicuro_website/static/src/css/assicurazione_ticino.css',
             'tiassicuro_website/static/src/css/lavora_con.css',
             'tiassicuro_website/static/src/css/maxi_schermo.css',
+            'tiassicuro_website/static/src/css/preventivo_assicurazione_ticino.css'
         ],
     },
 }
