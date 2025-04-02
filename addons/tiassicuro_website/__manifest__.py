@@ -20,6 +20,7 @@
         'views/terzo_pilastro.xml',
         'views/assicurazione_ticino.xml',
         'views/lavora_con.xml',
+        'views/maxi_schermo.xml',
         'data/website_data.xml',
         'views/website_templates.xml',
     ],
@@ -36,6 +37,7 @@
             'tiassicuro_website/static/src/css/terzo_pilastro.css',
             'tiassicuro_website/static/src/css/assicurazione_ticino.css',
             'tiassicuro_website/static/src/css/lavora_con.css',
+            'tiassicuro_website/static/src/css/maxi_schermo.css',
         ],
     },
 }
