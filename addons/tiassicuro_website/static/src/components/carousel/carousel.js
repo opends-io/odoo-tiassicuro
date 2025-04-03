@@ -1,6 +1,6 @@
 /** @odoo-module **/
 /* jshint esversion: 8 */
-import {Component, useState, onWillStart, onWillUnmount} from "@odoo/owl";
+import {Component, useState, useRef, useEffect, onWillStart, onWillUnmount} from "@odoo/owl";
 import {registry} from "@web/core/registry";
 
 
@@ -18,20 +18,20 @@ const carouselItems = [
 export class Carousel extends Component {
     static template = "tiassicuro_website.carousel";
 
+
     setup() {
 
         this.state = useState({carouselItems: carouselItems, currentIndex: 0});
+        this.timeInterval = useRef(null);
 
-        onWillStart(() => {
-            this.timeInterval = setInterval(() => {
-                this.handleNavigation((this.state.currentIndex + 1 > this.state.carouselItems.length - 1) ? 0 : this.state.currentIndex + 1);
-            }, 3000);
-        });
-
-        onWillUnmount(() => {
-            clearInterval(this.timeInterval);
-        });
-
+        useEffect(() => {
+                this.timeInterval = setInterval(() => {
+                    this.handleNavigation((this.state.currentIndex + 1 > this.state.carouselItems.length - 1) ? 0 : this.state.currentIndex + 1);
+                }, 3000);
+                return () => clearInterval(this.timeInterval);
+            },
+            () => []
+        );
     }
 
     handleNavigation(nextIndex) {
