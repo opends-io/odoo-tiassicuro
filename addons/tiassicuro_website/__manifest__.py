@@ -5,7 +5,7 @@
     "version": "1.0",
     "category": "Website",
     "author": "Opends",
-    "depends": ['website'],
+    "depends": ['website', 'theme_default'],
     "installable": True,
     "application": False,
     'data': [
@@ -41,7 +41,9 @@
             'tiassicuro_website/static/src/css/assicurazione_ticino.css',
             'tiassicuro_website/static/src/css/lavora_con.css',
             'tiassicuro_website/static/src/css/maxi_schermo.css',
-            'tiassicuro_website/static/src/css/preventivo_assicurazione_ticino.css'
+            'tiassicuro_website/static/src/components/**/*',
+            'tiassicuro_website/static/src/css/preventivo_assicurazione_ticino.css',
+
         ],
     },
 }

@@ -1,0 +1,30 @@
+<templates xml:space="preserve">
+   <t t-name="tiassicuro_website.carousel">
+       <div class="container padding-section" style="padding-top: 0 !important;">
+           <div class="row">
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000"
+                    data-pause="hover" data-keyboard="true" data-wrap="true">
+                  <ol class="carousel-indicators">
+                        <t t-foreach="this.state.carouselItems" t-as="i" t-key="i_index">
+                             <li data-target="#carouselExampleIndicators" t-att-data-slide-to="i"
+                                 t-att-class="{ 'active': this.state.carouselItems[this.state.currentIndex] === i }"
+                                 t-on-click="() => this.handleNavigation(i_index)"></li>
+                        </t>
+                  </ol>
+                   <div class="carousel-inner">
+                        <t t-foreach="this.state.carouselItems" t-as="i" t-key="i_index">
+                             <div class="carousel-item"
+                                  t-att-class="{ 'active': this.state.carouselItems[this.state.currentIndex] === i }">
+                                    <img class="d-block w-100 img-with-animation animated-in" data-shadow="none"
+                                         data-shadow-direction="middle" data-delay="0" data-animation="fade-in"
+                                         style="opacity: 1"
+                                         t-att-src="i"
+                                         t-att-alt="'Slide ' + (i_index + 1)"/>
+                            </div>
+                        </t>
+                  </div>
+                </div>
+           </div>
+       </div>
+   </t>
+</templates>

@@ -161,6 +161,28 @@
                 </div>
             </div>
 
+            <div class="container padding-section" style="padding-top: 0 !important;">
+                <h2 style="text-align: center">
+                    <span id="page4R_mcid38" class="markedContent" style="color: #ff0000"><span dir="ltr"
+                                                                                                role="presentation">
+                        Offerta cultura ed eventi</span></span>
+                </h2>
+                <p style="text-align: center">
+                    <span id="page4R_mcid39" class="markedContent"><span dir="ltr" role="presentation">Solo per il
+                        settore della cultura, arte ed
+                        eventi offriamo il 20% di sconto sul pacchetto
+                        scelto.</span></span>
+                </p>
+            </div>
+
+            <div class="container padding-section" style="padding-top: 0 !important;padding-bottom: 0 !important;">
+                <h2 style="text-align: center">
+                    Ecco alcuni clienti<span class="markedContent"></span>
+                </h2>
+            </div>
+
+            <owl-component name="tiassicuro_website.Carousel"/>
+
         </t>
     </template>
 </odoo>
