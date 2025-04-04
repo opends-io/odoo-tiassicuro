@@ -21,11 +21,19 @@
     opacity: 0.8;
 }
 
+.img-ticino {
+    min-height: 458px;
+}
+
 @media (min-width: 992px) {
 
     .wrapper-section {
         display: grid !important;
         grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+
+    .img-ticino {
+        min-height: 548px;
     }
 
 }

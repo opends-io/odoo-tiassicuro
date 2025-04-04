@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url(/tiassicuro_website/static/src/img/assicurazione-casa-canton-ticino.jpg); min-height: 516px;background-position: center;background-size: cover;"/>
+                <div class="img-ticino" style="background-image: url(/tiassicuro_website/static/src/img/assicurazione-casa-canton-ticino.jpg);background-position: center;background-size: cover;"/>
             </div>
 
             <div class="hero6" style="position: relative">
