@@ -5,7 +5,7 @@
     "version": "1.0",
     "category": "Website",
     "author": "Opends",
-    "depends": ['website', 'theme_default'],
+    "depends": ['website', 'theme_default', 'tiassicuro_crm'],
     "installable": True,
     "application": False,
     'data': [
@@ -29,7 +29,6 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            'tiassicuro_website/static/src/js/select.js',
             'tiassicuro_website/static/src/css/home.css',
             'tiassicuro_website/static/src/css/assicurazione.css',
             'tiassicuro_website/static/src/css/cassa_malati.css',

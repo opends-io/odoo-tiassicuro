@@ -31,58 +31,7 @@
             </div>
 
             <div class="container padding-section" style="padding-top: 0 !important;">
-                <form action="/preventivo-assicurazione-ticino-svizzera" method="POST">
-                    <p>
-                        <input class="form-control" type="text" maxlength="40" minlength="3" required="" name="yourName"
-                               placeholder="Nome e Cognome" data-error="name-error"/>
-                    </p>
-                    <div class="error-message" id="name-error" style="display: none;"></div>
-                    <p>
-                        <input class="form-control" type="email" name="yourEmail" placeholder="Indirizzo E-mail"
-                               required="" data-error="email-error"/>
-                    </p>
-                    <div class="error-message" id="email-error" style="display: none;"></div>
-                    <p>
-                        <input class="form-control" type="tel" name="yourTelefono" placeholder="Telefono"
-                               data-error="phone-error"/>
-                    </p>
-                    <div class="error-message" id="phone-error" style="display: none;"></div>
-                    <p>Scegli un prodotto</p>
-                    <p>
-                        <div class="fancy-select-wrap">
-                            <select class="form-select form-control" name="optionName" required="">
-                                <option value="" selected="selected"> ---</option>
-                                <option value="Responsabilità Civile Privata">Responsabilità Civile Privata</option>
-                                <option value="Economia Domestica Assicurazione Viaggi">Economia Domestica Assicurazione
-                                    Viaggi</option>
-                                <option value="Protezione Giuridica">Protezione Giuridica</option>
-                                <option value="Assicurazione Auto">Assicurazione Auto</option>
-                                <option value="Cassa Malati">Cassa Malati</option>
-                                <option value="Terzo Pilastro">Terzo Pilastro</option>
-                                <option value="Ipoteca">Ipoteca</option>
-                                <option value="Rendita Vitalizia">Rendita Vitalizia</option>
-                                <option value="altro..">altro..</option>
-                            </select>
-                        </div>
-                    </p>
-                    <div class="error-message" id="optionName-error" style="display: none;"></div>
-                    <p>
-                        <textarea class="form-control" name="yourMessage" rows="10"
-                                  placeholder="Richiesta o specificare altro..."
-                                  required="" data-error="message-error">
-                        </textarea>
-                    </p>
-                    <div class="error-message" id="message-error" style="display: none;"></div>
-                    <div class="my-3">
-                        <div class="email_message"></div>
-                    </div>
-                    <p style="padding-bottom: 0;display: flex;margin-top: 50px;">
-                        <button type="submit" class="invalid-button" disabled=""
-                                style="border-radius: 200px !important;padding: 15px 22px !important;box-shadow: none;font-size: 12px;">
-                            Invia la Richiesta</button>
-                    </p>
-                </form>
-
+                <t t-call="tiassicuro_crm.form"/>
             </div>
         </t>
     </template>
