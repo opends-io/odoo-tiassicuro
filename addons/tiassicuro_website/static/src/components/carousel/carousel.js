@@ -1,6 +1,6 @@
 /** @odoo-module **/
 /* jshint esversion: 8 */
-import {Component, useState, useRef, useEffect, onWillStart, onWillUnmount} from "@odoo/owl";
+import {Component, useState, useRef, useEffect} from "@odoo/owl";
 import {registry} from "@web/core/registry";
 
 
