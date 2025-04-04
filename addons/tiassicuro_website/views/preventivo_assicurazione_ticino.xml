@@ -50,21 +50,8 @@
                     <p>Scegli un prodotto</p>
                     <p>
                         <div class="fancy-select-wrap">
-                            <div class="select2-container" id="s2id_autogen1" style="width: 100%;">
-                                <a href="javascript:void(0)" class="select2-choice" tabindex="-1">
-                                    <span class="select2-chosen" id="select2-chosen-2"> ---</span>
-                                    <abbr class="select2-search-choice-close"></abbr>
-                                    <span class="select2-arrow" role="presentation">
-                                        <b role="presentation"></b>
-                                    </span>
-                                </a>
-                                <label for="s2id_autogen2" class="select2-offscreen"></label>
-                                <input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true"
-                                       role="button" aria-labelledby="select2-chosen-2" id="s2id_autogen2"/>
-                            </div>
-                            <select name="optionName" required="" aria-invalid="false" data-error="optionName-error"
-                                    tabindex="-1" title="" style="display: none;">
-                                <option value=""> ---</option>
+                            <select class="form-select form-control" name="optionName" required="">
+                                <option value="" selected="selected"> ---</option>
                                 <option value="Responsabilità Civile Privata">Responsabilità Civile Privata</option>
                                 <option value="Economia Domestica Assicurazione Viaggi">Economia Domestica Assicurazione
                                     Viaggi</option>
@@ -95,6 +82,7 @@
                             Invia la Richiesta</button>
                     </p>
                 </form>
+
             </div>
         </t>
     </template>

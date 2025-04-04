@@ -29,6 +29,7 @@
     ],
     'assets': {
         'web.assets_frontend': [
+            'tiassicuro_website/static/src/js/select.js',
             'tiassicuro_website/static/src/css/home.css',
             'tiassicuro_website/static/src/css/assicurazione.css',
             'tiassicuro_website/static/src/css/cassa_malati.css',
