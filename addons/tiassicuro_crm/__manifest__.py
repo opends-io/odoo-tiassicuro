@@ -14,6 +14,8 @@
     'assets': {
         'web.assets_frontend': [
             'tiassicuro_crm/static/src/js/select.js',
+            'tiassicuro_crm/static/src/js/form_validation.js',
+            'tiassicuro_crm/static/src/css/form.css',
         ],
     },
 }

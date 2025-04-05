@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="tiassicuro_crm.form">
-        <form action="/preventivo-assicurazione-ticino-svizzera" method="POST">
+        <form class="form_widget_container">
             <p>
                 <input class="form-control" type="text" maxlength="40" minlength="3" required="" name="yourName"
                        placeholder="Nome e Cognome" data-error="name-error"/>
@@ -21,8 +21,7 @@
             <p>
                 <div class="fancy-select-wrap">
                     <select class="form-select form-control" name="optionName" required="">
-                        <option value="" selected="selected"> ---</option>
-                        <option value="Responsabilità Civile Privata">Responsabilità Civile Privata</option>
+                        <option value="Responsabilità Civile Privata" selected="selected">Responsabilità Civile Privata</option>
                         <option value="Economia Domestica Assicurazione Viaggi">Economia Domestica Assicurazione
                             Viaggi</option>
                         <option value="Protezione Giuridica">Protezione Giuridica</option>

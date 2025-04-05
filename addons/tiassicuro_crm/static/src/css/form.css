@@ -1,0 +1,22 @@
+.error-message {
+    font-size: 14px;
+    display: block;
+    color: #e51d28;;
+    margin-bottom: 27px;
+    /*margin-top: -27px;*/
+}
+
+.error-border {
+    border: 2px solid #e51d28 !important;
+}
+
+.invalid-button {
+    background-color: #fff !important;
+    cursor: not-allowed !important;
+    border: 2px solid #e51d28 !important;
+    color: #e51d28 !important;
+}
+button[type="submit"] {
+    background-color: #ea1d28;
+    color: #fff;
+}
