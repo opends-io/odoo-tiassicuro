@@ -1,6 +1,6 @@
 /** @odoo-module **/
 /* jshint esversion: 8 */
-
+import {rpc} from "@web/core/network/rpc";
 import publicWidget from "@web/legacy/js/public/public_widget";
 
 publicWidget.registry.FormValidation = publicWidget.Widget.extend({
@@ -13,11 +13,11 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 
         this.submitButton = $('button[type="submit"]');
         this.inputs = $('input, textarea, select');
+        this.isValid = true;
 
         this.inputs.each((index, input) => {
             $(input).on("blur input change", this._handleInputChange.bind(this));
         });
-
 
         this._validateForm();
         this._toggleSubmitButton();
@@ -25,8 +25,29 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
         return this._super.apply(this, arguments);
     },
 
-    _onSubmit(event) {
+    async _onSubmit(event) {
         event.preventDefault();
+
+        const name = this.$('input[name="yourName"]').val();
+        const email = this.$('input[name="yourEmail"]').val();
+        const phone = this.$('input[name="yourTelefono"]').val();
+        const opportunity = this.$('select[name="optionName"]').val();
+        const description = this.$('textarea[name="yourMessage"]').val();
+
+
+        try {
+            const response = await rpc("/tiassicuro_crm/lead/quote", {
+                name: name,
+                email: email,
+                phone: phone,
+                opportunity: opportunity,
+                description: description,
+            });
+
+
+        } catch {
+            console.warn("Error while saving data");
+        }
 
     },
 
@@ -38,7 +59,7 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
     },
 
     _validateForm() {
-        let isValid = true;
+
         const inputs = this.inputs;
 
         inputs.each((index, input) => {
@@ -93,10 +114,10 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
             }
         });
 
-        this.submitButton.prop("disabled", !isValid);
-        this.submitButton.toggleClass("invalid-button", !isValid);
+        this.submitButton.prop("disabled", !this.isValid);
+        this.submitButton.toggleClass("invalid-button", !this.isValid);
 
-        return isValid;
+        return this.isValid;
     },
 
     _displayError(input, errorElement, message) {
@@ -105,7 +126,7 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
             errorElement.textContent = message;
         }
         $(input).addClass("error-border");
-        this._lastValid = false;
+        this.isValid = false;
     },
 
     _checkLengthConstraints(input, errorElement) {
