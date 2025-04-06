@@ -4,7 +4,7 @@ import publicWidget from "@web/legacy/js/public/public_widget";
 import {loadCSS, loadJS} from "@web/core/assets";
 
 publicWidget.registry.MySelect = publicWidget.Widget.extend({
-    selector: '.form-select',
+    selector: 'select.select_widget_container',
 
     willStart: async function () {
         await this._super.apply(this, arguments);
@@ -15,9 +15,7 @@ publicWidget.registry.MySelect = publicWidget.Widget.extend({
     },
 
     start: function () {
-        this.$el.select2({
-            width: '100%',
-        });
+        this.$el.select2({ width: '100%' });
     },
 
 });

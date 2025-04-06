@@ -20,8 +20,9 @@
             <p>Scegli un prodotto</p>
             <p>
                 <div class="fancy-select-wrap">
-                    <select class="form-select form-control" name="optionName" required="">
-                        <option value="Responsabilità Civile Privata" selected="selected">Responsabilità Civile Privata</option>
+                    <select class="form-select select_widget_container" name="optionName" required="">
+                        <option value="Responsabilità Civile Privata" selected="selected">Responsabilità Civile
+                            Privata</option>
                         <option value="Economia Domestica Assicurazione Viaggi">Economia Domestica Assicurazione
                             Viaggi</option>
                         <option value="Protezione Giuridica">Protezione Giuridica</option>
@@ -36,9 +37,8 @@
             </p>
             <div class="error-message" id="optionName-error" style="display: none;"></div>
             <p>
-                <textarea class="form-control" name="yourMessage" rows="10"
-                          placeholder="Richiesta o specificare altro..."
-                          required="" data-error="message-error">
+                <textarea class="form-control" name="yourMessage" rows="10" placeholder="Richiesta o specificare altro..."
+                          required="" data-error="message-error" style="width: 100%;padding: 16px;">
                 </textarea>
             </p>
             <div class="error-message" id="message-error" style="display: none;"></div>
