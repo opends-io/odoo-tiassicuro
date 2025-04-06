@@ -3,7 +3,7 @@
     <template id="tiassicuro_website.home" name="Home Tiassicuro">
         <t t-call="website.layout">
             <div class="hero">
-                <div class="container padding-section card-float-right">
+                <div class="container padding-section card-float-right min-height-section">
                     <div></div>
                     <div>
                         <div class="wrap" style="margin-bottom: 10px;">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container card-grid padding-section">
+            <div class="container card-grid padding-section min-height-section">
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
                         <h2>Il metodo migliore per scegliere l’assicurazione più giusta per te!</h2>
@@ -165,7 +165,7 @@
 
             </div>
             <div class="hero1">
-                <div class="container padding-section" style="padding-top: 65%;">
+                <div class="container padding-section min-height-section" style="padding-top: 65%;">
                     <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 25px;">
                         <div>
                             <div class="wrap"
@@ -195,7 +195,7 @@
                     <div style="position: absolute;z-index: 1;top: 0;left: 0;height: 100%;width: 100.1%;background-color: #141418;">
                     </div>
                 </div>
-                <div class="container padding-section" style="z-index: 10;position: relative;">
+                <div class="container padding-section min-height-section" style="z-index: 10;position: relative;">
                     <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 44px;">
                         <div class="wpb_wrapper" style="display: flex;flex-direction: column;gap: 24px;">
                             <div class="nectar-animated-title-inner">
@@ -245,7 +245,7 @@
                     <div style="width: 100.1%;height: 100%;position: absolute;z-index: 1;top: 0;left: 0;">
                     </div>
                 </div>
-                <div class="container padding-section1 d-flex flex-column flex-lg-row"
+                <div class="container padding-section1 d-flex flex-column flex-lg-row min-height-section"
                      style="z-index: 10;position: relative;">
                     <div class="wpb_wrapper" style="margin-bottom: 25px;">
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
@@ -292,7 +292,7 @@
                 <div class="hero3-wrap">
                     <div class=""></div>
                 </div>
-                <div class="container card-float-right">
+                <div class="container card-float-right min-height-section">
                     <div></div>
                     <div class="wpb_wrapper">
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
@@ -330,7 +330,7 @@
                 </div>
             </div>
             <div class="hero4" style="padding: 41.2px 46px;">
-                <div class="container">
+                <div class="container min-height-section">
                     <div class="wpb_wrapper d-flex flex-column">
                         <div class="inner d-flex justify-content-center" style="margin-bottom: 30px">
                             <img class="img-with-animation  animated-in" height="165" width="200"

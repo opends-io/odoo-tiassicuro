@@ -66,6 +66,10 @@ img {
     .main-content {
         max-width: 600px;
     }
+
+    .min-height-section {
+        min-height: 550px;
+    }
 }
 
 .padding-section {
@@ -107,6 +111,11 @@ img {
 
     .padding-section {
         padding: 204.82px 90px 150.92px;
+
+    }
+
+    .min-height-section {
+        min-height: 770px;
     }
 
     .padding-section1 {

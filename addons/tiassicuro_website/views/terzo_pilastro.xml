@@ -5,7 +5,7 @@
             <div class="hero-inner1" style="position: relative">
                 <div class="inner-wrap2">
                 </div>
-                <div class="container padding-section card-float-right" style="position: relative;z-index: 5;">
+                <div class="container padding-section card-float-right min-height-section" style="position: relative;z-index: 5;">
                     <div class="nectar-split-heading animated-in">
                         <div class="heading-line">
                             <div style="transform: translate(0px, 0px);">
@@ -104,7 +104,7 @@
             </div>
 
             <div class="hero-inner2" style="position: relative">
-                <div class="wpb_wrapper container padding-section" style="position: relative;z-index: 5;">
+                <div class="wpb_wrapper container padding-section min-height-section" style="position: relative;z-index: 5;">
                     <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
                         <div class="wpb_wrapper">
                             <div style="margin-bottom: 24px;">

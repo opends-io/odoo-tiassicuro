@@ -5,9 +5,9 @@
             <div class="hero-inner5" style="position: relative">
                 <div class="inner-wrap2">
                 </div>
-                <div class="container padding-section" style="position: relative;z-index: 5;">
-                    <div class="row">
-                        <div class="col-12 col-md-8 col-lg-6" style="transform: translate(0px, 0px)">
+                <div class="container padding-section min-height-section" style="position: relative;z-index: 5;display: flex;">
+                    <div class="row" style="width: 100%;">
+                        <div class="col-12 col-md-8 col-lg-6" style="transform: translate(0px, 0px);display: flex;align-items: center;">
                             <h1>
                                 <span style="color: #ffffff">Noleggia il nostro Maxi-Schermo</span>
                             </h1>

@@ -5,7 +5,7 @@
             <div class="hero-inner4">
                 <div class="inner-wrap4">
                 </div>
-                <div class="container padding-section" style="position: relative;z-index: 2;">
+                <div class="container padding-section min-height-section" style="position: relative;z-index: 2;">
                     <div class="row justify-content-center justify-content-lg-end">
                         <div class="col-12 col-lg-6">
                             <h1>TiAssicuro..<br/>
