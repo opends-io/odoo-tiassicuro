@@ -327,9 +327,9 @@
                                                        placeholder="Numero componenti in famiglia"
                                                        data-error="message-error"/>
                                             </p>
-                                            <div class="error-message" id="message-error" style="display: block;">
+                                           <!-- <div class="error-message" id="message-error" style="display: block;">
                                                 Inserire solo numeri
-                                            </div>
+                                            </div>-->
                                             <p></p>
                                             <p>
                                                 <div class="fancy-select-wrap">

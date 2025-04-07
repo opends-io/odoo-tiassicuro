@@ -283,9 +283,9 @@
                                                        placeholder="Numero componenti in famiglia"
                                                        data-error="message-error"/>
                                             </p>
-                                            <div class="error-message" id="message-error" style="display: block;">
-                                                Inserire solo numeri
-                                            </div>
+                                            <!-- <div class="error-message" id="message-error" style="display: block;">
+                                                 Inserire solo numeri
+                                             </div>-->
                                             <p></p>
                                             <p>
                                                 <div class="fancy-select-wrap">
@@ -443,10 +443,11 @@
 
 
             <div class="hero5-cassa-malati-trasferirsi1" style="position: relative">
-                <div class="">
+                <div class="row justify-content-center">
+                    <div class="col-6" style="position: relative;z-index: 5;margin-top: 200px;margin-bottom: 50px;">
+
+                    </div>
                 </div>
-
-
                 <div class="container" style="position: relative;z-index: 5;padding-bottom: 50px;">
                     <div class="row">
                         <div class="col-6" style="position: relative;z-index: 5;margin-top: 200px;margin-bottom: 50px;">
