@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
     <record id="tiassicuro_crm.crm_mail_template" model="mail.template">
         <field name="name">Tiassicuro CRM Mail Template</field>
         <field name="model_id" ref="crm.model_crm_lead"/>
@@ -19,5 +20,23 @@
                         t-out="object.description"/></div>
             </div>
         </field>
+    </record>
+
+    <record id="tiassicuro_crm.crm_mail_curriculum_template" model="mail.template">
+        <field name="name">Tiassicuro Mail Curriculum Template</field>
+        <field name="model_id" ref="base.model_res_partner"/>
+        <field name="email_from">{{ object.company_id.email }}</field>
+        <field name="email_to">{{ object.company_id.email }}</field>
+        <field name="body_html" type="html">
+            <div style="border: 1px solid #ccc;padding: 15px;font-family: Arial, sans-serif;font-size: 14px; color: #333;">
+                <div style="margin-bottom: 10px;"><span style="font-weight: bold;">Name:</span> <t
+                        t-out="object.name"/></div>
+                <div style="margin-bottom: 10px;"><span style="font-weight: bold;">Email:</span> <t
+                        t-out="object.email"/></div>
+                <div style="margin-bottom: 10px;"><span style="font-weight: bold;">Phone:</span> <t
+                        t-out="object.phone"/></div>
+            </div>
+        </field>
+        <field name="lang">{{ object.lang }}</field>
     </record>
 </odoo>

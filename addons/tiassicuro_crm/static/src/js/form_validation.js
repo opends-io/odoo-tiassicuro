@@ -1,6 +1,7 @@
 /** @odoo-module **/
 /* jshint esversion: 8 */
 import {rpc} from "@web/core/network/rpc";
+
 import publicWidget from "@web/legacy/js/public/public_widget";
 
 publicWidget.registry.FormValidation = publicWidget.Widget.extend({
@@ -165,12 +166,45 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 
 export default publicWidget.registry.FormValidation;
 
+
 export const FormValidation1 = publicWidget.registry.FormValidation.extend({
     selector: 'form.form_widget_container1',
+    events: Object.assign({}, publicWidget.registry.FormValidation.prototype.events, {
+        'change input[name="curriculum"]': 'attachment_input',
+    }),
+
+    init: function () {
+        this._super.apply(this, arguments);
+        this.curriculum = null;
+    },
+
+    async fileToBase64(file) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result.split(',')[1]);
+            reader.onerror = reject;
+            reader.readAsDataURL(file);
+        });
+    },
+
+    attachment_input: function (e) {
+        this.curriculum = e.target.files[0];
+    },
 
     async _onSubmit(event) {
         event.preventDefault();
-        console.log("ok");
+
+        const formData = new FormData(event.target);
+        const data = Object.fromEntries(formData.entries());
+
+        data.curriculum = await this.fileToBase64(this.curriculum);
+        data.curriculum_filename = this.curriculum.name;
+
+        try {
+            const response = await rpc("/tiassicuro_crm/work_us/send_email", data);
+        } catch {
+            console.warn("Error while saving data");
+        }
 
     },
 });

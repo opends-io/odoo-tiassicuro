@@ -29,33 +29,33 @@
                         <div>
                             <form class="form_widget_container1" enctype="multipart/form-data">
                                 <p>
-                                    <input class="form-control" type="text" name="yourName" placeholder="Nome e Cognome"
+                                    <input class="form-control" type="text" name="name" placeholder="Nome e Cognome"
                                            aria-invalid="false"
                                            data-error="name-error" maxlength="40" minlength="3" required=""/>
                                 </p>
                                 <div class="error-message" id="name-error" style="display: none;"></div>
                                 <p>
-                                    <input class="form-control" type="email" name="yourEmail"
+                                    <input class="form-control" type="email" name="email"
                                            placeholder="Indirizzo email"
                                            aria-invalid="false" data-error="email-error" required=""/>
                                 </p>
                                 <div class="error-message" id="email-error" style="display: none;"></div>
                                 <p>
-                                    <input type="tel" class="form-control" id="phoneInput" name="yourTelefono"
+                                    <input type="tel" class="form-control" id="phoneInput" name="phone"
                                            placeholder="Telefono" aria-describedby="phoneHelp" aria-invalid="false"
                                            data-error="phone-error"/>
 
                                 </p>
                                 <div class="error-message" id="phone-error" style="display: none;"></div>
                                 <p>
-                                    <textarea class="form-control" name="yourMessage" rows="10" aria-invalid="false"
+                                    <textarea class="form-control" name="description" rows="10" aria-invalid="false"
                                               placeholder="Richiesta" data-error="message-error"></textarea>
                                 </p>
                                 <div class="error-message" id="message-error" style="display: none;"></div>
                                 <p style="text-align: start;">
                                     Allega curriculum<br/>
-                                    <input class="form-control" type="file" name="fileCurriculum"
-                                           accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
+                                    <input class="form-control" type="file" name="curriculum"
+                                           accept="application/pdf"
                                            aria-invalid="false" data-error="file-error" required=""/>
                                 </p><div class="error-message" id="file-error" style="display: none;"></div>
                                 <p></p>
