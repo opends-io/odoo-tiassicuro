@@ -2,7 +2,7 @@
 <odoo>
     <template id="tiassicuro_website.cassa_malati_trasferirsi" name="Cassa Malati Trasferirsi Svizzera">
         <t t-call="website.layout">
-            <div class="hero-cassa-malati-trasferirsi-inner">
+            <div class="hero-cassa-malati-trasferirsi-inner1">
                 <div class="container padding-section card-float-right">
                     <div class="wpb_wrapper">
                         <div class="nectar-split-heading animated-in">
