@@ -1,0 +1,119 @@
+.hero-cassa-malati-trasferirsi-inner {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/cassa-malati-trasferirsi.jpg");
+    color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero-cassa-malati-trasferirsi-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.3) para más/menos opacidad */
+    z-index: 0;
+}
+
+/* Si el texto está dentro de este elemento, asegúrate que tenga posición relativa */
+.hero-cassa-malati-trasferirsi-inner > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+.card-grid-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 992px) {
+
+    .card-grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+
+    .wpb_wrapper1 {
+        width: 50%;
+    }
+
+    .wpb_wrapper2 {
+        width: 80%;
+    }
+}
+
+.hero5-cassa-malati-trasferirsi {
+    background-image: url("/tiassicuro_website/static/src/img/protezione-giuridica-svizzera.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.hero5-cassa-malati-trasferirsi1 {
+    background-image: url("/tiassicuro_website/static/src/img/cassa-malati-in-svizzera.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+    padding: 204.82px 90px 150.92px;
+}
+
+.inner-wrap10:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.89) linear-gradient(45deg, #ffffff 0%, rgba(255, 255, 255, 0.48) 100%);
+    opacity: 0.8;
+}
+
+.error-border {
+    border: 2px solid #e51d28 !important;
+}
+
+@media (min-width: 992px) {
+
+    .form-container {
+        width: 50%;
+        padding: 5%;
+        transform: translate(-50%, -10%);
+    }
+
+    .hero-cassa-malati-inner {
+        background-position: top;
+    }
+}
+
+.select2-container .select2-choice > .select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+}
+
+.select2-container .select2-choice > .select2-chosen {
+    color: #000 !important;
+    line-height: 30px;
+    padding-left: 3px;
+}
+
+.error-message {
+    font-size: 14px;
+    display: block;
+    color: var(--main-color);
+    margin-bottom: 27px;
+    margin-top: -27px;
+}
