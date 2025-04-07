@@ -5,11 +5,12 @@
     "version": "1.0",
     "category": "Sales",
     "author": "Opends",
-    "depends": ['crm'],
+    "depends": ['crm', 'mail'],
     "installable": True,
     "application": False,
     'data': [
         'views/form.xml',
+        'data/crm_mail_template.xml',
     ],
     'assets': {
         'web.assets_frontend': [
