@@ -1,13 +1,13 @@
-.hero-cassa-malati-inner {
+.hero-cassa-malati-trasferirsi-inner {
     position: relative; /* Necesario para posicionar el pseudo-elemento */
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/cassa-malati-svizzera.jpg");
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/cassa-malati-trasferirsi.jpg");
     color: #ffffff;
     background-position: top center;
     background-size: cover;
 }
 
-.hero-cassa-malati-inner::before {
+.hero-cassa-malati-trasferirsi-inner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@
 }
 
 /* Si el texto está dentro de este elemento, asegúrate que tenga posición relativa */
-.hero-cassa-malati-inner > * {
+.hero-cassa-malati-trasferirsi-inner > * {
     position: relative;
     z-index: 1;
 }
@@ -47,12 +47,21 @@
     }
 }
 
-.hero5-cassa {
-    background-image: url("/tiassicuro_website/static/src/img/cassa-malati-ticino.jpg");
+.hero5-cassa-malati-trasferirsi {
+    background-image: url("/tiassicuro_website/static/src/img/protezione-giuridica-svizzera.jpg");
     background-repeat: no-repeat;
     background-position: top center;;
     background-size: cover;
     color: #ffffff;
+}
+
+.hero5-cassa-malati-trasferirsi1 {
+    background-image: url("/tiassicuro_website/static/src/img/cassa-malati-in-svizzera.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+    padding: 204.82px 90px 150.92px;
 }
 
 .inner-wrap10:after {
@@ -85,7 +94,7 @@
     }
 }
 
-.select2-container .select2-choice>.select2-chosen {
+.select2-container .select2-choice > .select2-chosen {
     margin-right: 26px;
     display: block;
     overflow: hidden;
@@ -94,15 +103,17 @@
     float: none;
     width: auto;
 }
-.select2-container .select2-choice>.select2-chosen {
+
+.select2-container .select2-choice > .select2-chosen {
     color: #000 !important;
     line-height: 30px;
     padding-left: 3px;
 }
 
-.errorr-message {
+.error-message {
     font-size: 14px;
     display: block;
     color: var(--main-color);
     margin-bottom: 27px;
+    margin-top: -27px;
 }
