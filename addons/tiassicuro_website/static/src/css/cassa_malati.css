@@ -55,7 +55,7 @@
     color: #ffffff;
 }
 
-.inner-wrap1:after {
+.inner-wrap10:after {
     display: block;
     position: absolute;
     top: 0;
@@ -64,6 +64,45 @@
     height: 100%;
     content: ' ';
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.89);
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.89) linear-gradient(45deg, #ffffff 0%, rgba(255, 255, 255, 0.48) 100%);
+    opacity: 0.8;
+}
+
+.error-border {
+    border: 2px solid #e51d28 !important;
+}
+
+@media (min-width: 992px) {
+
+    .form-container {
+        width: 50%;
+        padding: 5%;
+        transform: translate(-50%, -10%);
+    }
+
+    .hero-cassa-malati-inner {
+        background-position: top;
+    }
+}
+
+.select2-container .select2-choice>.select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+}
+.select2-container .select2-choice>.select2-chosen {
+    color: #000 !important;
+    line-height: 30px;
+    padding-left: 3px;
+}
+
+.errorr-message {
+    font-size: 14px;
+    display: block;
+    color: var(--main-color);
+    margin-bottom: 27px;
 }
