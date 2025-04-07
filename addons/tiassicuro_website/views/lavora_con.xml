@@ -27,38 +27,31 @@
                             <div style="height: 20px" class="divider"></div>
                         </div>
                         <div>
-                            <div class="screen-reader-response"></div>
-                            <form action="/lavora-con-noi" method="POST" enctype="multipart/form-data">
+                            <form class="form_widget_container" enctype="multipart/form-data">
                                 <p>
                                     <input class="form-control" type="text" name="yourName" placeholder="Nome e Cognome"
                                            aria-invalid="false"
-                                           data-error="name-error" maxlength="40" minlength="3" required="" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;line-height: 22px;color: #555;"/>
-                                </p><div class="error-message" id="name-error" style="display: none;"></div>
-                                <p></p>
+                                           data-error="name-error" maxlength="40" minlength="3" required=""/>
+                                </p>
+                                <div class="error-message" id="name-error" style="display: none;"></div>
                                 <p>
                                     <input class="form-control" type="email" name="yourEmail"
                                            placeholder="Indirizzo email"
-                                           aria-invalid="false" data-error="email-error" required="" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;line-height: 22px;color: #555;"/>
-                                </p><div class="error-message" id="email-error" style="display: none;"></div>
-                                <p></p>
-
+                                           aria-invalid="false" data-error="email-error" required=""/>
+                                </p>
+                                <div class="error-message" id="email-error" style="display: none;"></div>
                                 <p>
                                     <input type="tel" class="form-control" id="phoneInput" name="yourTelefono"
                                            placeholder="Telefono" aria-describedby="phoneHelp" aria-invalid="false"
-                                           data-error="phone-error" style="font-size: 14px;padding: 16px;width: 100%;box-shadow: none;background-color: transparent;font-family: inherit;
-  line-height: 22px;
-  color: #555;"/>
+                                           data-error="phone-error"/>
 
                                 </p>
                                 <div class="error-message" id="phone-error" style="display: none;"></div>
-                                <p></p>
-
                                 <p>
                                     <textarea class="form-control" name="yourMessage" rows="10" aria-invalid="false"
                                               placeholder="Richiesta" data-error="message-error"></textarea>
                                 </p>
                                 <div class="error-message" id="message-error" style="display: none;"></div>
-                                <p></p>
                                 <p style="text-align: start;">
                                     Allega curriculum<br/>
                                     <input class="form-control" type="file" name="fileCurriculum"
@@ -67,17 +60,14 @@
                                 </p><div class="error-message" id="file-error" style="display: none;"></div>
                                 <p></p>
                                 <div class="my-3">
-
                                     <div class="email_message"></div>
                                 </div>
                                 <p style="padding-bottom: 0;display: flex;margin-top: 50px;">
-                                    <button type="submit" class="invalid-button" disabled=""
-                                            style="border-radius: 200px !important;padding: 15px 22px !important;box-shadow: none;font-size: 12px;">
-                                        Invia la Richiesta</button>
+                                    <button type="submit" class="invalid-button" disabled="" style="border-radius: 200px !important;padding: 15px 22px !important;box-shadow: none;font-size: 12px;">
+                                        Invia la Richiesta
+                                    </button>
                                 </p>
                             </form>
-
-
                         </div>
                     </div>
                 </div>
