@@ -164,3 +164,16 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 });
 
 export default publicWidget.registry.FormValidation;
+
+export const FormValidation1 = publicWidget.registry.FormValidation.extend({
+    selector: 'form.form_widget_container1',
+
+    async _onSubmit(event) {
+        event.preventDefault();
+        console.log("ok");
+
+    },
+});
+
+
+publicWidget.registry.FormValidation1 = FormValidation1;

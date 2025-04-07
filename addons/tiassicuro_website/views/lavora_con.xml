@@ -27,7 +27,7 @@
                             <div style="height: 20px" class="divider"></div>
                         </div>
                         <div>
-                            <form class="form_widget_container" enctype="multipart/form-data">
+                            <form class="form_widget_container1" enctype="multipart/form-data">
                                 <p>
                                     <input class="form-control" type="text" name="yourName" placeholder="Nome e Cognome"
                                            aria-invalid="false"
