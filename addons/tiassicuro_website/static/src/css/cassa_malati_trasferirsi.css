@@ -1,35 +1,28 @@
-/*.hero-cassa-malati-trasferirsi-inner {*/
-/*    position: relative; !* Necesario para posicionar el pseudo-elemento *!*/
-/*    background-repeat: no-repeat;*/
-/*    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/cassa-malati-trasferirsi.jpg");*/
-/*    color: #ffffff;*/
-/*    background-position: top center;*/
-/*    background-size: cover;*/
-/*}*/
+.hero-cassa-malati-trasferirsi-inner1 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent 25%, #151519 100%), url("/tiassicuro_website/static/src/img/cassa-malati-trasferirsi.jpg");
+    color: #ffffff;
+    background-position: top center;
+   background-size: cover;
+}
 
-/*.hero-cassa-malati-trasferirsi-inner::before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    background-color: rgba(0, 0, 0, 0.5); !* Ajusta el último valor (0.3) para más/menos opacidad *!*/
-/*    z-index: 0;*/
-/*}*/
-
-/*!* Si el texto está dentro de este elemento, asegúrate que tenga posición relativa *!*/
-/*.hero-cassa-malati-trasferirsi-inner > * {*/
-/*    position: relative;*/
-/*    z-index: 1;*/
-/*}*/
+.hero-cassa-malati-trasferirsi-inner1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
 
 
-/*.card-grid-section {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
+.hero-cassa-malati-trasferirsi-inner1 > {
+   position: relative;
+    z-index: 1;
+}
 
 /*@media (min-width: 992px) {*/
 
@@ -47,22 +40,22 @@
 /*    }*/
 /*}*/
 
-/*.hero5-cassa-malati-trasferirsi {*/
-/*    background-image: url("/tiassicuro_website/static/src/img/protezione-giuridica-svizzera.jpg");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: top center;;*/
-/*    background-size: cover;*/
-/*    color: #ffffff;*/
-/*}*/
+.hero5-cassa-malati-trasferirsi {
+    background-image: url("/tiassicuro_website/static/src/img/protezione-giuridica-svizzera.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;;
+    background-size: cover;
+    color: #ffffff;
+}
 
-/*.hero5-cassa-malati-trasferirsi1 {*/
-/*    background-image: url("/tiassicuro_website/static/src/img/cassa-malati-in-svizzera.jpg");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: top center;;*/
-/*    background-size: cover;*/
-/*    color: #ffffff;*/
-/*    padding: 204.82px 90px 150.92px;*/
-/*}*/
+.hero5-cassa-malati-trasferirsi1 {
+    background-image: url("/tiassicuro_website/static/src/img/cassa-malati-in-svizzera.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 204.82px 90px 150.92px;
+}
 
 /*.inner-wrap10:after {*/
 /*    display: block;*/
@@ -81,7 +74,7 @@
 /*    border: 2px solid #e51d28 !important;*/
 /*}*/
 
-/*@media (min-width: 992px) {*/
+@media (min-width: 992px) {
 
 /*    .form-container {*/
 /*        width: 50%;*/
@@ -89,10 +82,10 @@
 /*        transform: translate(-50%, -10%);*/
 /*    }*/
 
-/*    .hero-cassa-malati-inner {*/
-/*        background-position: top;*/
-/*    }*/
-/*}*/
+    .hero-cassa-malati-trasferirsi-inner {
+        background-position: top;
+    }
+}
 
 /*.select2-container .select2-choice > .select2-chosen {*/
 /*    margin-right: 26px;*/
