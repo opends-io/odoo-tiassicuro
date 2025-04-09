@@ -19,12 +19,12 @@
                         <a href="/home" class="contact-link">
                             <img src="/tiassicuro_website/static/src/img/assicurazione-svizzera-canton-ticino.png"/>
                         </a>
-                        <span class="slogan">
+                        <h5 class="slogan">
                             Enjoy your safety
-                        </span>
-                        <span>
+                        </h5>
+                        <h3 style="text-align: center">
                             La nostra Società collabora con i seguenti partners
-                        </span>
+                        </h3>
                     </div>
                 </div>
 
