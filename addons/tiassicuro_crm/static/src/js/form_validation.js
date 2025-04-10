@@ -1,5 +1,7 @@
 /** @odoo-module **/
-/* jshint esversion: 8 */
+/* jshint esversion: 10 */
+/* jshint strict:false */
+
 import {rpc} from "@web/core/network/rpc";
 
 import publicWidget from "@web/legacy/js/public/public_widget";
@@ -12,12 +14,12 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 
     start: function () {
 
-        this.submitButton = $('button[type="submit"]');
-        this.inputs = $('input, textarea, select');
+        this.submitButton = this.$('button[type="submit"]');
+        this.inputs = this.$('input, textarea, select');
         this.isValid = true;
 
         this.inputs.each((index, input) => {
-            $(input).on("blur input change", this._handleInputChange.bind(this));
+            this.$(input).on("blur input change", this._handleInputChange.bind(this));
         });
 
         this._validateForm();
@@ -54,7 +56,7 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 
     _handleInputChange(event) {
         const input = event.target;
-        $(input).addClass("touched");
+        this.$(input).addClass("touched");
         this._validateForm();
         this._toggleSubmitButton();
     },
@@ -64,7 +66,7 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
         const inputs = this.inputs;
 
         inputs.each((index, input) => {
-            const errorId = $(input).data("error");
+            const errorId = this.$(input).data("error");
             const errorMessage = document.getElementById(errorId);
 
             if (errorMessage) {
@@ -72,37 +74,37 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
                 errorMessage.textContent = "";
             }
 
-            $(input).removeClass("error-border");
+            this.$(input).removeClass("error-border");
 
-            if ($(input).hasClass("touched")) {
-                if ($(input).is("[required]") && !$(input).val().trim()) {
+            if (this.$(input).hasClass("touched")) {
+                if (this.$(input).is("[required]") && !this.$(input).val().trim()) {
                     this._displayError(input, errorMessage, "Campo obbligatorio");
                 } else {
-                    switch ($(input).attr("type")) {
+                    switch (this.$(input).attr("type")) {
                         case "checkbox":
-                            if ($(input).is("[required]") && !$(input).is(":checked")) {
+                            if (this.$(input).is("[required]") && !this.$(input).is(":checked")) {
                                 this._displayError(input, errorMessage, "Campo obbligatorio");
                             }
                             break;
                         case "email":
-                            if (!this._validateEmail($(input).val())) {
+                            if (!this._validateEmail(this.$(input).val())) {
                                 this._displayError(input, errorMessage, "Email inserito non valido");
                             }
                             break;
                         case "file":
-                            if ($(input)[0].files.length === 0) {
+                            if (this.$(input)[0].files.length === 0) {
                                 this._displayError(input, errorMessage, "Campo obbligatorio");
                             }
                             break;
                         case "text":
-                            if (!this._validateText($(input).val())) {
+                            if (!this._validateText(this.$(input).val())) {
                                 this._displayError(input, errorMessage, "Inserire solo testo");
                             } else {
                                 this._checkLengthConstraints(input, errorMessage);
                             }
                             break;
                         case "number":
-                            if (!this._validateNumber($(input).val())) {
+                            if (!this._validateNumber(this.$(input).val())) {
                                 this._displayError(input, errorMessage, "Inserire solo numeri");
                             } else {
                                 this._checkLengthConstraints(input, errorMessage);
@@ -126,14 +128,14 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
             errorElement.style.display = "block";
             errorElement.textContent = message;
         }
-        $(input).addClass("error-border");
+        this.$(input).addClass("error-border");
         this.isValid = false;
     },
 
     _checkLengthConstraints(input, errorElement) {
-        const maxLength = $(input).attr("maxlength") || $(input).attr("max");
-        const minLength = $(input).attr("minlength") || $(input).attr("min");
-        const valueLength = $(input).val().length;
+        const maxLength = this.$(input).attr("maxlength") || this.$(input).attr("max");
+        const minLength = this.$(input).attr("minlength") || this.$(input).attr("min");
+        const valueLength = this.$(input).val().length;
 
         if (maxLength && valueLength > Number(maxLength)) {
             this._displayError(input, errorElement, `Lunghezza massima ${maxLength}`);
@@ -158,7 +160,7 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
     },
 
     _toggleSubmitButton() {
-        const allFieldsValid = Array.from($("input, textarea, select")).every((input) => input.checkValidity());
+        const allFieldsValid = Array.from(this.$("input, textarea, select")).every((input) => input.checkValidity());
         this.submitButton.prop("disabled", !allFieldsValid);
         this.submitButton.toggleClass("invalid-button", !allFieldsValid);
     }
