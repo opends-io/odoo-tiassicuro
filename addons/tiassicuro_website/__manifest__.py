@@ -45,7 +45,7 @@
             'tiassicuro_website/static/src/css/maxi_schermo.css',
             'tiassicuro_website/static/src/components/**/*',
             'tiassicuro_website/static/src/css/preventivo_assicurazione_ticino.css',
-
+            'tiassicuro_website/static/src/css/global_font.css',
         ],
     },
 }

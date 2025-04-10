@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+body {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    /* background-color: #1C1C1C; */
+    line-height: 26px;
+}

@@ -8,7 +8,7 @@
                     <div>
                         <div class="wrap" style="margin-bottom: 10px;">
                             <div style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
-                                <span style="color:white ;">Cassa Malati</span>
+                                <h6 style="color:white ;">Cassa Malati</h6>
                             </div>
                         </div>
                         <div class="nectar-split-heading animated-in" style="margin-bottom: 24px;">
@@ -36,7 +36,7 @@
                                 <h6>
                                     <span class="link_wrap">
                                         <a style="color: #fff;" class="link_text"
-                                           href="/cassa-malati-svizzera-e-assicurazione-sanitaria/">
+                                           href="/cassa-malati/">
                                             Scopri di più
                                             <span class="arrow"></span>
                                         </a>
@@ -58,7 +58,7 @@
                     <div>
                         <a class="nectar-button medium see-through extra-color-3 has-icon"
                            style="border-radius: 200px !important;border: 2px solid rgba(0,0,0,0.75);padding: 9px 42px;font-size: 12px;font-family: Montserrat;font-weight: normal;letter-spacing: 2px;line-height: 20px;text-transform: uppercase;"
-                           href="#">
+                           href="/assicurazione-ticino/">
                             <span>Scopri di più</span><i class="icon-button-arrow" style="color: rgb(0, 0, 0);"/>
                         </a>
                     </div>
@@ -220,7 +220,7 @@
                                 </div>
                                 </div>
                             </div>
-                            <p style="color: rgba(255,255,255,0.71);text-align: left" class="vc_custom_heading">
+                            <p style="color: rgba(255,255,255,0.7);text-align: left" class="vc_custom_heading">
                                 TiAssicuro prevede polizze auto su
                                 misura
                                 secondo le tue necessità ed esigenze facendoti risparmiare
@@ -232,7 +232,7 @@
                         <div class="wpb_wrapper">
                             <a class="nectar-button large see-through-2  has-icon"
                                style="margin-top: 35px;color: rgb(255, 255, 255);border-radius: 200px !important;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;"
-                               href="#">
+                               href="/home">
                                 <span>Richiedi un appuntamento</span><i class="icon-button-arrow"
                                                                         style="color: rgb(255, 255, 255);"></i></a>
                         </div>
