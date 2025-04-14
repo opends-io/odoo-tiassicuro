@@ -1,5 +1,5 @@
 [options]
-addons_path = /mnt/extra-addons
+addons_path = ./odoo/addons, ./addons
 data_dir = /var/lib/odoo
 db_host = tiassicuro-db-odoo-dev
 db_name = tiassicuro
