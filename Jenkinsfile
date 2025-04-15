@@ -11,6 +11,7 @@ pipeline {
                     echo 'Starting the pipeline...'
                     sh 'ls -s'
                     sh 'ssh root@$server "ls -l"'
+                    sh 'ssh root@$target-server mkdir -p //var//opt//wgo'
                 }
             }
         }
