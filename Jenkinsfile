@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-         string(name: "targetserver", defaultValue: "localhost")
+         string(name: "targetserver", defaultValue: "192.168.1.117")
     }
     stages {
         stage('start') {
