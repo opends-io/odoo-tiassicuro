@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-         string(name: "target-server", defaultValue: "localhost")
+         string(name: "targetserver", defaultValue: "localhost")
     }
     stages {
         stage('start') {
@@ -10,9 +10,9 @@ pipeline {
                 script {
                     echo 'Starting the pipeline...'
                     sh 'ls -s'
-                    sh 'ssh root@$target-server ls -l'
-                    sh 'ssh root@$target-server  mkdir -p /var/opt/wgo'
-                    sh 'rsync -az addons/ root@$target-server:/var/opt/wgo/'
+                    sh 'ssh root@$targetserver ls -l'
+                    sh 'ssh root@$targetserver  mkdir -p /var/opt/wgo'
+                    sh 'rsync -az addons/ root@$targetserver:/var/opt/wgo/'
                 }
             }
         }
