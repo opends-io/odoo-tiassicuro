@@ -15,7 +15,7 @@ pipeline {
                     sh 'ssh root@$targetserver systemctl status odoo'
                     sh 'ssh root@$targetserver systemctl stop odoo'
                     sh 'ssh root@$targetserver systemctl status odoo'
-                    sh 'rsync -az addons/ root@$targetserver:/var/opt/wgo/'
+                    sh 'rsync -az addons/ root@$targetserver:/var/opt/wgo'
                     sh 'ssh root@$targetserver systemctl start odoo'
                     sh 'ssh root@$targetserver systemctl status odoo'
                 }
