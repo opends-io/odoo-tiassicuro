@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="tiassicuro_website.template_header_default" inherit_id="website.template_header_default"
-              name="Template Header Default" active="True">
+    <template id="tiassicuro_website.template_header_default"
+        inherit_id="website.template_header_default"
+        name="Template Header Default" active="True">
 
         <div id="o_main_nav" class="o_main_nav container" position="replace">
             <div id="o_main_nav"
-                 style="width: 100%;top: 0;left: 0;padding-top: 28px;background-color: #fff;">
+                style="width: 100%;top: 0;left: 0;padding-top: 28px;background-color: #fff;">
                 <header style="position: relative;width: 100%;">
                     <div class="container">
                         <div class="d-flex">
                             <a href="/"
-                               style="width: auto;max-width: none;display: block;line-height: 22px;font-size: 22px;letter-spacing: -1.5px;color: #444;font-family: 'Open Sans';font-weight: 600;">
-                                <img src="/tiassicuro_website/static/src/img/assicurazione-svizzera-canton-ticino.png"
-                                     style="height: 70px;text-indent: -9999px;max-width: none;width: auto;margin-bottom: 0px;display: block;"/>
+                                style="width: auto;max-width: none;display: block;line-height: 22px;font-size: 22px;letter-spacing: -1.5px;color: #444;font-family: 'Open Sans';font-weight: 600;">
+                                <img
+                                    src="/tiassicuro_website/static/src/img/assicurazione-svizzera-canton-ticino.png"
+                                    style="height: 70px;text-indent: -9999px;max-width: none;width: auto;margin-bottom: 0px;display: block;" />
                             </a>
                         </div>
                         <div class="d-flex justify-content-end">
                             <nav>
                                 <div class="align-items-center nav-links"
-                                     style="padding-bottom: 53px;padding-top: 25px;display: flex;gap: 25px;flex-wrap: wrap;">
-                                    <a href="/home">Home</a>
+                                    style="padding-bottom: 53px;padding-top: 25px;display: flex;gap: 25px;flex-wrap: wrap;">
+                                    <a href="/home">Homeweeeeeee</a>
                                     <a href="/assicurazione">Assicurazione auto</a>
                                     <a href="/protezione-giuridica-svizzera">Protezione giuridica</a>
                                     <a href="/terzo-pilastro-svizzera">Terzo pilastro</a>
@@ -28,7 +30,7 @@
                                     <a href="/partners">Partners</a>
                                     <a href="/maxi-schermo-v1">Maxi Schermo</a>
                                     <a class="" href="/preventivo-assicurazione-ticino-svizzera"
-                                       style="position: relative;padding-left: 20px;padding-right: 20px;padding-bottom: 10px;padding-top: 10px;background-color: #ea1d28;border-radius: 200px !important;color: #fff !important;">
+                                        style="position: relative;padding-left: 20px;padding-right: 20px;padding-bottom: 10px;padding-top: 10px;background-color: #ea1d28;border-radius: 200px !important;color: #fff !important;">
                                         Preventivo
                                     </a>
                                 </div>
@@ -42,24 +44,25 @@
     </template>
 
     <template id="tiassicuro_website.template_header_mobile" name="Template Header Mobile"
-              inherit_id="website.template_header_mobile">
+        inherit_id="website.template_header_mobile">
 
         <t t-call="website.placeholder_header_brand" position="replace">
             <a data-name="Navbar Logo" href="/" t-attf-class="navbar-brand logo">
-                <img src="/tiassicuro_website/static/src/img/assicurazione-svizzera-canton-ticino.png"/>
+                <img
+                    src="/tiassicuro_website/static/src/img/assicurazione-svizzera-canton-ticino.png" />
             </a>
         </t>
 
         <xpath expr="//div[hasclass('offcanvas-body')]" position="attributes">
-            <attribute name="class" remove="offcanvas-body" separator=" "/>
+            <attribute name="class" remove="offcanvas-body" separator=" " />
         </xpath>
 
         <xpath expr="//div[hasclass('offcanvas-header')]" position="attributes">
-            <attribute name="style" add="padding-bottom: 0 !important;"/>
+            <attribute name="style" add="padding-bottom: 0 !important;" />
         </xpath>
 
         <xpath expr="//div[hasclass('o_main_nav')]" position="attributes">
-            <attribute name="style" add="height: 88px;"/>
+            <attribute name="style" add="height: 88px;" />
         </xpath>
 
         <xpath expr="//ul[@class='navbar-nav']" position="replace">
@@ -80,7 +83,7 @@
             </div>
         </xpath>
 
-        <ul class="navbar-nav gap-2 mt-3 w-100" position="replace"/>
+        <ul class="navbar-nav gap-2 mt-3 w-100" position="replace" />
 
     </template>
 </odoo>
