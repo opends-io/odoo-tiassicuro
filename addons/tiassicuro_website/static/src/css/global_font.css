@@ -7,20 +7,20 @@
     font-weight: 600;
 }*/
 
-/*body {
-    font-size: 14px;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    /* background-color: #1C1C1C; */
-/*line-height: 26px;
-}*/
-
-body, h1,h6,h4 {
-    font-family: Montserrat;
-    /*letter-spacing: -1px;*/
-    font-weight: 600;
+body {
+    font-family: Montserrat !important;
 }
+
+h1, h6, h4, h3, h2, h5 {
+    font-family: Montserrat !important;
+    letter-spacing: -1px !important;
+    font-weight: 600 !important;
+}
+
+b {
+    font-weight: 600 !important;
+}
+
 
 body {
     line-height: 26px;
