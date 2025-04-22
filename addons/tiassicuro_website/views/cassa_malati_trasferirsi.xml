@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-6" style="background-color: white;color: black;padding: 30px;">
+                        <div class="col-12 col-lg-6" style="background-color: white;color: black;padding: 30px;">
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
 
