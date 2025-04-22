@@ -9,6 +9,9 @@ import publicWidget from "@web/legacy/js/public/public_widget";
 publicWidget.registry.FormValidation = publicWidget.Widget.extend({
     selector: 'form.form_widget_container',
     events: {
+        'blur input, textarea, select': '_handleInputChange',
+        'input input, textarea, select': '_handleInputChange',
+        'change input, textarea, select': '_handleInputChange',
         'submit': '_onSubmit',
     },
 
@@ -17,10 +20,6 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
         this.submitButton = this.$('button[type="submit"]');
         this.inputs = this.$('input, textarea, select');
         this.isValid = true;
-
-        this.inputs.each((index, input) => {
-            this.$(input).on("blur input change", this._handleInputChange.bind(this));
-        });
 
         this._validateForm();
         this._toggleSubmitButton();
@@ -37,6 +36,8 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
         const opportunity = this.$('select[name="optionName"]').val();
         const description = this.$('textarea[name="yourMessage"]').val();
 
+        this.$('input, select, textarea, button').prop('disabled', true);
+        this.submitButton.prop("disabled", true);
 
         try {
             const response = await rpc("/tiassicuro_crm/lead/quote", {
@@ -50,6 +51,10 @@ publicWidget.registry.FormValidation = publicWidget.Widget.extend({
 
         } catch {
             console.warn("Error while saving data");
+        } finally {
+            this.$('input, select, textarea, button').prop('disabled', false);
+            this.el.reset();
+            this._toggleSubmitButton();
         }
 
     },
@@ -202,10 +207,17 @@ export const FormValidation1 = publicWidget.registry.FormValidation.extend({
         data.curriculum = await this.fileToBase64(this.curriculum);
         data.curriculum_filename = this.curriculum.name;
 
+        this.$('input, select, textarea, button').prop('disabled', true);
+        this.submitButton.prop("disabled", true);
+
         try {
             const response = await rpc("/tiassicuro_crm/work_us/send_email", data);
         } catch {
             console.warn("Error while saving data");
+        } finally {
+            this.$('input, select, textarea, button').prop('disabled', false);
+            this.el.reset();
+            this._toggleSubmitButton();
         }
 
     },
