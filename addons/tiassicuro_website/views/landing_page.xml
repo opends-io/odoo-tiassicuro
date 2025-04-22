@@ -13,7 +13,7 @@
             <t t-set="no_footer" t-value="True"/>
             <t t-set="no_header" t-value="True"/>
 
-            <section class="d-flex flex-column">
+            <section class="d-flex flex-column container" style="padding-bottom: 40px;">
                 <div class="main-header">
                     <div class="d-flex flex-column">
                         <a href="/home" class="contact-link">
