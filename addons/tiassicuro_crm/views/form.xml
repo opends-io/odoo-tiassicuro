@@ -37,9 +37,8 @@
             </p>
             <div class="error-message" id="optionName-error" style="display: none;"></div>
             <p>
-                <textarea class="form-control" name="yourMessage" rows="10" placeholder="Richiesta o specificare altro..."
-                          required="" data-error="message-error" style="width: 100%;padding: 16px;">
-                </textarea>
+                <textarea class="form-control" name="yourMessage" rows="10" aria-invalid="false"
+                          placeholder="Richiesta o specificare altro..." data-error="message-error" required=""></textarea>
             </p>
             <div class="error-message" id="message-error" style="display: none;"></div>
             <div class="my-3">
