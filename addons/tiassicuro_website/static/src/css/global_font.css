@@ -26,11 +26,19 @@ body {
     line-height: 26px;
     font-weight: 300;
     font-size: 14px;
+    color: #676767;
 }
 
 @media only screen and (max-width: 690px) {
     .row .col h4, body h4 {
         font-size: 16.2px;
         line-height: 25.2px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .col h2, h2 {
+        font-size: 25.5px;
+        line-height: 31.5px;
     }
 }
