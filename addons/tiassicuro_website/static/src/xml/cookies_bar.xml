@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="website.cookies_bar.discrete"
+       t-inherit-mode="extension">
+        <xpath expr="//section" position="replace">
+            <section class="o_colored_level o_cc o_cc1">
+                    <div id="cookie-notice" role="banner" class="cn-top wp-default"
+                         style="background-color: rgb(0, 0, 0) !important; color: rgb(255, 255, 255) !important; font-size: 14px !important; visibility: visible;">
+                        <div class="cookie-notice-container">
+                            <h1 id="cookie-title" style="display: flex; font-size: 21px; font-weight: 700">
+                                Informativa
+                            </h1>
+                            <p class="pb-0" style="padding-bottom: 0 !important">
+                                    Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per
+                                    finalità tecniche e, con il tuo consenso, anche per le finalità di
+                                    <strong data-iub-role="purposes_emphasis">esperienza e misurazione</strong>
+                                come specificato nella
+                                <a href="/cookie-policy-tiassicuro" style="color: #fff"
+                                   class="iubenda-cs-cookie-policy-lnk"
+                                   aria-label="cookie policy - il link si apre in una nuova scheda"
+                                   previewlistener="true">
+                                        <strong>cookie policy</strong>
+                                </a>
+                            </p>
+                            <p class="pb-0" style="padding-bottom: 0 !important">
+                                    Puoi liberamente prestare, rifiutare o revocare il tuo consenso, in
+                                    qualsiasi momento, accedendo al pannello delle preferenze. Il rifiuto
+                                    del consenso può rendere non disponibili le relative funzioni.
+                            </p>
+                            <p class="pb-0">
+                                    Usa il pulsante “Accetta” per acconsentire. Usa il pulsante “Rifiuta”
+                                    per continuare senza accettare.
+                            </p>
+                        </div>
+                        <div class="cookie-notice-container"
+                             style="color: #000 !important;display: flex;justify-content: flex-end;">
+                            <div>
+                                <a href="#" id="cookies-consent-essential" role="button"
+                                   class="cn-set-cookie cn-button wp-default button js_close_popup">Rifiuta
+                                </a>
+                                <a href="#" id="cookies-consent-all" role="button"
+                                   class="cn-set-cookie cn-button wp-default button js_close_popup">Accetta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </xpath>
+    </t>
+</templates>

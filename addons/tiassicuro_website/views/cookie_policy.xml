@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="tiassicuro_website.cookie_policy" name="Cookie Policy">
+    <template id="tiassicuro_website.cookie_policy" name="Cookie Policy Tiassicuro" priority="1">
         <t t-call="website.layout">
             <div class="iub_content legal_pp container">
                 <div class="one_line_col">
