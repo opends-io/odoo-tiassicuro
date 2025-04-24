@@ -47,6 +47,7 @@
             'tiassicuro_website/static/src/components/**/*',
             'tiassicuro_website/static/src/css/preventivo_assicurazione_ticino.css',
             'tiassicuro_website/static/src/css/global_font.css',
+            'https://fonts.googleapis.com/css?family=Montserrat',
         ],
         'website.assets_wysiwyg': [
             ('include', 'web._assets_helpers'),

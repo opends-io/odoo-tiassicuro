@@ -7,37 +7,70 @@
     font-weight: 600;
 }*/
 
-body {
+/*body {
     font-family: Montserrat !important;
 }
 
-h1, h6, h4, h3, h2, h5 {
-    font-family: Montserrat !important;
-    letter-spacing: -1px !important;
-    font-weight: 600 !important;
-}
 
-b {
+
+/*b {
     font-weight: 600 !important;
 }
 
 
-body {
+/*body {
     line-height: 26px;
     font-weight: 300;
     font-size: 14px;
 }
 
-@media only screen and (max-width: 690px) {
+/*@media only screen and (max-width: 690px) {
     .row .col h4, body h4 {
         font-size: 16.2px;
         line-height: 25.2px;
     }
 }
 
-@media only screen and (max-width: 690px) {
+/*@media only screen and (max-width: 690px) {
     .col h2, h2 {
         font-size: 25.5px;
         line-height: 31.5px;
     }
+}*/
+
+h5 {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h3 {
+
+    font-weight: 600;
+    font-size: 17.6px;
+    line-height: 25.6px;
+}
+
+h1 {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 35.1px;
+    line-height: 39px;
+}
+
+h6 {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+p {
+    font-family: Montserrat, serif;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 300;
 }

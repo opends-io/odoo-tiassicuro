@@ -51,7 +51,7 @@
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
                         <h2>Il metodo migliore per scegliere l’assicurazione più giusta per te!</h2>
-                        <p>TiAssicuro copre un ampio ventaglio di soluzioni assicurative, pronti a rispondere alle varie
+                        <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro copre un ampio ventaglio di soluzioni assicurative, pronti a rispondere alle varie
                             necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.</p>
 
                     </div>
@@ -76,7 +76,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3>Ass. aziendali</h3>
-                            <p>Le assicurazioni aziendali sono molte ma noi ti staremo accanto per darti le migliori
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Le assicurazioni aziendali sono molte ma noi ti staremo accanto per darti le migliori
                                 soluzioni per la tua impresa.</p>
 
                         </div>
@@ -95,7 +95,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3>Assicurazione auto</h3>
-                            <p>La professionalità che dedichiamo alla nostra attività, e l’approccio innovativo dei
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">La professionalità che dedichiamo alla nostra attività, e l’approccio innovativo dei
                                 nostri servizi hanno permesso a TiAssicuro di divenire un punto di riferimento per i
                                 cittadini svizzeri in cerca di una polizza assicurativa per l’auto.</p>
 
@@ -115,7 +115,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3>Protezione giuridica</h3>
-                            <p>Affrontare gli incidenti e gli inconvenienti della quotidianità affiancati dalla
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Affrontare gli incidenti e gli inconvenienti della quotidianità affiancati dalla
                                 competenza di tecnici esperti: è questo che si realizza con un’assicurazione di
                                 protezione giuridica in Svizzera.</p>
 
@@ -135,7 +135,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3>Cassa malati</h3>
-                            <p>TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato
                                 di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.</p>
 
                         </div>
@@ -154,7 +154,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3>Terzo pilastro</h3>
-                            <p>Il <strong>terzo pilastro in Svizzera</strong>, completa gli spazi vuoti lasciati
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Il <strong>terzo pilastro in Svizzera</strong>, completa gli spazi vuoti lasciati
                                 dal primo e dal secondo pilastro (le cosiddette lacune previdenziali) con iniziative
                                 private integrative.</p>
 

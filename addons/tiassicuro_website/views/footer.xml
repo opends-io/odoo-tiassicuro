@@ -13,7 +13,7 @@
                     <div class="container footer-widgets" style="padding-top: 55px;padding-bottom: 55px;">
 
                         <div id="text-2" class="widget widget_text">
-                            <h4>TiAssicuro</h4>
+                            <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">TiAssicuro</h4>
                             <div class="textwidget">
                                 <p>
                                     <a href="/assicurazione-ticino/">Chi siamo</a>
@@ -28,7 +28,7 @@
                         </div>
 
                         <div id="text-3" class="widget widget_text">
-                            <h4>Servizio Clienti</h4>
+                            <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Servizio Clienti</h4>
                             <div class="textwidget">
                                 <p>
                                     <a href="/cassa-malati">Cassa malati Svizzera
@@ -46,7 +46,7 @@
                         </div>
 
                         <div id="text-4" class="widget widget_text">
-                            <h4>Accesso Diretto</h4>
+                            <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Accesso Diretto</h4>
                             <div class="textwidget">
                                 <p>
                                     <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e feedback</a>
@@ -61,7 +61,8 @@
                         </div>
 
                         <div id="text-5" class="widget widget_text">
-                            <h4>Aree assicurative</h4>
+                            <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Aree assicurative
+                            </h4>
                             <div class="textwidget">
                                 <p>
                                     <a href="/assicurazione">Assicurazione auto Svizzera</a>
@@ -81,18 +82,21 @@
                 <div style="border-top: 1px solid rgba(255,255,255,0.18) !important;">
                     <div class="container copyright" style="padding-top: 20px;padding-bottom: 20px;">
                         <div class="">
-                            <p>
+                            <p style="font-size: 12px;">
                                 © TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41 91 290 81 61
                                 (diretto) • E.
                                 <a href="mailto:info@tiassicuro.ch">info@tiassicuro.ch</a>
                             </p>
                         </div>
                         <div class="justify-content-md-end" style="display: flex;gap: 25px;">
-                            <a target="_blank" href="https://www.facebook.com/Tiassicuro.ch/"><i
-                                    class="fa fa-facebook"></i>
+                            <a target="_blank" href="https://www.facebook.com/Tiassicuro.ch/">
+                                <i
+                                        class="fa fa-facebook"></i>
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/_tiassicuro_/"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/_tiassicuro_/">
+                                <i
+                                        class="fa fa-instagram"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

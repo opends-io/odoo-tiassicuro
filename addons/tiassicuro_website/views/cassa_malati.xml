@@ -198,8 +198,7 @@
                                     </div>
                                     <div>
                                         <div class="screen-reader-response"></div>
-                                        <form action="/cassa-malati-trasferirsi-in-svizzera"
-                                              enctype="multipart/form-data">
+                                        <form class="form_widget_container2">
                                             <p>
                                                 <input class="form-control" type="text" name="yourName"
                                                        placeholder="Nome e Cognome"
