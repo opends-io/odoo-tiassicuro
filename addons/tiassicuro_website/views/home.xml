@@ -20,7 +20,8 @@
                             <div class="heading-line">
                                 <div style="transform: translate(0px, 0px);">
                                     <h1>scegli
-                                        l’assicurazione sicura!</h1>
+                                        l’assicurazione sicura!
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +32,8 @@
                                 assicurazione sulla vita, infatti, è possibile raggiungere un discreto livello di
                                 sicurezza finanziaria, anche nel caso in cui il principale percettore di reddito
                                 all’interno della famiglia si trovi a dover affrontare un periodo più o meno lungo di
-                                malattia, in grado di tenerlo lontano dal lavoro. </p>
+                                malattia, in grado di tenerlo lontano dal lavoro.
+                            </p>
                             <div class="nectar-cta">
                                 <h6>
                                     <span class="link_wrap">
@@ -50,16 +52,24 @@
             <div class="container card-grid padding-section min-height-section">
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
-                        <h2>Il metodo migliore per scegliere l’assicurazione più giusta per te!</h2>
-                        <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro copre un ampio ventaglio di soluzioni assicurative, pronti a rispondere alle varie
-                            necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.</p>
+                        <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #444;">Il metodo migliore per scegliere l’assicurazione più giusta per te!
+                        </h2>
+                        <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro copre un ampio ventaglio
+                            di soluzioni assicurative, pronti a rispondere alle varie
+                            necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.
+                        </p>
 
                     </div>
                     <div>
                         <a class="nectar-button medium see-through extra-color-3 has-icon"
                            style="border-radius: 200px !important;border: 2px solid rgba(0,0,0,0.75);padding: 9px 42px;font-size: 12px;font-family: Montserrat;font-weight: normal;letter-spacing: 2px;line-height: 20px;text-transform: uppercase;"
                            href="/assicurazione-ticino/">
-                            <span>Scopri di più</span><i class="icon-button-arrow" style="color: rgb(0, 0, 0);"/>
+                            <span>Scopri di più</span>
+                            <i class="icon-button-arrow" style="color: rgb(0, 0, 0);"/>
                         </a>
                     </div>
 
@@ -75,9 +85,11 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3>Ass. aziendali</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Le assicurazioni aziendali sono molte ma noi ti staremo accanto per darti le migliori
-                                soluzioni per la tua impresa.</p>
+                            <h3 style="    font-family: Montserrat;">Ass. aziendali</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Le assicurazioni aziendali sono
+                                molte ma noi ti staremo accanto per darti le migliori
+                                soluzioni per la tua impresa.
+                            </p>
 
                         </div>
                     </div>
@@ -94,10 +106,12 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3>Assicurazione auto</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">La professionalità che dedichiamo alla nostra attività, e l’approccio innovativo dei
+                            <h3 style="    font-family: Montserrat;">Assicurazione auto</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">La professionalità che
+                                dedichiamo alla nostra attività, e l’approccio innovativo dei
                                 nostri servizi hanno permesso a TiAssicuro di divenire un punto di riferimento per i
-                                cittadini svizzeri in cerca di una polizza assicurativa per l’auto.</p>
+                                cittadini svizzeri in cerca di una polizza assicurativa per l’auto.
+                            </p>
 
                         </div>
                     </div>
@@ -114,10 +128,12 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3>Protezione giuridica</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Affrontare gli incidenti e gli inconvenienti della quotidianità affiancati dalla
+                            <h3 style="    font-family: Montserrat;">Protezione giuridica</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Affrontare gli incidenti e gli
+                                inconvenienti della quotidianità affiancati dalla
                                 competenza di tecnici esperti: è questo che si realizza con un’assicurazione di
-                                protezione giuridica in Svizzera.</p>
+                                protezione giuridica in Svizzera.
+                            </p>
 
                         </div>
                     </div>
@@ -134,9 +150,11 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3>Cassa malati</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato
-                                di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.</p>
+                            <h3 style="    font-family: Montserrat;">Cassa malati</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro offre possibilità
+                                concrete di risparmio presentando un servizio personalizzato
+                                di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.
+                            </p>
 
                         </div>
                     </div>
@@ -153,10 +171,12 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3>Terzo pilastro</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Il <strong>terzo pilastro in Svizzera</strong>, completa gli spazi vuoti lasciati
+                            <h3 style="    font-family: Montserrat;">Terzo pilastro</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Il <strong>terzo pilastro in
+                                Svizzera</strong>, completa gli spazi vuoti lasciati
                                 dal primo e dal secondo pilastro (le cosiddette lacune previdenziali) con iniziative
-                                private integrative.</p>
+                                private integrative.
+                            </p>
 
                         </div>
                     </div>
@@ -170,22 +190,30 @@
                         <div>
                             <div class="wrap"
                                  style="background-color: #ea1d28;padding: 5px 10px;display: inline-block;">
-                                <span>Per la tua Azienda</span>
+                                <span style="font-family: Montserrat;
+    font-weight: 600;">Per la tua Azienda
+                                </span>
                             </div>
                         </div>
                         <div class="heading-line">
                             <div style="transform: translate(0px);">
-                                <h2>Essere un imprenditore è una cosa seria.</h2>
+                                <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">Essere un imprenditore è una cosa seria.
+                                </h2>
                             </div>
                         </div>
                         <div class="wpb_wrapper">
                             <p style="color: rgba(255,255,255,0.71);text-align: left"
                                class="vc_custom_heading vc_custom_1643211679194">La nostra società offre
                                 soluzioni mirate per tutti i rami aziendali in modo che il tuo unico
-                                pensiero debba essere come far aumentare il tuo fatturato.<br/>
+                                pensiero debba essere come far aumentare il tuo fatturato.
+                                <br/>
                                 Lasciaci fare il nostro lavoro e tu sarai libero di fare al meglio il
                                 tuo.
-                                Insieme saremo un ottimo Team.</p>
+                                Insieme saremo un ottimo Team.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -201,23 +229,36 @@
                             <div class="nectar-animated-title-inner">
                                 <div class="wrap"
                                      style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
-                                    <span>Per la tua Auto</span>
+                                    <span style="font-family: Montserrat;font-weight: 600;">Per la tua Auto</span>
                                 </div>
                             </div>
                             <div class="nectar-split-heading">
                                 <div class="heading-line">
                                     <div>
-                                        <h2>L’assicurazione auto</h2>
+                                        <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">L’assicurazione auto
+                                        </h2>
                                     </div>
                                 </div>
                                 <div class="heading-line">
                                     <div>
-                                        <h2>per tenere al sicuro</h2>
+                                        <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">per tenere al sicuro
+                                        </h2>
                                     </div>
                                 </div>
-                                <div class="heading-line"><div>
-                                    <h2>il tuo veicolo e i tuoi cari</h2>
-                                </div>
+                                <div class="heading-line">
+                                    <div>
+                                        <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">il tuo veicolo e i tuoi cari
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
                             <p style="color: rgba(255,255,255,0.7);text-align: left" class="vc_custom_heading">
@@ -227,14 +268,20 @@
                                 notevolmente
                                 attraverso la scelta di servizi mirati e specifici e partnership con
                                 le
-                                migliori compagnie assicurative in svizzera sul mercato.</p>
+                                migliori compagnie assicurative in svizzera sul mercato.
+                            </p>
                         </div>
                         <div class="wpb_wrapper">
                             <a class="nectar-button large see-through-2  has-icon"
                                style="margin-top: 35px;color: rgb(255, 255, 255);border-radius: 200px !important;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;"
                                href="/home">
-                                <span>Richiedi un appuntamento</span><i class="icon-button-arrow"
-                                                                        style="color: rgb(255, 255, 255);"></i></a>
+                                <span style="font-family: Montserrat;
+    font-weight: normal;">RICHIEDI UN APPUNTAMENTO
+                                </span>
+                                <i class="icon-button-arrow"
+                                   style="color: rgb(255, 255, 255);font-family: Montserrat;
+    font-weight: normal;"></i>
+                            </a>
                         </div>
 
                     </div>
@@ -251,14 +298,20 @@
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
                             <div class="wrap"
                                  style="display: inline-block;padding: 5px 10px;background-color: #ea1d28;color: #fff;">
-                                <span>Per i tuoi figli</span>
+                                <span style="font-family: Montserrat;font-weight: 600;">Per i tuoi figli</span>
                             </div>
                         </div>
                         <div class="wpb_text_column wpb_content_element  vc_custom_1523633111143"
                              style=" max-width: 700px; display: inline-block;margin-bottom: 30px;color: #000000;">
                             <div class="wpb_wrapper">
-                                <h2><span style="color: #000000;">Una polizza assicurativa unica per tuo figlio e per il
-                                    suo futuro.. per la sua università!</span></h2>
+                                <h2 style="font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">
+                                    <span style="color: #000000;">Una polizza assicurativa unica per tuo figlio e per il
+                                        suo futuro.. per la sua università!
+                                    </span>
+                                </h2>
 
                             </div>
                         </div>
@@ -268,17 +321,26 @@
                             <div class="wpb_wrapper">
                                 <p>TiAssicuro offre ai propri Clienti polizze su misura per il futuro scolastico o
                                     lavorativo dei vostri figli garantendo con un <strong>minimo di
-                                        investimento </strong>(a partire da soli 50 Franchi mese), una certezza
+                                        investimento</strong>(a partire da soli 50 Franchi mese), una certezza
                                     dell’investimento sostenuto affinchè i vostri figli possano avere gli strumenti per
-                                    esaudire i loro sogni.</p>
+                                    esaudire i loro sogni.
+                                </p>
 
                             </div>
                         </div>
                         <div class="nectar-cta" style="color: #444;">
-                            <h4><span class="text">Vuoi saperne di più? </span>
-                                <span class="link_wrap"><a target="_blank" class="link_text" href="tel:+41912908161"
-                                                           style="color: #444;">
-                                    Contattaci al +41 91 290 81 61<span class="arrow"></span></a></span></h4></div>
+                            <h4 style="font-size: 16.2px;
+        line-height: 25.2px;">
+                                <span class="text">Vuoi saperne di più?</span>
+                                <span class="link_wrap">
+                                    <a target="_blank" class="link_text" href="tel:+41912908161"
+                                       style="color: #444; padding-right: 36px; display: inline-block;">
+                                        Contattaci al +41 91 290 81 61
+                                        <span class="arrow"></span>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
                     </div>
                     <div class="inner align-self-lg-end">
                         <img data-shadow="none" data-shadow-direction="middle" class="img-with-animation "
@@ -298,24 +360,34 @@
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
                             <div class="wrap"
                                  style="background-color: #ea1d28;display: inline-block;padding: 5px 10px;color: #fff;">
-                                <span>Terzo Pilastro</span>
+                                <span style="font-size: 14px;
+        line-height: 24px;font-family: Montserrat;font-weight: 600;">Terzo Pilastro</span>
                             </div>
                         </div>
 
                         <div class="nectar-split-heading" style="margin-bottom: 24px;color: #444;">
                             <div class="heading-line">
                                 <div>
-                                    <h1>Con TiAssicuro</h1>
+                                    <h1 style="font-size: 35.1px;
+        line-height: 39px;font-family: Montserrat;
+    letter-spacing: -1px;
+    font-weight: 600;    color: #444;">Con TiAssicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div>
-                                    <h1>metti al sicuro</h1>
+                                    <h1 style="font-size: 35.1px;
+        line-height: 39px;font-family: Montserrat;
+    letter-spacing: -1px;
+    font-weight: 600;    color: #444;">metti al sicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div>
-                                    <h1>la tua vecchiaia!</h1>
+                                    <h1 style="font-size: 35.1px;
+        line-height: 39px;font-family: Montserrat;
+    letter-spacing: -1px;
+    font-weight: 600;    color: #444;">la tua vecchiaia!</h1>
                                 </div>
                             </div>
                         </div>
@@ -323,7 +395,8 @@
                         <div class="wpb_wrapper">
                             <p style="text-align: left" class="vc_custom_heading">Metti al sicuro la tua
                                 vecchiaia con copertura finanziaria in caso di incapacità di guadagno e
-                                colmando le lacune previdenziali per famiglia e partner.</p>
+                                colmando le lacune previdenziali per famiglia e partner.
+                            </p>
                         </div>
 
                     </div>
@@ -341,14 +414,20 @@
                         <div class="wpb_text_column wpb_content_element  vc_custom_1643211478826"
                              style="max-width: 800px;align-self: center;margin-bottom: 45px;">
                             <div class="wpb_wrapper d-flex justify-content-center flex-column">
-                                <h2 style="text-align: center;">IL TUO CONSULENTE DI FIDUCIA</h2>
+                                <h2 style="text-align: center;font-size: 25.5px;
+    line-height: 31.5px;
+    font-family: Montserrat;
+    font-weight: 600;">IL TUO CONSULENTE DI FIDUCIA</h2>
                                 <p class="adifferenza" style="text-align: center;">A differenza delle compagnie
                                     assicurative che propongono
                                     soluzioni standard, TiAssicuro ti offre il sistema più adatto alle tua esigenze
-                                    personali.<br/>
+                                    personali.
+                                    <br/>
                                     Cercheremo tra le varie compagnie e ti proporremo solo i servizi migliori per le
-                                    te.<br/>
-                                    In pratica Risparmi Tempo e Denaro.</p>
+                                    te.
+                                    <br/>
+                                    In pratica Risparmi Tempo e Denaro.
+                                </p>
 
                             </div>
                         </div>
@@ -357,7 +436,8 @@
                             <a class="nectar-button medium see-through-3"
                                style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,1);padding: 10px 15px;text-align: center;"
                                href="/preventivo-assicurazione-ticino-svizzera/">
-                                <span>Contattaci per una consulenza gratuita</span>
+                                <span style="font-family: Montserrat;
+    font-weight: normal;text-transform: uppercase;font-size: 12px;letter-spacing: 2px;">Contattaci per una consulenza gratuita</span>
                             </a>
                         </div>
 
