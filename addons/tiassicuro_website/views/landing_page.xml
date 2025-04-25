@@ -31,132 +31,236 @@
                 <div class="list-partner">
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/ACS-1.jpg"/>
-                        <h4>ACS</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">ACS
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Allianz.jpg"/>
-                        <h4>Allianz</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Allianz
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Animalia-Copy.jpg"/>
-                        <h4>Animalia</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Animalia
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/ARAG.jpg"/>
-                        <h4>Arag</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Arag
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/ASN-international.jpg"/>
-                        <h4>ASN-International</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">ASN-International
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/automate-1.jpg"/>
-                        <h4>Automate Insurance</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Automate Insurance
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/axa-1.jpg"/>
-                        <h4>AxA</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">AxA
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Basilese-1.jpg"/>
-                        <h4>Basilese</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Basilese
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/CSS-1.jpg"/>
-                        <h4>CSS</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">CSS
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Dextra-1.jpg"/>
-                        <h4>Dextra</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Dextra
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Generali-1.jpg"/>
-                        <h4>GENERALI</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">GENERALI
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Groupe-mutuel-1.png"/>
-                        <h4>Groupe Mutuel</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Groupe Mutuel
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Helsana-1.jpg"/>
-                        <h4>Helsana</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Helsana
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Helvetia-1.jpg"/>
-                        <h4>Helvetia</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Helvetia
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/La-mobiliare-1.jpg"/>
-                        <h4>La mobiliare</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">La mobiliare
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Liechtenstein-Life-1.jpg"/>
-                        <h4>Liechtenstein Life</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Liechtenstein Life
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Okk-1.jpg"/>
-                        <h4>OKK</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">OKK
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Orion-1.jpg"/>
-                        <h4>ORION</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">ORION
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/PAx-1.jpg"/>
-                        <h4>PAX</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">PAX
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Sanitas-1.jpg"/>
-                        <h4>Sanitas</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Sanitas
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Suva-Logo-1.jpg"/>
-                        <h4>SUVA</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">SUVA
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Swica-1.jpg"/>
-                        <h4>Swica</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Swica
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Swiss-Life-1.png"/>
-                        <h4>Swiss Life</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Swiss Life
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Vaudoise-1.png"/>
-                        <h4>Vaudoise</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Vaudoise
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/Visana-1.png"/>
-                        <h4>Visana</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Visana
+                        </h4>
                     </div>
 
                     <div class="partner">
                         <img src="/tiassicuro_website/static/src/img/zurich-1.png"/>
-                        <h4>Zurich</h4>
+                        <h4 style="font-size: 16.2px;
+  line-height: 25.2px;
+  font-family: Montserrat;
+  font-weight: 300;">Zurich
+                        </h4>
                     </div>
 
                 </div>

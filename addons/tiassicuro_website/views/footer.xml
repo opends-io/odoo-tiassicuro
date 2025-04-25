@@ -15,7 +15,10 @@
                         <div id="text-2" class="widget widget_text">
                             <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">TiAssicuro</h4>
                             <div class="textwidget">
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/assicurazione-ticino/">Chi siamo</a>
                                     <br/>
                                     Impegno e Mission
@@ -30,16 +33,25 @@
                         <div id="text-3" class="widget widget_text">
                             <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Servizio Clienti</h4>
                             <div class="textwidget">
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/cassa-malati">Cassa malati Svizzera
                                     </a>
                                 </p>
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/cassa-malati-trasferirsi">Cassa malati per trasferirsi in
                                         Svizzera
                                     </a>
                                 </p>
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/protezione-giuridica-svizzera/">Assicurazione Protezione Giuridica</a>
                                 </p>
                             </div>
@@ -48,7 +60,10 @@
                         <div id="text-4" class="widget widget_text">
                             <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Accesso Diretto</h4>
                             <div class="textwidget">
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e feedback</a>
                                     <br/>
                                     <a href="/note-legali">Note Legali</a>
@@ -64,7 +79,10 @@
                             <h4 style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Aree assicurative
                             </h4>
                             <div class="textwidget">
-                                <p>
+                                <p style="line-height: 26px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 300;">
                                     <a href="/assicurazione">Assicurazione auto Svizzera</a>
                                     <br/>
                                     <a href="/protezione-giuridica-svizzera">Protezione Giuridica Svizzera</a>
@@ -82,7 +100,7 @@
                 <div style="border-top: 1px solid rgba(255,255,255,0.18) !important;">
                     <div class="container copyright" style="padding-top: 20px;padding-bottom: 20px;">
                         <div class="">
-                            <p style="font-size: 12px;">
+                            <p style="font-size: 12px; font-weight: 300; font-family: Montserrat;">
                                 © TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41 91 290 81 61
                                 (diretto) • E.
                                 <a href="mailto:info@tiassicuro.ch">info@tiassicuro.ch</a>

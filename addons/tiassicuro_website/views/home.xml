@@ -8,25 +8,33 @@
                     <div>
                         <div class="wrap" style="margin-bottom: 10px;">
                             <div style="display: inline-block;background-color: #ea1d28;padding: 5px 10px;">
-                                <h6 style="color:white ;">Cassa Malati</h6>
+                                <h6 style="color:white;margin-bottom: 0 !important;">Cassa Malati</h6>
                             </div>
                         </div>
                         <div class="nectar-split-heading animated-in" style="margin-bottom: 24px;">
                             <div class="heading-line">
                                 <div style="transform: translate(0px, 0px);">
-                                    <h1>Con TiAssicuro</h1>
+                                    <h1 style="{
+  font-family: Montserrat;
+  letter-spacing: -1px;
+  font-weight: 600;
+}">Con TiAssicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div style="transform: translate(0px, 0px);">
-                                    <h1>scegli
+                                    <h1 style="{
+  font-family: Montserrat;
+  letter-spacing: -1px;
+  font-weight: 600;
+}">scegli
                                         l’assicurazione sicura!
                                     </h1>
                                 </div>
                             </div>
                         </div>
                         <div class="wpb_wrapper">
-                            <p style="color: rgba(255,255,255,0.7);text-align: left" class="vc_custom_heading">Tra le
+                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: Montserrat;font-weight: 300;font-size: 14px;line-height: 26px;" class="vc_custom_heading">Tra le
                                 polizze che TiAssicuro propone ai suoi clienti vi è la Cassa malati, che rappresenta un
                                 serio ed importante investimento sul futuro di ogni famiglia. Stipulando questo tipo di
                                 assicurazione sulla vita, infatti, è possibile raggiungere un discreto livello di
@@ -52,13 +60,12 @@
             <div class="container card-grid padding-section min-height-section">
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
-                        <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
+                        <h2 style="
     font-family: Montserrat;
     font-weight: 600;
     color: #444;">Il metodo migliore per scegliere l’assicurazione più giusta per te!
                         </h2>
-                        <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro copre un ampio ventaglio
+                        <p style="font-weight: 300; font-size: 14px; color: #676767; font-family: Montserrat;">TiAssicuro copre un ampio ventaglio
                             di soluzioni assicurative, pronti a rispondere alle varie
                             necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.
                         </p>
@@ -85,8 +92,8 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="    font-family: Montserrat;">Ass. aziendali</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Le assicurazioni aziendali sono
+                            <h3 style=" font-family: Montserrat;">Ass. aziendali</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Le assicurazioni aziendali sono
                                 molte ma noi ti staremo accanto per darti le migliori
                                 soluzioni per la tua impresa.
                             </p>
@@ -106,8 +113,8 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="    font-family: Montserrat;">Assicurazione auto</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">La professionalità che
+                            <h3 style="font-family: Montserrat;">Assicurazione auto</h3>
+                            <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">La professionalità che
                                 dedichiamo alla nostra attività, e l’approccio innovativo dei
                                 nostri servizi hanno permesso a TiAssicuro di divenire un punto di riferimento per i
                                 cittadini svizzeri in cerca di una polizza assicurativa per l’auto.
@@ -129,7 +136,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3 style="    font-family: Montserrat;">Protezione giuridica</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Affrontare gli incidenti e gli
+                            <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Affrontare gli incidenti e gli
                                 inconvenienti della quotidianità affiancati dalla
                                 competenza di tecnici esperti: è questo che si realizza con un’assicurazione di
                                 protezione giuridica in Svizzera.
@@ -151,7 +158,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3 style="    font-family: Montserrat;">Cassa malati</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">TiAssicuro offre possibilità
+                            <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">TiAssicuro offre possibilità
                                 concrete di risparmio presentando un servizio personalizzato
                                 di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.
                             </p>
@@ -172,7 +179,7 @@
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
                             <h3 style="    font-family: Montserrat;">Terzo pilastro</h3>
-                            <p style="font-weight: 300;font-size: 14px;color: #676767;">Il <strong>terzo pilastro in
+                            <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Il <strong>terzo pilastro in
                                 Svizzera</strong>, completa gli spazi vuoti lasciati
                                 dal primo e dal secondo pilastro (le cosiddette lacune previdenziali) con iniziative
                                 private integrative.
@@ -205,7 +212,8 @@
                             </div>
                         </div>
                         <div class="wpb_wrapper">
-                            <p style="color: rgba(255,255,255,0.71);text-align: left"
+                            <p style="color: rgba(255,255,255,0.71);text-align: left;  font-family: Montserrat;
+  font-weight: 300;font-size: 14px;"
                                class="vc_custom_heading vc_custom_1643211679194">La nostra società offre
                                 soluzioni mirate per tutti i rami aziendali in modo che il tuo unico
                                 pensiero debba essere come far aumentare il tuo fatturato.
@@ -235,33 +243,25 @@
                             <div class="nectar-split-heading">
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">L’assicurazione auto
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">L’assicurazione auto
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">per tenere al sicuro
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">per tenere al sicuro
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">il tuo veicolo e i tuoi cari
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">il tuo veicolo e i tuoi cari
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p style="color: rgba(255,255,255,0.7);text-align: left" class="vc_custom_heading">
+                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: Montserrat;
+  font-weight: 300;font-size: 14px;" class="vc_custom_heading">
                                 TiAssicuro prevede polizze auto su
                                 misura
                                 secondo le tue necessità ed esigenze facendoti risparmiare
@@ -319,7 +319,8 @@
                         <div class="wpb_text_column wpb_content_element  vc_custom_1611603456012"
                              style=" max-width: 800px; display: inline-block;margin-bottom: 45px;color: #676767;">
                             <div class="wpb_wrapper">
-                                <p>TiAssicuro offre ai propri Clienti polizze su misura per il futuro scolastico o
+                                <p style="font-family: Montserrat;font-weight: 300;font-size: 14px;">
+                                    TiAssicuro offre ai propri Clienti polizze su misura per il futuro scolastico o
                                     lavorativo dei vostri figli garantendo con un <strong>minimo di
                                         investimento</strong>(a partire da soli 50 Franchi mese), una certezza
                                     dell’investimento sostenuto affinchè i vostri figli possano avere gli strumenti per
@@ -329,8 +330,7 @@
                             </div>
                         </div>
                         <div class="nectar-cta" style="color: #444;">
-                            <h4 style="font-size: 16.2px;
-        line-height: 25.2px;">
+                            <h4 style="font-size: 16.2px;line-height: 25.2px;">
                                 <span class="text">Vuoi saperne di più?</span>
                                 <span class="link_wrap">
                                     <a target="_blank" class="link_text" href="tel:+41912908161"
