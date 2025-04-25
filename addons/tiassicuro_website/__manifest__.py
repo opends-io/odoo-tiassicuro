@@ -2,7 +2,7 @@
 {
     "name": "Tiassicuro Website",
     "description": "Customization for Tiassicuro Website",
-    "version": "1.0",
+    "version": "1.0.0",
     "category": "Website",
     "author": "Opends",
     "depends": ['website', 'theme_default', 'tiassicuro_crm'],
