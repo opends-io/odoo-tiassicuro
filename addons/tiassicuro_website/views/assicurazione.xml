@@ -1,147 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="tiassicuro_website.footer_custom" inherit_id="website.footer_custom"
-              name="Default" active="True">
+    <template id="tiassicuro_website.assicurazione" name="Assicurazione Tiassicuro">
+        <t t-call="website.layout">
+           <div class="hero-assic">
+                <div class="container padding-section card-float-right">
+                    <div></div>
+                    <div class="wpb_wrapper">
+                        <h1 style="text-align: left;">Assicurazione auto svizzera</h1>
 
-        <xpath expr="//footer[@id='bottom']" position="attributes">
-            <attribute name="t-attf-class" remove="o_footer" separator=" " />
-        </xpath>
+                        <h4 style="text-align: justify; font-size: 18px;
+                        line-height: 32px;font-family: Montserrat;font-weight: 600;">TiAssicuro è la nuova realtà del Canton Ticino per l’Assicurazione auto svizzera</h4>
 
-        <xpath expr="//div[@id='footer']" position="replace">
-            <t t-set="no_copyright" t-value="True" />
-            <div style="background-color: #ea1d24 !important;color: #ffffff !important;"
-                 class="footer-wrapper">
-                <div>
-                    <div class="container footer-widgets"
-                         style="padding-top: 55px;padding-bottom: 55px;">
-
-                        <div id="text-2" class="widget widget_text">
-                            <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
-                                    spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
-                                TiAssicuro</h4>
-                            <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/assicurazione-ticino/">Chi siamo</a>
-                                    <br/>
-                                    Impegno e
-                                    Mission<br />
-                                    <a href="/lavora-con-noi">Lavora con noi</a>
-                                    <br />
-                                    <a
-                                            href="/preventivo-assicurazione-ticino-svizzera">Preventivo
-                                            e Contatti</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="text-3" class="widget widget_text">
-                            <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
-                                    spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Servizio
-                                Clienti</h4>
-                            <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/cassa-malati">Cassa malati Svizzera
-                                    </a>
-                                </p>
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/cassa-malati-trasferirsi">Cassa malati per trasferirsi
-                                        in
-                                        Svizzera
-                                    </a>
-                                </p>
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/protezione-giuridica-svizzera/">Assicurazione
-                                        Protezione Giuridica</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="text-4" class="widget widget_text">
-                            <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
-                                    spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Accesso
-                                Diretto</h4>
-                            <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e
-                                        feedback</a>
-                                    <br />
-                                    <a href="/note-legali">Note Legali</a>
-                                    <br />
-                                    <a href="/informazione-privacy">Informativa Privacy</a>
-                                    <br />
-                                    <a href="/cookie-policy-tiassicuro">Cookie Policy</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="text-5" class="widget widget_text">
-                            <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
-                                    spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
-                                Aree
-                                assicurative
-                            </h4>
-                            <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
-                                    <a href="/assicurazione">Assicurazione auto Svizzera</a>
-                                    <br />
-                                    <a href="/protezione-giuridica-svizzera">Protezione Giuridica
-                                        Svizzera</a>
-                                    <br />
-                                    <a href="/cassa-malati">Cassa malati Svizzera
-                                    </a>
-                                    <br />
-                                    <a href="/terzo-pilastro-svizzera">Terzo Pilastro Svizzera</a>
-                                </p>
-                            </div>
-                        </div>
+                        <p style="text-align: justify;font-family: Montserrat;font-weight: 300; font-size: 14px; line-height: 26px;">
+                            Inizialmente TiAssicuro si è fatta conoscere grazie ad una serie di servizi di consulenza assicurativa. Grazie alla pluriennale
+                            esperienza maturata dal titolare in ambito assicurativo, TiAssicuro è cresciuta velocemente, arricchendo il suo portafoglio di servizi.
+                            Uno dei punti cardine, fin dagli esordi, è la volontà di garantire la massima tutela a tutti i cittadini. Fanno parte dei prodotti
+                            principali l’assicurazione sanitaria svizzera (conosciuta come Cassa Malati Svizzera e Canton Ticino), l’assicurazione Auto Svizzera, la
+                            Protezione Giuridica Svizzera e le Polizze Vita.</p>
 
                     </div>
+
                 </div>
-                <div style="border-top: 1px solid rgba(255,255,255,0.18) !important;">
-                    <div class="container copyright" style="padding-top: 20px;padding-bottom: 20px;">
+            </div>
+
+            <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
+                <div class="wpb_wrapper wpb_wrapper2">
+                    <h2 style="text-align: center;    margin-bottom: 24px;
+    font-size: 25.5px;
+    font-weight: 600;
+    line-height: 31.5px;
+    font-family: Montserrat;color: #444;">I punti di forza delle soluzioni TiAssicuro</h2>
+
+                    <div class="" style="text-align: justify;font-family: Montserrat;
+    font-weight: 300;
+    line-height: 26px;
+    color: #676767;
+    font-size: 14px;">
+                        La scelta del nome “TiAssicuro” non è casuale. Abbiamo voluto subito rendere chiara alla clientela la nostra idea di assicurazione.
+                        Se la professionalità e l’esperienza del team sono fattori fondamentali, altrettanto importante è la passione che mettiamo in tutto quello che
+                        facciamo. Negli ultimi anni, il mondo delle assicurazioni si è arricchito di una moltitudine di nuove società, attente soprattutto a trasmettere
+                        un’immagine seria, ed a seguire procedure estremamente rigide e formali. Questo, in molti casi, porta i clienti a far fronte ad inevitabili
+                        lungaggini burocratiche. Noi abbiamo voluto porre la soddisfazione dei consumatori al centro dei nostri pensieri.</div>
+
+                </div>
+            </div>
+
+            <div class="card-grid-section-assic">
+
+                <div class="wpb_wrapper container padding-section">
+                    <h2 style="margin-bottom: 24px;font-size: 25.5px;font-weight: 600; line-height: 31.5px;  font-family: Montserrat;color: #444;">Professionalità,<br/>
+                        passione e soluzioni<br/>
+                        assicurative mirate</h2>
+                    <div class="">
+                        <div class="" style="text-align: justify;font-family: Montserrat;
+    font-weight: 300;
+    line-height: 26px;
+    color: #676767;
+    font-size: 14px;">Il genuino entusiasmo con il quale siamo
+                                                                    soliti gestire ogni pratica ci spinge ad operare con
+                                                                    la massima solerzia. Solo in questo modo chi si
+                                                                    affida a noi è certo di rimanere estremamente
+                                                                    soddisfatto dai servizi proposti.
+                                                                <br/>
+                                                                <br/>
+
+                            Siamo costantemente impegnati nel
+                                                                    selezionare accuratamente le soluzioni più idonee al
+                                                                    singolo caso, monitorando quanto esistente sul
+                                                                    mercato. Siamo fortemente determinati nel nostro
+                                                                    lavoro e, allo stesso tempo, convinti che anno dopo
+                                                                    anno l’esperienza ci aiuterà a fornire servizi
+                                                                    sempre più specifici.
+                                                                </div>
+                    </div>
+
+                </div>
+
+                <div style="background-image: url(/tiassicuro_website/static/src/img/profesionalita.jpg); min-height: 630px;background-position: center;
+  background-size: cover;background-repeat: no-repeat;"></div>
+
+                <div class="inner">
+                    <img data-shadow="none" data-shadow-direction="middle"
+                         class="img-with-animation  animated-in" height="1620"
+                         width="1185"
+                         src="/tiassicuro_website/static/src/img/unarealta.png"
+                         sizes="100vw" alt="" style="opacity: 1;"/>
+                </div>
+
+                <div class="wpb_text_column container padding-section d-flex align-items-center">
+                    <div class="wpb_wrapper">
+                        <h2 style="margin-bottom: 24px;
+    font-size: 25.5px;
+    font-weight: 600;
+    line-height: 31.5px;
+    font-family: Montserrat;color: #444;">Una realtà<br/>
+                            orientata al futuro</h2>
                         <div class="">
-                            <p style="font-size: 12px;">© TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41 91 290 81 61
-                                (diretto) • E. <a
-                                        href="mailto:info@tiassicuro.ch">info@tiassicuro.ch</a>• v1.0.0</p>
+                            <div class="" style="text-align: justify;font-family: Montserrat;
+    font-weight: 300;
+    line-height: 26px;
+    color: #676767;
+    font-size: 14px;">Già oggi, nel Canton Ticino,
+                                                                    rappresentiamo, tra le piccole imprese, una delle
+                                                                    società di intermediazione assicurativa più note. La
+                                                                    professionalità che dedichiamo alla nostra attività,
+                                                                    e l’approccio innovativo dei nostri servizi hanno
+                                                                    permesso a TiAssicuro di divenire un punto di
+                                                                    riferimento per i cittadini svizzeri in cerca di una
+                                                                    polizza assicurativa per l’auto e per la casa. Allo
+                                                                    stesso tempo, sono sempre più numerose le persone
+                                                                    che si affidano a noi per stipulare un’assicurazione
+                                                                    vita o sulla salute.
+                                                                </div>
                         </div>
-                        <div class="justify-content-md-end" style="display: flex;gap: 25px;">
-                            <a target="_blank" href="https://www.facebook.com/Tiassicuro.ch/">
-                                <i
-                                        class="fa fa-facebook"></i>
-                            </a>
-                            <a target="_blank" href="https://www.instagram.com/_tiassicuro_/">
-                                <i
-                                        class="fa fa-instagram"></i>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
 
             </div>
-        </xpath>
 
+            <div class="hero-assic1" style="position: relative">
+                <div class="inner-assic-wrap1">
+                </div>
+                <div class="container padding-section wpb_wrapper1" style="position: relative;z-index: 5;">
+                    <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
+                        <div class="wpb_wrapper">
+                            <h2 style="text-align: center; font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">Contattateci per proteggere famiglia, casa e autovettura</h2>
+                            <h5 style="text-align: center;font-family: Montserrat;font-weight: 600; ">Vivere la pensione serenamente, e non
+                                                doversi preoccupare per il futuro dei nostri figli è possibile; è
+                                                sufficiente scegliere TiAssicuro per trasformare una timida speranza in
+                                                una solida realtà. Siamo a vostra disposizione per fornirvi maggiori
+                                                informazioni; non esitate a contattarci!</h5>
+
+                        </div>
+                    </div>
+                     <div class="d-flex justify-content-center">
+                        <a class="nectar-button medium see-through-3"
+                           style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;text-align: center;"
+                           href="/assicurazione">
+                            <span style="text-transform: uppercase;
+    letter-spacing: 2px;">Chiamaci</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </t>
 
     </template>
 </odoo>
