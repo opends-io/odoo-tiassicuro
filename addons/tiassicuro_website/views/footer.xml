@@ -17,14 +17,11 @@
 
                         <div id="text-2" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
+                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
                                 TiAssicuro</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/assicurazione-ticino/">Chi siamo</a>
                                     <br/>
                                     Impegno e
@@ -40,30 +37,21 @@
 
                         <div id="text-3" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
+                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Servizio
                                 Clienti</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/cassa-malati">Cassa malati Svizzera
                                     </a>
                                 </p>
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/cassa-malati-trasferirsi">Cassa malati per trasferirsi
                                         in
                                         Svizzera
                                     </a>
                                 </p>
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/protezione-giuridica-svizzera/">Assicurazione
                                         Protezione Giuridica</a>
                                 </p>
@@ -72,14 +60,11 @@
 
                         <div id="text-4" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
+                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Accesso
                                 Diretto</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e
                                         feedback</a>
                                     <br />
@@ -94,16 +79,13 @@
 
                         <div id="text-5" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: Montserrat;font-size: 12px;letter-
+                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
                                 Aree
                                 assicurative
                             </h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">
+                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/assicurazione">Assicurazione auto Svizzera</a>
                                     <br />
                                     <a href="/protezione-giuridica-svizzera">Protezione Giuridica
@@ -138,10 +120,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </xpath>
-
-
     </template>
 </odoo>

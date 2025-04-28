@@ -14,27 +14,20 @@
                         <div class="nectar-split-heading animated-in" style="margin-bottom: 24px;">
                             <div class="heading-line">
                                 <div style="transform: translate(0px, 0px);">
-                                    <h1 style="{
-  font-family: Montserrat;
-  letter-spacing: -1px;
-  font-weight: 600;
-}">Con TiAssicuro</h1>
+                                    <h1>Con TiAssicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div style="transform: translate(0px, 0px);">
-                                    <h1 style="{
-  font-family: Montserrat;
-  letter-spacing: -1px;
-  font-weight: 600;
-}">scegli
+                                    <h1 style="{font-family: 'Montserrat', sans-serif;letter-spacing: -1px;font-weight: 600;}">scegli
                                         l’assicurazione sicura!
                                     </h1>
                                 </div>
                             </div>
                         </div>
                         <div class="wpb_wrapper">
-                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: Montserrat;font-weight: 300;font-size: 14px;line-height: 26px;" class="vc_custom_heading">Tra le
+                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;"
+                               class="vc_custom_heading">Tra le
                                 polizze che TiAssicuro propone ai suoi clienti vi è la Cassa malati, che rappresenta un
                                 serio ed importante investimento sul futuro di ogni famiglia. Stipulando questo tipo di
                                 assicurazione sulla vita, infatti, è possibile raggiungere un discreto livello di
@@ -60,12 +53,10 @@
             <div class="container card-grid padding-section min-height-section">
                 <div style="display: flex;flex-direction: column;gap: 15px;">
                     <div class="wpb_wrapper">
-                        <h2 style="
-    font-family: Montserrat;
-    font-weight: 600;
-    color: #444;">Il metodo migliore per scegliere l’assicurazione più giusta per te!
+                        <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 600;color: #444;">
+                            Il metodo migliore per scegliere l’assicurazione più giusta per te!
                         </h2>
-                        <p style="font-weight: 300; font-size: 14px; color: #676767; font-family: Montserrat;">TiAssicuro copre un ampio ventaglio
+                        <p style="font-weight: 300; font-size: 14px; color: #676767; font-family: 'Montserrat', sans-serif;">TiAssicuro copre un ampio ventaglio
                             di soluzioni assicurative, pronti a rispondere alle varie
                             necessità che possono presentarsi nelle diverse fasi della vita privata o lavorativa.
                         </p>
@@ -73,7 +64,8 @@
                     </div>
                     <div>
                         <a class="nectar-button medium see-through extra-color-3 has-icon"
-                           style="border-radius: 200px !important;border: 2px solid rgba(0,0,0,0.75);padding: 9px 42px;font-size: 12px;font-family: Montserrat;font-weight: normal;letter-spacing: 2px;line-height: 20px;text-transform: uppercase;"
+                           style="border-radius: 200px !important;border: 2px solid rgba(0,0,0,0.75);padding: 9px 42px;font-size: 12px;font-family: 'Montserrat', sans-serif;
+                           font-weight: normal;letter-spacing: 2px;line-height: 20px;text-transform: uppercase;"
                            href="/assicurazione-ticino/">
                             <span>Scopri di più</span>
                             <i class="icon-button-arrow" style="color: rgb(0, 0, 0);"/>
@@ -92,7 +84,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style=" font-family: Montserrat;">Ass. aziendali</h3>
+                            <h3 style=" font-family: 'Montserrat', sans-serif;">Ass. aziendali</h3>
                             <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Le assicurazioni aziendali sono
                                 molte ma noi ti staremo accanto per darti le migliori
                                 soluzioni per la tua impresa.
@@ -113,7 +105,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="font-family: Montserrat;">Assicurazione auto</h3>
+                            <h3 style="font-family: 'Montserrat', sans-serif;">Assicurazione auto</h3>
                             <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">La professionalità che
                                 dedichiamo alla nostra attività, e l’approccio innovativo dei
                                 nostri servizi hanno permesso a TiAssicuro di divenire un punto di riferimento per i
@@ -135,7 +127,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="    font-family: Montserrat;">Protezione giuridica</h3>
+                            <h3 style="    font-family: 'Montserrat', sans-serif;">Protezione giuridica</h3>
                             <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Affrontare gli incidenti e gli
                                 inconvenienti della quotidianità affiancati dalla
                                 competenza di tecnici esperti: è questo che si realizza con un’assicurazione di
@@ -157,7 +149,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="    font-family: Montserrat;">Cassa malati</h3>
+                            <h3 style="font-family: 'Montserrat', sans-serif;">Cassa malati</h3>
                             <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">TiAssicuro offre possibilità
                                 concrete di risparmio presentando un servizio personalizzato
                                 di cassa malati svizzera, assicurazione sanitaria Svizzera personale o famigliare.
@@ -178,7 +170,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
-                            <h3 style="    font-family: Montserrat;">Terzo pilastro</h3>
+                            <h3 style="font-family: 'Montserrat', sans-serif;">Terzo pilastro</h3>
                             <p style="font-weight: 300;font-size: 14px;color: #676767; line-height: 26px;">Il <strong>terzo pilastro in
                                 Svizzera</strong>, completa gli spazi vuoti lasciati
                                 dal primo e dal secondo pilastro (le cosiddette lacune previdenziali) con iniziative
@@ -188,8 +180,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <div class="hero1">
                 <div class="container padding-section min-height-section" style="padding-top: 65%;">
@@ -197,23 +187,20 @@
                         <div>
                             <div class="wrap"
                                  style="background-color: #ea1d28;padding: 5px 10px;display: inline-block;">
-                                <span style="font-family: Montserrat;
-    font-weight: 600;">Per la tua Azienda
+                                <span style="font-family: 'Montserrat', sans-serif;font-weight: 600;">
+                                    Per la tua Azienda
                                 </span>
                             </div>
                         </div>
                         <div class="heading-line">
                             <div style="transform: translate(0px);">
-                                <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">Essere un imprenditore è una cosa seria.
+                                <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">
+                                    Essere un imprenditore è una cosa seria.
                                 </h2>
                             </div>
                         </div>
                         <div class="wpb_wrapper">
-                            <p style="color: rgba(255,255,255,0.71);text-align: left;  font-family: Montserrat;
-  font-weight: 300;font-size: 14px;"
+                            <p style="color: rgba(255,255,255,0.71);text-align: left;  font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;"
                                class="vc_custom_heading vc_custom_1643211679194">La nostra società offre
                                 soluzioni mirate per tutti i rami aziendali in modo che il tuo unico
                                 pensiero debba essere come far aumentare il tuo fatturato.
@@ -243,24 +230,24 @@
                             <div class="nectar-split-heading">
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">L’assicurazione auto
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">L’assicurazione auto
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">per tenere al sicuro
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">per tenere al sicuro
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="heading-line">
                                     <div>
-                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: Montserrat;font-weight: 600;">il tuo veicolo e i tuoi cari
+                                        <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">il tuo veicolo e i tuoi cari
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: Montserrat;
+                            <p style="color: rgba(255,255,255,0.7);text-align: left;font-family: 'Montserrat', sans-serif;
   font-weight: 300;font-size: 14px;" class="vc_custom_heading">
                                 TiAssicuro prevede polizze auto su
                                 misura
@@ -275,7 +262,7 @@
                             <a class="nectar-button large see-through-2  has-icon"
                                style="margin-top: 35px;color: rgb(255, 255, 255);border-radius: 200px !important;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;"
                                href="/home">
-                                <span style="font-family: Montserrat;
+                                <span style="font-family: 'Montserrat', sans-serif;
     font-weight: normal;">RICHIEDI UN APPUNTAMENTO
                                 </span>
                                 <i class="icon-button-arrow"
@@ -298,16 +285,13 @@
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
                             <div class="wrap"
                                  style="display: inline-block;padding: 5px 10px;background-color: #ea1d28;color: #fff;">
-                                <span style="font-family: Montserrat;font-weight: 600;">Per i tuoi figli</span>
+                                <span style="font-family: 'Montserrat', sans-serif;font-weight: 600;">Per i tuoi figli</span>
                             </div>
                         </div>
                         <div class="wpb_text_column wpb_content_element  vc_custom_1523633111143"
                              style=" max-width: 700px; display: inline-block;margin-bottom: 30px;color: #000000;">
                             <div class="wpb_wrapper">
-                                <h2 style="font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">
+                                <h2 style="font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">
                                     <span style="color: #000000;">Una polizza assicurativa unica per tuo figlio e per il
                                         suo futuro.. per la sua università!
                                     </span>
@@ -319,7 +303,7 @@
                         <div class="wpb_text_column wpb_content_element  vc_custom_1611603456012"
                              style=" max-width: 800px; display: inline-block;margin-bottom: 45px;color: #676767;">
                             <div class="wpb_wrapper">
-                                <p style="font-family: Montserrat;font-weight: 300;font-size: 14px;">
+                                <p style="font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;">
                                     TiAssicuro offre ai propri Clienti polizze su misura per il futuro scolastico o
                                     lavorativo dei vostri figli garantendo con un <strong>minimo di
                                         investimento</strong>(a partire da soli 50 Franchi mese), una certezza
@@ -360,45 +344,36 @@
                         <div class="nectar-animated-title-inner" style="margin-bottom: 10px;">
                             <div class="wrap"
                                  style="background-color: #ea1d28;display: inline-block;padding: 5px 10px;color: #fff;">
-                                <span style="font-size: 14px;
-        line-height: 24px;font-family: Montserrat;font-weight: 600;">Terzo Pilastro</span>
+                                <span style="font-size: 14px;line-height: 24px;font-family: 'Montserrat', sans-serif;font-weight: 600;">Terzo Pilastro</span>
                             </div>
                         </div>
 
                         <div class="nectar-split-heading" style="margin-bottom: 24px;color: #444;">
                             <div class="heading-line">
                                 <div>
-                                    <h1 style="font-size: 35.1px;
-        line-height: 39px;font-family: Montserrat;
-    letter-spacing: -1px;
-    font-weight: 600;    color: #444;">Con TiAssicuro</h1>
+                                    <h1 style="font-size: 35.1px;line-height: 39px;font-family: 'Montserrat', sans-serif; letter-spacing: -1px;font-weight: 600;color: #444;">
+                                        Con TiAssicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div>
-                                    <h1 style="font-size: 35.1px;
-        line-height: 39px;font-family: Montserrat;
-    letter-spacing: -1px;
-    font-weight: 600;    color: #444;">metti al sicuro</h1>
+                                    <h1 style="font-size: 35.1px;line-height: 39px;font-family: 'Montserrat', sans-serif;letter-spacing: -1px;font-weight: 600;color: #444;">
+                                        metti al sicuro</h1>
                                 </div>
                             </div>
                             <div class="heading-line">
                                 <div>
-                                    <h1 style="font-size: 35.1px;
-        line-height: 39px;font-family: Montserrat;
-    letter-spacing: -1px;
-    font-weight: 600;    color: #444;">la tua vecchiaia!</h1>
+                                    <h1 style="font-size: 35.1px;line-height: 39px;font-family: 'Montserrat', sans-serif;letter-spacing: -1px;font-weight: 600; color: #444;">
+                                        la tua vecchiaia!</h1>
                                 </div>
                             </div>
                         </div>
-
                         <div class="wpb_wrapper">
                             <p style="text-align: left" class="vc_custom_heading">Metti al sicuro la tua
                                 vecchiaia con copertura finanziaria in caso di incapacità di guadagno e
                                 colmando le lacune previdenziali per famiglia e partner.
                             </p>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -414,10 +389,8 @@
                         <div class="wpb_text_column wpb_content_element  vc_custom_1643211478826"
                              style="max-width: 800px;align-self: center;margin-bottom: 45px;">
                             <div class="wpb_wrapper d-flex justify-content-center flex-column">
-                                <h2 style="text-align: center;font-size: 25.5px;
-    line-height: 31.5px;
-    font-family: Montserrat;
-    font-weight: 600;">IL TUO CONSULENTE DI FIDUCIA</h2>
+                                <h2 style="text-align: center;font-size: 25.5px;line-height: 31.5px;font-family: 'Montserrat', sans-serif;font-weight: 600;">
+                                    IL TUO CONSULENTE DI FIDUCIA</h2>
                                 <p class="adifferenza" style="text-align: center;">A differenza delle compagnie
                                     assicurative che propongono
                                     soluzioni standard, TiAssicuro ti offre il sistema più adatto alle tua esigenze
@@ -436,8 +409,8 @@
                             <a class="nectar-button medium see-through-3"
                                style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,1);padding: 10px 15px;text-align: center;"
                                href="/preventivo-assicurazione-ticino-svizzera/">
-                                <span style="font-family: Montserrat;
-    font-weight: normal;text-transform: uppercase;font-size: 12px;letter-spacing: 2px;">Contattaci per una consulenza gratuita</span>
+                                <span style="font-family: 'Montserrat', sans-serif;font-weight: normal;text-transform: uppercase;font-size: 12px;letter-spacing: 2px;">
+                                    Contattaci per una consulenza gratuita</span>
                             </a>
                         </div>
 

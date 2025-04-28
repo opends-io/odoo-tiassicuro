@@ -11,7 +11,8 @@
                         <h1>TiAssicuro..<br/>
                             un futuro più sereno!</h1>
                         <h4 style="text-align: left;">La tua assicurazione nel Canton Ticino in Svizzera</h4>
-                        <div class="">La felicità non si compra − non c’è nulla di più vero! È possibile, però, regalare
+                        <div class="" style="color: rgba(255, 255, 255, 0.7);text-align: left;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;
+                        line-height: 26px;">La felicità non si compra − non c’è nulla di più vero! È possibile, però, regalare
                             un po’ di tranquillità a se stessi e ai propri cari scegliendo i prodotti consigliati da
                             TiAssicuro.</div>
 
@@ -22,12 +23,13 @@
             <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
                 <div class="wpb_wrapper wpb_wrapper2">
                     <h2 style="text-align: left;">Chi Siamo</h2>
-                    <div class="" style="text-align: justify;"><span style="text-align: justify;">TiAssicuro è già
+                    <div class="" style="text-align: justify;font-family: 'Montserrat', sans-serif;font-weight: 300;
+                    font-size: 14px;line-height: 26px;color: #676767;">TiAssicuro è già
                         annoverata fra le maggiori società di consulenza assicurativa del Canton Ticino. Alla base di
                         questa rapidissima affermazione, ci sono senz’altro la struttura meritocratica della nostra
                         azienda e la grande competenza del personale impiegato; ma più di tutto, dobbiamo il nostro
                         successo alla cura con cui accogliamo ciascun cliente, cercando per questi la soluzione più
-                        soddisfacente.</span>A cominciare dai nostri locali − ben lontani dalle atmosfere fredde e
+                        soddisfacente.A cominciare dai nostri locali − ben lontani dalle atmosfere fredde e
                         asettiche di certi uffici burocratici − tutto alla TiAssicuro trasmette fiducia ed empatia, che
                         si trasformano con celerità in un aiuto concreto e mirato.</div>
 
@@ -38,13 +40,13 @@
                 <div style="background-color: #f9f9f9;">
                     <div class="wpb_text_column wpb_content_element container padding-section">
                         <div class="wpb_wrapper">
-                            <h2><b class="">Cosa offriamo</b></h2>
+                            <h2>Cosa offriamo</h2>
                             <div class="">
                                 <h5>La nostra consulenza copre infatti un ricchissimo ventaglio di prodotti
                                     assicurativi,
                                     pronti a rispondere alle varie necessità che possono presentarsi nelle diverse fasi
                                     della vita privata o lavorativa.</h5>
-                                <div class="" style="text-align: justify;">
+                                <div class="" style="text-align: justify;text-align: justify;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;color: #676767;">
                                     <div class="">
                                         <div class="">Proponiamo soluzioni per costituire fondi pensionistici, per
                                             proteggere la salute e gli affetti, e per tenere al sicuro i propri beni. È

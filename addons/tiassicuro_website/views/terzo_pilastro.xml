@@ -9,31 +9,21 @@
                     <div class="nectar-split-heading animated-in">
                         <div class="heading-line">
                             <div style="transform: translate(0px, 0px);">
-                                <h1 style="text-align: left;">
-                                    <b class="">
-                                        <span class="" style="font-family: Montserrat;
-  font-weight: 600;
-  line-height: 39px;
-  letter-spacing: -1px;
-  line-height: 26px;">Assicurazione sulla vita in Svizzera: un investimento
-                                            gratificante</span>
-                                    </b>
-                                </h1>
+                                <h1 style="text-align: left;">Assicurazione sulla vita in Svizzera: un investimento
+                                            gratificante</h1>
                             </div>
                         </div>
                         <div class="heading-line">
                             <div style="transform: translate(0px, 0px);">
-                                <h3 style="text-align: left;font-family: Montserrat;
-  font-weight: 600;
-  line-height: 26px;">Il ramo della
-                                    previdenza privata svizzera appare come un labirinto intricato.</h3>
+                                <h4>Il ramo della
+                                    previdenza privata svizzera appare come un labirinto intricato.</h4>
                             </div>
                         </div>
                         <div class="heading-line">
                             <div class="heading-line" style="transform: translate(0px, 0px);">
                                 <div style="transform: translate(0px, 0px);">
-                                    <div class="" style="text-align: justify;">
-                                        TiAssicuro introduce la persona nel settore delle assicurazioni sulla vita con
+                                    <div class="" style="text-align: justify;color: rgba(255,255,255,0.7); text-align: left; font-family: 'Montserrat', sans-serif;
+                                    font-weight: 300; font-size: 14px;line-height: 26px;"> TiAssicuro introduce la persona nel settore delle assicurazioni sulla vita con
                                         efficienza e con
                                         rispetto, fino alla stipula della polizza sulla vita più fruttuosa.</div>
                                 </div>
@@ -46,18 +36,10 @@
 
             <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
                 <div class="wpb_wrapper wpb_wrapper2">
-                    <h2 style="text-align: left;font-family: Montserrat;
-  font-weight: 600;
-  color: #444;
-  letter-spacing: 0px;
-  line-height: 26px;"><b class="">Previdenza privata svizzera: la polizza vita è
+                    <h2 style="text-align: left;font-family: 'Montserrat', sans-serif;  font-weight: 600;  color: #444;  letter-spacing: 0px;"><b class="">Previdenza privata svizzera: la polizza vita è
                         un’opportunità preziosa nel Ticino!</b></h2>
                     <div class="" style="text-align: center;"></div>
-                    <div class="" style="text-align: justify;font-family: Montserrat;
-
-  font-size: 14px;
-  line-height: 26px;
-  color: #676767;">Il <strong>terzo pilastro in Svizzera</strong>,
+                    <div class="" style="text-align: justify;font-family: 'Montserrat', sans-serif;font-size: 14px;line-height: 26px;color: #676767;">Il <strong>terzo pilastro in Svizzera</strong>,
                         facoltativo, completa gli spazi vuoti lasciati dal primo e dal secondo pilastro (le cosiddette
                         lacune previdenziali) con iniziative private integrative. È normale temere di commettere errori
                         in buona fede, quando si pensa a un’assicurazione sulla vita. Ma come mantenere il vostro stile
@@ -73,27 +55,18 @@
 
                 <div class="card-grid-wrapper" style="position: relative">
                     <div class="wpb_wrapper container padding-section"
-                         style="position: relative;z-index: 4;color: #fff;font-family: Montserrat;
-  font-weight: 600;
-  line-height: 26px;">
-                        <h2><b class="">Terzo pilastro in Svizzera: i<br/>
-                            l nostro compito è fare chiarezza</b></h2>
+                         style="position: relative;z-index: 4;color: #fff;font-family: 'Montserrat', sans-serif; font-weight: 600;line-height: 26px;">
+                        <h2>Terzo pilastro in Svizzera: i<br/>
+                            l nostro compito è fare chiarezza</h2>
                         <div class="">
-                            <h5 style="font-family: Montserrat;
-  font-weight: 600;
-  margin-bottom: 7px;">A differenza del terzo pilastro a, dipendente da vincoli precisi e destinato ai
-                                lavoratori,
-                                il terzo pilastro b coinvolge anche chi non svolge nessuna attività lavorativa e prevede
-                                che
-                                la durata e l’ammontare dei premi siano liberi.</h5>
-                            <div class="" style="text-align: justify; font-family: Montserrat;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;">Inoltre, il finanziamento può avvenire sia con i
-                                premi sia con un unico premio o versamento. La stessa clausola beneficiaria è svincolata
-                                da
-                                obblighi. Il terzo pilastro a però, rispetto al terzo pilastro b, usufruisce di alcuni
-                                vantaggi e privilegi fiscali.</div>
+                            <h4>
+                                A differenza del terzo pilastro a, dipendente da vincoli precisi e destinato ai
+                                lavoratori, il terzo pilastro b coinvolge anche chi non svolge nessuna attività lavorativa e prevede
+                                che la durata e l’ammontare dei premi siano liberi.</h4>
+                            <div class="" style="text-align: justify; font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;
+                              color: rgba(255,255,255,0.7);">
+                                Inoltre, il finanziamento può avvenire sia con i premi sia con un unico premio o versamento. La stessa clausola beneficiaria è svincolata
+                                da obblighi. Il terzo pilastro a però, rispetto al terzo pilastro b, usufruisce di alcuni vantaggi e privilegi fiscali.</div>
                         </div>
                     </div>
                 </div>
@@ -102,18 +75,14 @@
                 <div style="background-image: url(/tiassicuro_website/static/src/img/sussidio-cassa-malati-svizzera.jpg); min-height: 668px;background-size: cover;background-position: center;"/>
 
                 <div class="wpb_wrapper container padding-section">
-                    <h2><b class="">TiAssicuro è<br/>
-                    </b><b class="" style="font-family: Montserrat;
-  font-weight: 600;
-  color: #444;
-  letter-spacing: 0px;
-  line-height: 26px;">dalla vostra parte</b></h2>
+                    <h2><b class="" style="font-family: 'Montserrat', sans-serif;font-weight: 600;color: #444;letter-spacing: 0px;line-height: 26px;">TiAssicuro è<br/>
+                    </b><b class="" style="font-family: 'Montserrat', sans-serif;font-weight: 600;color: #444;letter-spacing: 0px;line-height: 26px;">
+                        dalla vostra parte</b></h2>
                     <div class="">
                         <div class="" style="text-align: justify;">
                             <div class="">
-                                <div class="" style="font-size: 14px;
-  line-height: 26px;
-  color: #676767;">Un’assicurazione sulla vita è essenzialmente un contratto dove stipulante
+                                <div class="" style="font-size: 14px;line-height: 26px;color: #676767;">
+                                    Un’assicurazione sulla vita è essenzialmente un contratto dove stipulante
                                     e beneficiario possono coincidere: se alla scadenza del contratto lo stipulante è
                                     ancora in vita, riceve il capitale dovuto. Se deceduto, i beneficiari sono
                                     solitamente i componenti della famiglia o le persone più care sottolineate nel
@@ -135,17 +104,13 @@
                     <div class="wpb_text_column wpb_content_element" style="margin-bottom: 30px">
                         <div class="wpb_wrapper">
                             <div style="margin-bottom: 24px;">
-                                <h3 style="font-family: Montserrat;
-  font-weight: 600;">Una polizza sulla vita svizzera?<br/>
+                                <h3 style="font-family: 'Montserrat', sans-serif;font-weight: 600;">Una polizza sulla vita svizzera?<br/>
                                     Un’occasione da sfruttare al meglio</h3>
                             </div>
                             <div class="">
                                 <div class="">
-                                    <h5 style="font-family: Montserrat;
-  font-weight: 600;
-  margin-bottom: 7px;
-  font-size: 14px;
-  line-height: 26px;">Il complesso di norme alla base del terzo pilastro è meno complicato di quanto
+                                    <h5 style="font-family: 'Montserrat', sans-serif;font-weight: 300;margin-bottom: 7px;font-size: 14px;line-height: 26px;color: rgba(255,255,255,0.7);">
+                                        Il complesso di norme alla base del terzo pilastro è meno complicato di quanto
                                         appaia, se ci si affida a un professionista specializzato e competente come
                                         TiAssicuro. Siamo orgogliosi del nostro lavoro nel campo delle previdenza
                                         privata svizzera: la nostra mission è soddisfare in tempi brevi le legittime
@@ -160,9 +125,7 @@
                         <a class="nectar-button medium see-through-3"
                            style="border-radius: 200px;color: #fff;border: 2px solid rgba(255,255,255,0.75);padding: 13px 42px;text-align: center;"
                            href="/preventivo-assicurazione-ticino-svizzera/">
-                            <span style="letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 20px;">Contattaci</span>
+                            <span style="letter-spacing: 2px; text-transform: uppercase; line-height: 20px;">Contattaci</span>
                         </a>
                     </div>
 

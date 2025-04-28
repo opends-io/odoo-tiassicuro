@@ -5,18 +5,13 @@
             <div class="hero-cassa-malati-inner">
                 <div class="container padding-section card-float-right">
                     <div class="wpb_wrapper">
-                        <h1 style="text-align: left;">
-                            <b class="" style="font-family: 'Open Sans';
-  font-weight: 600;
-  letter-spacing: -1px;
-  line-height: 26px;">Cassa malati svizzera</b>
-                        </h1>
-                        <h3 style="text-align: left;font-family: Montserrat;
-  font-weight: 600;">Cassa malati svizzera, assicurazione sanitaria Svizzera, cassa
+                        <h1 style="text-align: left;">Cassa malati svizzera</h1>
+                        <h4>Cassa malati svizzera, assicurazione sanitaria Svizzera, cassa
                             malati: tutto quello che c’è da sapere
-                        </h3>
+                        </h4>
 
-                        <p style="text-align: justify;font-size: 14px;line-height: 26px;font-weight: 300;font-family: Montserrat;">TiAssicuro è nata con lo scopo di venire incontro alle esigenze
+                        <p style="text-align: justify;font-size: 14px;line-height: 26px;font-weight: 300;font-family: 'Montserrat', sans-serif;
+                        color: rgba(255, 255, 255, 0.7);">TiAssicuro è nata con lo scopo di venire incontro alle esigenze
                             specifiche di ogni singolo cliente,
                             TiAssicuro offre possibilità concrete di risparmio presentando un servizio personalizzato di
                             cassa malati svizzera, assicurazione
@@ -35,17 +30,12 @@
 
             <div class="container padding-section d-flex justify-content-center" style="margin-bottom: 25px;">
                 <div class="wpb_wrapper wpb_wrapper2">
-                    <h2 style="text-align: center;margin-bottom: 24px;font-family: Montserrat;
-  color: #444;
-  letter-spacing: 0px;
-  font-weight: 600;">Cassa malati Svizzera: uno sguardo al futuro
+                    <h2 style="text-align: center;margin-bottom: 24px;font-family: 'Montserrat', sans-serif;color: #444;letter-spacing: 0px;font-weight: 600;">
+                        Cassa malati Svizzera: uno sguardo al futuro
                     </h2>
 
-                    <div class="" style="text-align: justify;font-family: Montserrat;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
-  color: #676767;">Tra le polizze che TiAssicuro propone ai suoi clienti vi
+                    <div class="" style="text-align: justify;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px; color: #676767;">
+                        Tra le polizze che TiAssicuro propone ai suoi clienti vi
                         è la Cassa malati, che rappresenta un serio
                         ed importante investimento sul futuro di ogni famiglia. Stipulando questo tipo di assicurazione
                         sulla vita, infatti, è possibile
@@ -61,11 +51,8 @@
             <div class="card-grid-section">
 
                 <div class="wpb_wrapper container padding-section">
-                    <h2 style="color: #444;
-  letter-spacing: 0px;
-  font-weight: 600;
-  margin-bottom: 7px;
-  font-family: Montserrat;">La cassa malati Svizzera:
+                    <h2 style="color: #444;letter-spacing: 0px;font-weight: 600;margin-bottom: 7px;font-family: 'Montserrat', sans-serif;">
+                        La cassa malati Svizzera:
                         <br/>
                         Quali sono i vantaggi sulla
                         <br/>
@@ -74,19 +61,13 @@
                         di TiAssicuro
                     </h2>
                     <div class="">
-                        <h5 style="font-family: Montserrat;
-  color: #444;
-  letter-spacing: 0px;
-  font-weight: 600;
-  margin-bottom: 7px;
-  line-height: 26px;">L’entusiasmo e la passione per il lavoro svolto sono le caratteristiche principali che
+                        <h5 style="font-family: 'Montserrat', sans-serif;color: #444;letter-spacing: 0px;font-weight: 600;margin-bottom: 7px;line-height: 26px;">
+                            L’entusiasmo e la passione per il lavoro svolto sono le caratteristiche principali che
                             contraddistinguono e differenziano TiAssicuro dalle
                             altre compagnie internazionali di assicurazione.
                         </h5>
-                        <div class="" style="text-align: justify;line-height: 26px;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 300;">Oltre ai servizi basilari quali assicurazione casa,
+                        <div class="" style="text-align: justify;line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif;font-weight: 300;color: #676767;">
+                            Oltre ai servizi basilari quali assicurazione casa,
                             assicurazione lavoro ed assicurazione auto, l’azienda
                             elvetica riserva ai suoi clienti anche un piano personalizzato di Cassa malati, che consente
                             di accedere alle prestazioni sanitarie di base.
@@ -112,19 +93,14 @@
 
                 <div class="wpb_text_column container padding-section d-flex align-items-center">
                     <div class="wpb_wrapper">
-                        <h2 style="font-family: Montserrat;
-  margin-bottom: 7px;
-  font-weight: 600;
-  color: #444;">Scopri come risparmiare
+                        <h2 style="font-family: 'Montserrat', sans-serif;margin-bottom: 7px;font-weight: 600;color: #444;">
+                            Scopri come risparmiare
                             <br/>
                             980 franchi sui premi malattia!
                         </h2>
                         <div class="">
-                            <div class="" style="text-align: justify; color: #676767;
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;">Con il
+                            <div class="" style="text-align: justify; color: #676767;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;">
+                                Con il
                                 servizio di cassa malati svizzera, assicurazione
                                 sanitaria Svizzera, cassa malati, messo a
                                 disposizione dalla società elvetica TiAssicuro,
@@ -142,18 +118,19 @@
                 </div>
 
                 <div class="wpb_wrapper container padding-section" style="background:linear-gradient(45deg,#ffffff 0%,rgba(255,255,255,0.48) 100%);background-color: rgba(0,0,0,0.89);opacity: 0.8;">
-                    <h2 style="margin-bottom: 7px;font-weight: 600;font-family: Montserrat;">La cassa malati per
+                    <h2 style="margin-bottom: 7px;font-weight: 600;font-family: 'Montserrat', sans-serif;">La cassa malati per
                         <br/>
                         le tue attività sportive
                     </h2>
                     <div class="">
-                        <h5 style="font-family: Montserrat;font-weight: 600;color: #444;letter-spacing: 0px;line-height: 26px;">L’entusiasmo e la passione per il lavoro svolto sono le
+                        <h5 style="font-family: 'Montserrat', sans-serif;font-weight: 600;color: #444;letter-spacing: 0px;line-height: 26px;">L’entusiasmo e la passione per il lavoro svolto sono le
                             caratteristiche principali che contraddistinguono e differenziano
                             TiAssicuro dalle altre compagnie internazionali di
                             assicurazione.
                         </h5>
 
-                        <div class="" style="text-align: justify; color: #676767;font-family: Montserrat;font-weight: 300;font-size: 14px;line-height: 26px;">Oltre ai servizi basilari
+                        <div class="" style="text-align: justify; color: #676767;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;">
+                            Oltre ai servizi basilari
                             quali assicurazione casa, assicurazione lavoro ed assicurazione
                             auto, l’azienda elvetica riserva ai suoi clienti anche un piano
                             personalizzato di Cassa malati, che consente di accedere alle
@@ -177,8 +154,6 @@
             <div class="hero5-cassa" style="position: relative">
                 <div class="inner-wrap10">
                 </div>
-
-
                 <div class="container" style="position: relative;z-index: 5;padding-bottom: 50px;">
                     <div class="row">
                         <div class="col-12 col-lg-6" style="position: relative;z-index: 5;margin-top: 200px;margin-bottom: 50px;">
@@ -213,12 +188,10 @@
                                                 </b>
                                                 Siamo la miglior Cassa Malati in Svizzera.
                                             </h3>
-                                            <p>Tutte le persone domiciliate in territorio svizzero sono
-                                                obbligate per legge entro tre mesi dal rilascio del
-                                                permesso, a stipulare un contratto di cassa malati; se
-                                                ciò non dovesse essere fatto per tempo si rischia
-                                                l’assegnazione d’ufficio.Per un confronto
-                                                gratuito richiedi informazioni qui:
+                                            <p style="text-align: justify;font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 14px;line-height: 26px;
+                                            color: #676767;">Tutte le persone domiciliate in territorio svizzero sono obbligate per legge entro tre mesi dal rilascio del
+                                                permesso, a stipulare un contratto di cassa malati; se ciò non dovesse essere fatto per tempo si rischia l’assegnazione
+                                                d’ufficio.Per un confronto gratuito richiedi informazioni qui:
                                             </p>
 
                                         </div>
@@ -408,7 +381,8 @@
                                             <div class="error-message" id="message-error" style="display: none;"></div>
                                             <p></p>
                                             <p>
-                                                <label>
+                                                <label style="text-align: justify;font-family: 'Montserrat', sans-serif;
+                        font-weight: 300;font-size: 14px;line-height: 26px;color: #676767;">
                                                     <input type="checkbox" name="acceptance1" value="1" required=""
                                                            data-error="acceptance1-error" class="non-minimal"/>
                                                     Accetto i termini di utilizzo, acconsento al trattamento dei miei
@@ -419,18 +393,14 @@
                                             <div class="error-message" id="acceptance1-error"
                                                  style="display: none;"></div>
                                             <p></p>
-                                            <p>
+                                            <p style="text-align: justify;font-family: 'Montserrat', sans-serif;
+                        font-weight: 300;font-size: 14px;line-height: 26px;color: #676767;">
                                                 <label>
                                                     <input type="checkbox" name="acceptance2" value="1" required=""
                                                            data-error="acceptance2-error" class="non-minimal"/>
-                                                    Compilando questi campi e accettando il consenso ci permetti di
-                                                    raccogliere
-                                                    e usare i tuoi dati su questo
-                                                    sito, al fine di poter avere uno scambio di informazioni, non a fini
-                                                    commerciali. Tuttavia, per maggiori
-                                                    dettagli, ti invitiamo a prendere visione della nostra informativa
-                                                    sulla
-                                                    privacy.
+                                                    Compilando questi campi e accettando il consenso ci permetti di raccogliere e usare i tuoi dati su questo sito,
+                                                    al fine di poter avere uno scambio di informazioni, non a fini commerciali. Tuttavia, per maggiori dettagli, ti
+                                                    invitiamo a prendere visione della nostra informativa sulla privacy.
                                                 </label>
                                             </p>
                                             <div class="error-message" id="acceptance2-error"
@@ -455,12 +425,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
-
         </t>
     </template>
 </odoo>
