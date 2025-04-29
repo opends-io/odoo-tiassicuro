@@ -1,6 +1,34 @@
 :root {
-  --font-sans-serif: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+
+    --headings-font: 'Montserrat';
+    --navbar-font: 'Montserrat';
+    --buttons-font: 'Montserrat';
+
+    --font: 'Montserrat';
+
+    --font-number-2: 'Montserrat';
+    --font-number-3: 'Montserrat';
+    --font-number-4: 'Montserrat';
+    --font-number-5: 'Montserrat';
+    --font-number-6: 'Montserrat';
+    --font-number-7: 'Montserrat';
+    --font-number-8: 'Montserrat';
+    --font-number-9: 'Montserrat';
+
+    --h2-font: 'Montserrat';
+    --h3-font: 'Montserrat';
+    --h4-font: 'Montserrat';
+    --h5-font: 'Montserrat';
+    --h6-font: 'Montserrat';
+    --display-1-font: 'Montserrat';
+    --display-2-font: 'Montserrat';
+    --display-3-font: 'Montserrat';
+    --display-4-font: 'Montserrat';
+    --set-headings-font: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+
+    --font-sans-serif: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
 }
+
 
 body {
     overflow: hidden;
