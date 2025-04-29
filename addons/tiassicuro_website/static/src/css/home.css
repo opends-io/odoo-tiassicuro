@@ -1,3 +1,7 @@
+:root {
+  --font-sans-serif: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+}
+
 body {
     overflow: hidden;
     overflow-y: scroll;
