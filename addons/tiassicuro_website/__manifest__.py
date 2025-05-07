@@ -2,7 +2,7 @@
 {
     "name": "Tiassicuro Website",
     "description": "Customization for Tiassicuro Website",
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.0.2",
     "category": "Website",
     "author": "Wisegar Development Group",
     "depends": ["website", "theme_default", "tiassicuro_crm"],
