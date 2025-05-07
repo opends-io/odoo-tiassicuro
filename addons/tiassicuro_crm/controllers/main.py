@@ -47,7 +47,7 @@ class CrmController(http.Controller):
             'partner_id': partner.id,
             'email_from': email,
             'phone': phone,
-            'company_id': request.env['res.company'].sudo().search([]).id,
+            'company_id': request.env['res.config.settings'].sudo().search([]).company_id.id,
             'description': description,
             'stage_id': request.env['crm.stage'].sudo().search([], order='sequence', limit=1).id,
         })
@@ -78,7 +78,7 @@ class CrmController(http.Controller):
                 'phone': phone,
                 'parent_id': False,
                 'is_company': False,
-                'company_id': request.env['res.company'].sudo().search([]).id,
+                'company_id': request.env['res.config.settings'].sudo().search([]).company_id.id,
             })
 
         attachment_values = {
