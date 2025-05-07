@@ -12,7 +12,7 @@ _logger = logging.getLogger(__name__)
 class CrmController(http.Controller):
 
     def _send_email(self, model_id, template_ref):
-        template = request.env['mail.template'].sudo().browse(request.env.ref(template_ref).id)
+        template = request.env['mail.template'].sudo().browse(request.env.ref(template_ref).sudo().id)
         if template:
             template.with_user(SUPERUSER_ID).send_mail(model_id, force_send=True)
         else:
@@ -92,7 +92,7 @@ class CrmController(http.Controller):
         attachment = request.env['ir.attachment'].sudo().create(attachment_values)
 
         mail_template = request.env['mail.template'].sudo().browse(
-            request.env.ref('tiassicuro_crm.crm_mail_curriculum_template').id)
+            request.env.ref('tiassicuro_crm.crm_mail_curriculum_template').sudo().id)
 
         mail_template.attachment_ids = [(6, 0, [attachment.id])]
 
