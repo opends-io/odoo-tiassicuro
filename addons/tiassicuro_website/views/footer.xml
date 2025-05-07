@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="tiassicuro_website.footer_custom" inherit_id="website.footer_custom"
-              name="Default" active="True">
+        name="Default" active="True">
 
         <xpath expr="//footer[@id='bottom']" position="attributes">
             <attribute name="t-attf-class" remove="o_footer" separator=" " />
@@ -10,48 +10,51 @@
         <xpath expr="//div[@id='footer']" position="replace">
             <t t-set="no_copyright" t-value="True" />
             <div style="background-color: #ea1d24 !important;color: #ffffff !important;"
-                 class="footer-wrapper">
+                class="footer-wrapper">
                 <div>
                     <div class="container footer-widgets"
-                         style="padding-top: 55px;padding-bottom: 55px;">
+                        style="padding-top: 55px;padding-bottom: 55px;">
 
                         <div id="text-2" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
+                                style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
                                 TiAssicuro</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/assicurazione-ticino/">Chi siamo</a>
-                                    <br/>
-                                    Impegno e
+                                    <br /> Impegno e
                                     Mission<br />
                                     <a href="/lavora-con-noi">Lavora con noi</a>
                                     <br />
                                     <a
-                                            href="/preventivo-assicurazione-ticino-svizzera">Preventivo
-                                            e Contatti</a>
+                                        href="/preventivo-assicurazione-ticino-svizzera">Preventivo
+                                        e Contatti</a>
                                 </p>
                             </div>
                         </div>
 
                         <div id="text-3" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
+                                style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Servizio
                                 Clienti</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/cassa-malati">Cassa malati Svizzera
                                     </a>
                                 </p>
-                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/cassa-malati-trasferirsi">Cassa malati per trasferirsi
                                         in
                                         Svizzera
                                     </a>
                                 </p>
-                                <p style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px;font-size: 14px;font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/protezione-giuridica-svizzera/">Assicurazione
                                         Protezione Giuridica</a>
                                 </p>
@@ -60,11 +63,12 @@
 
                         <div id="text-4" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
+                                style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">Accesso
                                 Diretto</h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/preventivo-assicurazione-ticino-svizzera/">Contatto e
                                         feedback</a>
                                     <br />
@@ -79,13 +83,14 @@
 
                         <div id="text-5" class="widget widget_text">
                             <h4
-                                    style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
+                                style="font-weight: normal;font-family: 'Montserrat', sans-serif;font-size: 12px;letter-
                                     spacing: 2px;text-transform: uppercase;margin-bottom: 12px;">
                                 Aree
                                 assicurative
                             </h4>
                             <div class="textwidget">
-                                <p style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
+                                <p
+                                    style="line-height: 26px; font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 300;">
                                     <a href="/assicurazione">Assicurazione auto Svizzera</a>
                                     <br />
                                     <a href="/protezione-giuridica-svizzera">Protezione Giuridica
@@ -104,18 +109,19 @@
                 <div style="border-top: 1px solid rgba(255,255,255,0.18) !important;">
                     <div class="container copyright" style="padding-top: 20px;padding-bottom: 20px;">
                         <div class="">
-                            <p style="font-size: 12px;">© TiAssicuro. In Tirada, 34 - 6528 Camorino (CH). T. +41 91 290 81 61
-                                (diretto) • E. <a
-                                        href="mailto:info@tiassicuro.ch">info@tiassicuro.ch</a>• v1.0.0</p>
+                            <p style="font-size: 12px;">© TiAssicuro. In Tirada, 34 - 6528 Camorino
+                                (CH). T. +41 91 290 81 61 (diretto) • E. <a
+                                    href="mailto:info@tiassicuro.ch">info@tiassicuro.ch </a> • Version.
+                                 v18.0.1.0.1</p>
                         </div>
                         <div class="justify-content-md-end" style="display: flex;gap: 25px;">
                             <a target="_blank" href="https://www.facebook.com/Tiassicuro.ch/">
                                 <i
-                                        class="fa fa-facebook"></i>
+                                    class="fa fa-facebook"></i>
                             </a>
                             <a target="_blank" href="https://www.instagram.com/_tiassicuro_/">
                                 <i
-                                        class="fa fa-instagram"></i>
+                                    class="fa fa-instagram"></i>
                             </a>
                         </div>
                     </div>
