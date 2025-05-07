@@ -49,7 +49,7 @@ class CrmController(http.Controller):
             'phone': phone,
             'company_id': request.env['res.company'].sudo().search([]).id,
             'description': description,
-            'stage_id': request.env['crm.stage'].sudo().search([('name', '=', 'New')]).id,
+            'stage_id': request.env['crm.stage'].sudo().search([], order='sequence', limit=1).id,
         })
 
         self._send_email(model_id=lead.id, template_ref='tiassicuro_crm.crm_mail_template')
