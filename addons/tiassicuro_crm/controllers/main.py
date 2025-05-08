@@ -28,7 +28,7 @@ class CrmController(http.Controller):
         description = kwargs.get('description')
 
         if not (name and email and opportunity and description):
-            return {'success': False, 'message': 'Faltan datos requeridos.'}
+            return {'success': False, 'message': 'Required data are missing.'}
 
         partner = request.env['res.partner'].sudo().search([('email', '=', email)])
 
@@ -47,14 +47,14 @@ class CrmController(http.Controller):
             'partner_id': partner.id,
             'email_from': email,
             'phone': phone,
-            'company_id': request.env['res.config.settings'].sudo().search([]).company_id.id,
+            'company_id': request.env.company.id,
             'description': description,
             'stage_id': request.env['crm.stage'].sudo().search([], order='sequence', limit=1).id,
         })
 
         self._send_email(model_id=lead.id, template_ref='tiassicuro_crm.crm_mail_template')
 
-        return {'success': True, 'message': f'Insertado correctamente: {lead.id}.'}
+        return {'success': True, 'message': f'Inserted correctly: {lead.id}.'}
 
     @http.route('/tiassicuro_crm/work_us/send_email', type='json', auth='public', methods=['POST'])
     def work_us_send_email(self, **kwargs):
@@ -67,7 +67,7 @@ class CrmController(http.Controller):
         curriculum_filename = kwargs.get('curriculum_filename')
 
         if not (name and email and curriculum):
-            return {'success': False, 'message': 'Faltan datos requeridos.'}
+            return {'success': False, 'message': 'Required data are missing.'}
 
         partner = request.env['res.partner'].sudo().search([('email', '=', email)])
 
@@ -78,7 +78,7 @@ class CrmController(http.Controller):
                 'phone': phone,
                 'parent_id': False,
                 'is_company': False,
-                'company_id': request.env['res.config.settings'].sudo().search([]).company_id.id,
+                'company_id': request.env.company.id,
             })
 
         attachment_values = {
@@ -100,4 +100,4 @@ class CrmController(http.Controller):
 
         mail_template.attachment_ids = [(3, attachment.id)]
 
-        return {'success': True, 'message': f'Enviado email: {mail_template.id}.'}
+        return {'success': True, 'message': f'Sent email: {mail_template.id}.'}
