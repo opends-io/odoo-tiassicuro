@@ -47,11 +47,7 @@ Deactivate environment
 Install requirements
 
 ```bash
-  cd odoo
-```
-
-```bash
-  pip install -r .\requirements.txt
+  pip install -r .\odoo\requirements.txt
 ```
 
 ## Add launch file
